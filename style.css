@@ -2,11 +2,97 @@
 
 /* Body */
 body {
-  
-  /* Background */
-  background-image: url('backgrounds/static/site-background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+    /* Background */
+    background-image: url('backgrounds/static/site-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    /* misc body styles */
+    margin: 0;
+    font-family: MS Gothic, Tahoma, monospace;
+    padding: 20px;
+}
+
+
+/* Main window - right side, wider */
+.main-window {
+    flex: 1;
+    height: 100%;
+    background-color: #F2F2ED;
+    border: solid 2px #0A246A;
+    box-shadow: 1px 1px 0 #DFE5F5, -1px -1px 0 #808080;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Aside window */
+.aside-window {
+    width: 200px;
+    height: 100%;
+    background-color: #F2F2ED;
+    border: solid 2px #0A246A;
+    box-shadow: 1px 1px 0 #DFE5F5, -1px -1px 0 #808080;
+    display: flex;
+    flex-direction: column;
+}
+
+/*container to put both main and aside windows in */
+.window-container {
+    display: flex;
+    gap: 15px;
+    height: 500px;
+}
+
+/* common window styles - old windows style */
+
+.window-header {
+    background: linear-gradient(90deg, #000080, #1084D7);
+    color: white;
+    padding: 2px 2px 2px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.window-body {
+    overflow-y: auto;
+    padding: 4px;
+    flex: 1;
+}
+
+.window-buttons>img {
+    width: 16px;
+    height: 14px;
+    margin: 2px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.window-buttons>img:hover {
+    opacity: 1;
+    filter: contrast(200%);
+    box-shadow: 0 0 2px #FFF;
+}
+
+.window-body>ul {
+    margin: 5px;
+    padding-left: 15px;
+}
+
+.winBody::-webkit-scrollbar {
+    width: 20px;
+}
+
+.winBody::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #DDD, #FEFEFB);
+}
+
+.winBody::-webkit-scrollbar-thumb {
+    background: #C3D3FD;
+    border: solid 1px #EEE;
+    box-shadow: 0 0 1px #7C9FD3, 0 0 5px rgba(126, 159, 211, 0.5) inset;
 }
