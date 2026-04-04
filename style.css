@@ -1,5 +1,13 @@
 /*Stylesheet for index */
 
+
+/* Header Styles */ 
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
 /* Body */
 body {
     /* Background */
@@ -51,7 +59,6 @@ main {
 }
 
 /* common window styles - old windows style */
-
 .window-header {
     background: linear-gradient(90deg, #000080, #1084D7);
     color: white;
