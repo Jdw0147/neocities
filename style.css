@@ -8,6 +8,15 @@ header {
     margin-bottom: 30px;
 }
 
+header::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(90deg, #0A246A, #1084D7, #0A246A);
+    margin: 15px auto;
+}
+
 /* Body */
 body {
     /* Background */
@@ -27,6 +36,21 @@ body {
 main {
     max-width: 900px;
     margin: 0 auto;
+}
+
+/* Site title styles */
+.site-title h1 {
+    margin: 0;
+    color: #0A246A;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: MS Gothic, Tahoma, monospace;
+}
+
+.tagline {
+    margin: 5px 0 0 0;
+    color: #1084D7;
+    font-size: 0.9em;
 }
 
 /* Main window - right side, wider */
