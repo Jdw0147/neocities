@@ -1,0 +1,88 @@
+/* Music Page Specific Styles */
+
+.music-page {
+    background-image: url('backgrounds/static/music.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.music-page header::after {
+    background: linear-gradient(90deg, #330066, #9933FF, #330066);
+}
+
+.music-page .site-title h1 {
+    color: #9933FF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.music-page .tagline {
+    color: #CC99FF;
+}
+
+.music-page .main-window {
+    background-color: #1a1a2e;
+    border: solid 2px #330066;
+    box-shadow: 1px 1px 0 #5533AA, -1px -1px 0 #000;
+}
+
+.music-page .main-window .window-header {
+    background: linear-gradient(90deg, #1a0033, #660099);
+    color: #CC99FF;
+}
+
+.music-page .main-window .window-body {
+    color: #DDDDDD;
+}
+
+.music-page .main-window h2,
+.music-page .main-window h3 {
+    color: #9933FF;
+}
+
+.music-page .main-window ul {
+    color: #CCCCCC;
+}
+
+.music-page .aside-window {
+    background-color: #1a1a2e;
+    border: solid 2px #330066;
+    box-shadow: 1px 1px 0 #5533AA, -1px -1px 0 #000;
+    width: 200px;
+}
+
+.music-page .aside-window .window-header {
+    background: linear-gradient(90deg, #1a0033, #660099);
+    color: #CC99FF;
+}
+
+.music-page .aside-window .window-body {
+    color: #DDDDDD;
+}
+
+.songs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.song-item {
+    background-color: #2d2d44;
+    padding: 8px;
+    border-left: 3px solid #9933FF;
+    font-size: 0.9em;
+}
+
+.song-item p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #9933FF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #CC99FF;
+    text-shadow: 0 0 5px #9933FF;
+}
