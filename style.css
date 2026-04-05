@@ -132,3 +132,41 @@ main {
     border: solid 1px #EEE;
     box-shadow: 0 0 1px #7C9FD3, 0 0 5px rgba(126, 159, 211, 0.5) inset;
 }
+
+.icon-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.icon-link:hover .icon-link-image {
+    transform: scale(1.15);
+}
+
+.icon-link-text {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: #0A246A;
+}
