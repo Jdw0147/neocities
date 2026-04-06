@@ -1,0 +1,33 @@
+name: Update Daily Song
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 5 AM UTC = midnight EST
+  workflow_dispatch:
+
+jobs:
+  update-song:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Generate daily song
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_PLAYLIST_ID: ${{ secrets.SPOTIFY_PLAYLIST_ID }}
+        run: node generate-daily-song.js
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Daily Song Bot"
+          git add songs.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update daily song"
+          git push
