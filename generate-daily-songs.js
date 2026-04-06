@@ -83,8 +83,15 @@ function getDayOfYear() {
 
 (async () => {
   try {
+    console.log('Playlist ID:', PLAYLIST_ID);
+    console.log('Client ID exists:', !!CLIENT_ID);
+    console.log('Client Secret exists:', !!CLIENT_SECRET);
+
     const token = await getAccessToken();
+    console.log('Access token obtained:', !!token);
+
     const tracks = await getPlaylistTracks(token);
+    console.log('Tracks received:', tracks.length);
     
     const dayOfYear = getDayOfYear();
     
