@@ -53,8 +53,16 @@ async function getPlaylistTracks(accessToken) {
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try {
-          resolve(JSON.parse(data).items);
+          const parsed = JSON.parse(data);
+          console.log('API Response:', JSON.stringify(parsed, null, 2)); // Debug log
+          
+          if (!parsed.items) {
+            throw new Error(`No items in response. Got: ${JSON.stringify(parsed)}`);
+          }
+          
+          resolve(parsed.items);
         } catch (e) {
+          console.error('Parse error:', e);
           reject(e);
         }
       });
