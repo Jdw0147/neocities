@@ -556,7 +556,7 @@
       "title": "Time",
       "artist": "Pink Floyd",
       "album": "The Dark Side of the Moon",
-      "image": "/sotd/the-dark-side-of-the-moon.jpg"
+      "image": "/sotd/dark-side-of-the-moon.jpg"
     },
     {
       "num": 63,
@@ -638,11 +638,6 @@
       "artist": "The Beatles",
       "album": "The Beatles 1962 - 1966 (2023 Edition)",
       "image": "/sotd/the-beatles.jpg"
-    }
-
-  ]
-}
-      "image": "/sotd/the-power-of-failing.jpg"
     }
 
   ]
