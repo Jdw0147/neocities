@@ -478,7 +478,7 @@
       "image": "/sotd/first-impressions-of-earth.jpg"
     },
     {
-      "num": 52,
+      "num": 54,
       "date": "February 22nd, 2026",
       "year": 2022,
       "title": "Alley Cat",
@@ -487,7 +487,7 @@
       "image": "/sotd/alley-cat.jpg"
     },
     {
-      "num": 53,
+      "num": 55,
       "date": "February 23rd, 2026",
       "year": 2021,
       "title": "Eyes Didn't Let Me Open",
@@ -496,7 +496,7 @@
       "image": "/sotd/eyes-didnt-let-me-open.jpg"
     },
     {
-      "num": 54,
+      "num": 56,
       "date": "February 24th, 2026",
       "year": 2013,
       "title": "Watcha Gonna Do",
@@ -505,7 +505,7 @@
       "image": "/sotd/stop-wait-a-minute-girl.jpg"
     },
     {
-      "num": 55,
+      "num": 57,
       "date": "February 25th, 2026",
       "year": 2004,
       "title": "Jesus od Suburbia",
@@ -514,7 +514,7 @@
       "image": "/sotd/american-idiot.jpg"
     },
     {
-      "num": 56,
+      "num": 58,
       "date": "February 26th, 2026",
       "year": 2011,
       "title": "Shed",
@@ -522,6 +522,24 @@
       "album": "Shed",
       "image": "/sotd/shed.jpg"
     },
+    {
+      "num": 59,
+      "date": "February 27th, 2026",
+      "year": 1957,
+      "title": "Say It Isn't So",
+      "artist": "Teddy Wilson",
+      "album": "I Got Rhytm",
+      "image": "/sotd/i-got-rhythm.jpg"
+    },
+    {
+      "num": 60,
+      "date": "February 28th, 2026",
+      "year": 2016,
+      "title": "Counting Worms",
+      "artist": "Knocked Loose",
+      "album": "Laugh Tracks",
+      "image": "/sotd/laugh-tracks.jpg"
+    }
 
   ]
 }
