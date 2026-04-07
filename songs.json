@@ -134,6 +134,151 @@
       "artist": "Dinosaur Jr.",
       "album": "Where You Been",
       "image": "/sotd/where-you-been.jpg"
+    },
+    {
+      "num": 16,
+      "date": "January 16th, 2026",
+      "year": 2007,
+      "title": "Kill All Your Friends",
+      "artist": "My Chemical Romance",
+      "album": "Famous Last Words",
+      "image": "/sotd/famous-last-words.jpg"
+    },
+    {
+      "num": 17,
+      "date": "January 17th, 2026",
+      "year": 1998,
+      "title": "Angel",
+      "artist": "Massive Attack, Horace Andy",
+      "album": "Mezzanine",
+      "image": "/sotd/mezzanine.jpg"
+    },
+    {
+      "num": 18,
+      "date": "January 18th, 2026",
+      "year": 2020,
+      "title": "On & Off",
+      "artist": "Modern Color",
+      "album": "From the Leaves of Your Garden",
+      "image": "/sotd/from-the-leaves-of-your-garden.jpg"
+    },
+    {
+      "num": 19,
+      "date": "January 19th, 2026",
+      "year": 2017,
+      "title": "In the Middle Of It All",
+      "artist": "Citizen",
+      "album": "As You Please",
+      "image": "/sotd/as-you-please.jpg"
+    },
+    {
+      "num": 20,
+      "date": "January 20th, 2026",
+      "year": 2019,
+      "title": "glass beach",
+      "artist": "glass beach",
+      "album": "the first glass beach album",
+      "image": "/sotd/glass-beach.jpg"
+    },
+    {
+      "num": 21,
+      "date": "January 21st, 2026",
+      "year": 1984,
+      "title": "Just Like Me",
+      "artist": "T.S.O.L.",
+      "album": "Change Today?",
+      "image": "/sotd/change-today.jpg"
+    },
+    {
+      "num": 22,
+      "date": "January 22nd, 2026",
+      "year": 1995,
+      "title": "Heaven Beside You",
+      "artist": "Alice In Chains",
+      "album": "Alice In Chains",
+      "image": "/sotd/alice-in-chains.jpg"
+    },
+    {
+      "num": 23,
+      "date": "January 23rd, 2026",
+      "year": 2026,
+      "title": "LOVE YOU LESS",
+      "artist": "Joji",
+      "album": "LOVE YOU LESS",
+      "image": "/sotd/love-you-less.jpg"
+    },
+    {
+      "num": 24,
+      "date": "January 24th, 2026",
+      "year": 2025,
+      "title": "Cut and Dry",
+      "artist": "Foxtide",
+      "album": "Cut and Dry",
+      "image": "/sotd/cut-and-dry.jpg"
+    },
+    {
+      "num": 25,
+      "date": "January 25th, 2026",
+      "year": 2026,
+      "title": "Drift",
+      "artist": "American Road In New Jersey",
+      "album": "American Road In New Jersey",
+      "image": "/sotd/american-road-in-new-jersey.jpg"
+    },
+    {
+      "num": 26,
+      "date": "January 26th, 2026",
+      "year": 2020,
+      "title": "Alone Again",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "image": "/sotd/after-hours.jpg"
+    },
+    {
+      "num": 27,
+      "date": "January 27th, 2026",
+      "year": 1976,
+      "title": "Tightrope",
+      "artist": "Electric Light Orchestra",
+      "album": "A New World Record",
+      "image": "/sotd/a-new-world-record.jpg"
+    },
+    {
+      "num": 28,
+      "date": "January 28th, 2026",
+      "year": 2020,
+      "title": "After Hours",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "image": "/sotd/after-hours.jpg"
+    },
+    {
+      "num": 29,
+      "date": "January 29th, 2026",
+      "year": 2025,
+      "title": "Be Your Best",
+      "artist": "Fleshwater",
+      "album": "2000: In Search Of The Endless Sky",
+      "image": "/sotd/2000-in-search-of-the-endless-sky.jpg"
+    },
+    {
+      "num": 30,
+      "date": "January 30th, 2026",
+      "year": 1989,
+      "title": "Lovesong",
+      "artist": "The Cure",
+      "album": "Disintegration",
+      "image": "/sotd/disintegration.jpg"
+    },
+    {
+      "num": 31,
+      "date": "January 31st, 2026",
+      "year": 2000,
+      "title": "Kicking Cars",
+      "artist": "Panchiko",
+      "album": "D>E>A>TH>M>E>T>A>L",
+      "image": "/sotd/deathmetal.jpg"
     }
+    
   ]
 }
