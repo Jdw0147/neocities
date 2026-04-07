@@ -278,7 +278,250 @@
       "artist": "Panchiko",
       "album": "D>E>A>TH>M>E>T>A>L",
       "image": "/sotd/deathmetal.jpg"
-    }
-    
+    },
+    {
+      "num": 32,
+      "date": "February 1st, 2026",
+      "year": 2025,
+      "title": "While You Dream Vividly",
+      "artist": "Slow Crush",
+      "album": "Thirst",
+      "image": "/sotd/thirst.jpg"
+    },
+    {
+      "num": 33,
+      "date": "February 2nd, 2026",
+      "year": 2006,
+      "title": "Starlight",
+      "artist": "Muse",
+      "album": "Black Holes and Revelations",
+      "image": "/sotd/black-holes-and-revelations.jpg"
+    },
+    {
+      "num": 34,
+      "date": "February 3rd, 2026",
+      "year": 2003,
+      "title": "Stockholm Syndrome",
+      "artist": "Muse",
+      "album": "Absolution",
+      "image": "/sotd/absolution.jpg"
+    },
+    {
+      "num": 35,
+      "date": "February 4th, 2026",
+      "year": 2023,
+      "title": "change",
+      "artist": "flyingfish",
+      "album": "change",
+      "image": "/sotd/change.jpg"
+    },
+    {
+      "num": 36,
+      "date": "February 4th, 2026",
+      "year": 2003,
+      "title": "Pet",
+      "artist": "A Perfect Circle",
+      "album": "Thirteenth Step",
+      "image": "/sotd/thirteenth-step.jpg"
+    },
+    {
+      "num": 37,
+      "date": "February 5th, 2026",
+      "year": 2026,
+      "title": "Sojourn",
+      "artist": "Joji",
+      "album": "Piss In The Wind",
+      "image": "/sotd/piss-in-the-wind.jpg"
+    },
+    {
+      "num": 38,
+      "date": "February 6th, 2026",
+      "year": 2020,
+      "title": "Ew",
+      "artist": "Joji",
+      "album": "Nectar",
+      "image": "/sotd/nectar.jpg"
+    },
+    {
+      "num": 39,
+      "date": "February 7th, 2026",
+      "year": 2023,
+      "title": "Uncanny long arms",
+      "artist": "underscores, Jane Remover",
+      "album": "Wallsocket",
+      "image": "/sotd/wallsocket.jpg"
+    },
+    {
+      "num": 40,
+      "date": "February 8th, 2026",
+      "year": 1996,
+      "title": "Bound For The Floor",
+      "artist": "Local H",
+      "album": "As Good As Dead",
+      "image": "/sotd/as-good-as-dead.jpg"
+    },
+    {
+      "num": 41,
+      "date": "February 9th, 2026",
+      "year": 2023,
+      "title": "Only Trust Your Heart",
+      "artist": "Steve Devon",
+      "album": "Only Trust Your Heart",
+      "image": "/sotd/only-trust-your-heart.jpg"
+    },
+    {
+      "num": 42,
+      "date": "February 10th, 2026",
+      "year": 1997,
+      "title": "I Would Hurt a Fly",
+      "artist": "Built To Spill",
+      "album": "Perfect From Now On",
+      "image": "/sotd/perfect-from-now-on.jpg"
+    },
+    {
+      "num": 43,
+      "date": "February 11th, 2026",
+      "year": 2008,
+      "title": "I Saw Water",
+      "artist": "Tigers Jaw",
+      "album": "Tigers Jaw",
+      "image": "/sotd/tigers-jaw.jpg"
+    },
+    {
+      "num": 44,
+      "date": "February 12th, 2026",
+      "year": 2021,
+      "title": "Drink",
+      "artist": "Destroy Boys",
+      "album": "Open Mouth, Open Heart",
+      "image": "/sotd/open-mouth-open-heart.jpg"
+    },
+    {
+      "num": 45,
+      "date": "February 13th, 2026",
+      "year": 1995,
+      "title": "Why I Like The Robins",
+      "artist": "Hum",
+      "album": "You'd Prefer An Astronaut",
+      "image": "/sotd/youd-prefer-an-astronaut.jpg"
+    },
+    {
+      "num": 46,
+      "date": "February 14th, 2026",
+      "year": 2022,
+      "title": "Glimpse of Us",
+      "artist": "Joji",
+      "album": "SMITHEREENS",
+      "image": "/sotd/smithereens.jpg"
+    },
+    {
+      "num": 47,
+      "date": "February 15th, 2026",
+      "year": 2006,
+      "title": "I Don't Love You",
+      "artist": "My Chemical Romance",
+      "album": "The Black Parade",
+      "image": "/sotd/the-black-parade.jpg"
+    },
+    {
+      "num": 48,
+      "date": "February 16th, 2026",
+      "year": 1996,
+      "title": "Building Steam With A Grain Of Salt",
+      "artist": "DJ Shadow",
+      "album": "Endtroducing.....",
+      "image": "/sotd/endtroducing.jpg"
+    },
+    {
+      "num": 49,
+      "date": "February 17th, 2026",
+      "year": 2025,
+      "title": "Another Reincarnation",
+      "artist": "Psychedelic Porn Crumpets",
+      "album": "Carpe Diem, Moonman",
+      "image": "/sotd/carpe-diem-moonman.jpg"
+    },
+    {
+      "num": 50,
+      "date": "February 18th, 2026",
+      "year": 2025,
+      "title": "infinite source",
+      "artist": "Deftones",
+      "album": "private music",
+      "image": "/sotd/private-music.jpg"
+    },
+    {
+      "num": 51,
+      "date": "February 19th, 2026",
+      "year": 2023,
+      "title": "Emotion Engine",
+      "artist": "Pizza Hotline",
+      "album": "Emotion Engine",
+      "image": "/sotd/emotion-engine.jpg"
+    },
+    {
+      "num": 52,
+      "date": "February 20th, 2026",
+      "year": 1998,
+      "title": "Every Shining Time You Arrive",
+      "artist": "Sunny Day Real Estate",
+      "album": "How It Feels To Be Something On",
+      "image": "/sotd/how-it-feels-to-be-something-on.jpg"
+    },
+    {
+      "num": 53,
+      "date": "February 21st, 2026",
+      "year": 2006,
+      "title": "Heart In A Cage",
+      "artist": "The Strokes",
+      "album": "First Impressions of Earth",
+      "image": "/sotd/first-impressions-of-earth.jpg"
+    },
+    {
+      "num": 52,
+      "date": "February 22nd, 2026",
+      "year": 2022,
+      "title": "Alley Cat",
+      "artist": "all under heaven",
+      "album": "Don't Suffer Alone / Alley Cat",
+      "image": "/sotd/alley-cat.jpg"
+    },
+    {
+      "num": 53,
+      "date": "February 23rd, 2026",
+      "year": 2021,
+      "title": "Eyes Didn't Let Me Open",
+      "artist": "Stennes",
+      "album": "Eyes Didn't Let Me Open",
+      "image": "/sotd/eyes-didnt-let-me-open.jpg"
+    },
+    {
+      "num": 54,
+      "date": "February 24th, 2026",
+      "year": 2013,
+      "title": "Watcha Gonna Do",
+      "artist": "The Valdons",
+      "album": "Stop Wait A Minute Girl B/W Watcha Gonna Do",
+      "image": "/sotd/stop-wait-a-minute-girl.jpg"
+    },
+    {
+      "num": 55,
+      "date": "February 25th, 2026",
+      "year": 2004,
+      "title": "Jesus od Suburbia",
+      "artist": "Green Day",
+      "album": "American Idiot",
+      "image": "/sotd/american-idiot.jpg"
+    },
+    {
+      "num": 56,
+      "date": "February 26th, 2026",
+      "year": 2011,
+      "title": "Shed",
+      "artist": "Title Fight",
+      "album": "Shed",
+      "image": "/sotd/shed.jpg"
+    },
+
   ]
 }
