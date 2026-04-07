@@ -539,6 +539,110 @@
       "artist": "Knocked Loose",
       "album": "Laugh Tracks",
       "image": "/sotd/laugh-tracks.jpg"
+    },
+    {
+      "num": 61,
+      "date": "March 2nd, 2026",
+      "year": 1986,
+      "title": "I Kill Spies",
+      "artist": "Agent Orange",
+      "album": "This Is The Voice",
+      "image": "/sotd/this-is-the-voice.jpg"
+    },
+    {
+      "num": 62,
+      "date": "March 3rd, 2026",
+      "year": 1973,
+      "title": "Time",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "image": "/sotd/the-dark-side-of-the-moon.jpg"
+    },
+    {
+      "num": 63,
+      "date": "March 4th, 2026",
+      "year": 1971,
+      "title": "A Pillow of Winds",
+      "artist": "Pink Floyd",
+      "album": "Meddle",
+      "image": "/sotd/meddle.jpg"
+    },
+    {
+      "num": 64,
+      "date": "March 5th, 2026",
+      "year": 1984,
+      "title": "Accept Yourself - David Jenson Session 25/08/83",
+      "artist": "The Smiths",
+      "album": "Hatful of Hollow",
+      "image": "/sotd/hatful-of-hollow.jpg"
+    },
+    {
+      "num": 65,
+      "date": "March 6th, 2026",
+      "year": 1994,
+      "title": "Seven",
+      "artist": "Sunny Day Real Estate",
+      "album": "Diary",
+      "image": "/sotd/diary.jpg"
+    },
+    {
+      "num": 66,
+      "date": "March 7th, 2026",
+      "year": 2016,
+      "title": "Scott and Ramona",
+      "artist": "Lil Uzi Vert",
+      "album": "Lil Uzi Vert vs. The World",
+      "image": "/sotd/luv-vs-the-world.jpg"
+    },
+    {
+      "num": 67,
+      "date": "March 8th, 2026",
+      "year": 1967,
+      "title": "The Night",
+      "artist": "The Moody Blues",
+      "album": "Days Of Future Passed",
+      "image": "/sotd/days-of-future-passed.jpg"
+    },
+    {
+      "num": 68,
+      "date": "March 9th, 2026",
+      "year": 2017,
+      "title": "Red River",
+      "artist": "The Symposium",
+      "album": "The Symposium",
+      "image": "/sotd/the-symposium.jpg"
+    },
+    {
+      "num": 69,
+      "date": "March 10th, 2026",
+      "year": 1984,
+      "title": "Sixteen Blue",
+      "artist": "The Replacements",
+      "album": "Let It Be",
+      "image": "/sotd/let-it-be.jpg"
+    },
+    {
+      "num": 70,
+      "date": "March 11th, 2026",
+      "year": 1996,
+      "title": "Take The Picture Now",
+      "artist": "Mineral",
+      "album": "The Power Of Failing",
+      "image": "/sotd/the-power-of-failing.jpg"
+    },
+    {
+      "num": 71,
+      "date": "March 12th, 2026",
+      "year": 2023,
+      "title": "She Loves You - 2023 Mix",
+      "artist": "The Beatles",
+      "album": "The Beatles 1962 - 1966 (2023 Edition)",
+      "image": "/sotd/the-beatles.jpg"
+    }
+
+  ]
+}
+      "image": "/sotd/the-power-of-failing.jpg"
     }
 
   ]
