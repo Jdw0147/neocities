@@ -1,0 +1,139 @@
+{
+  "songs": [
+    {
+      "num": 1,
+      "date": "January 1st, 2026",
+      "year": 2012,
+      "title": "Numb, But I Still Feel It",
+      "artist": "Title Fight",
+      "album": "Floral Green",
+      "image": "/sotd/floral-green.jpg"
+    },
+    {
+      "num": 2,
+      "date": "January 2nd, 2026",
+      "year": 1989,
+      "title": "Higher Ground",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Mother's Milk",
+      "image": "/sotd/mothers-milk.jpg"
+    },
+    {
+      "num": 3,
+      "date": "January 3rd, 2026",
+      "year": 1995,
+      "title": "Glass Vase Cello Case",
+      "artist": "Tattle Tale",
+      "album": "Sew True",
+      "image": "/sotd/sew-true.jpg"
+    },
+    {
+      "num": 4,
+      "date": "January 4th, 2026",
+      "year": 2012,
+      "title": "Cannibal Holocaust",
+      "artist": "Cro-Magnon",
+      "album": "Hyouge Mono",
+      "image": "/sotd/hyouge-mono.jpg"
+    },
+    {
+      "num": 5,
+      "date": "January 5th, 2026",
+      "year": 1999,
+      "title": "Crutch",
+      "artist": "Pinback",
+      "album": "Pinback",
+      "image": "/sotd/pinback.jpg"
+    },
+    {
+      "num": 6,
+      "date": "January 6th, 2026",
+      "year": 1974,
+      "title": "Ballroom Blitz",
+      "artist": "Sweet",
+      "album": "Desolation Boulevard",
+      "image": "/sotd/desolation-boulevard.jpg"
+    },
+    {
+      "num": 7,
+      "date": "January 7th, 2026",
+      "year": 1982,
+      "title": "Myage",
+      "artist": "Descendents",
+      "album": "Milo Goes to College",
+      "image": "/sotd/milo-goes-to-college.jpg"
+    },
+    {
+      "num": 8,
+      "date": "January 8th, 2026",
+      "year": 2018,
+      "title": "Hangout at the Gallows",
+      "artist": "Father John Misty",
+      "album": "God's Favorite Customer",
+      "image": "/sotd/gods-favorite-customer.jpg"
+    },
+    {
+      "num": 9,
+      "date": "January 9th, 2026",
+      "year": 2025,
+      "title": "Give 'Em Hell, Kid - 2025 Mix",
+      "artist": "My Chemical Romance",
+      "album": "Three Cheers for Sweet Revenge (Deluxe Edition)",
+      "image": "/sotd/three-cheers-for-sweet-revenge.jpg"
+    },
+    {
+      "num": 10,
+      "date": "January 10th, 2026",
+      "year": 1995,
+      "title": "Just",
+      "artist": "Radiohead",
+      "album": "The Bends",
+      "image": "/sotd/the-bends.jpg"
+    },
+    {
+      "num": 11,
+      "date": "January 11th, 2026",
+      "year": 1987,
+      "title": "Baby Talk",
+      "artist": "Himiko Kikuchi",
+      "album": "Flying Beagle",
+      "image": "/sotd/flying-beagle.jpg"
+    },
+    {
+      "num": 12,
+      "date": "January 12th, 2026",
+      "year": 1945,
+      "title": "It's Been a Long, Long Time",
+      "artist": "Harry James & His Orchestra, Kitty Kallen",
+      "album": "It's Been a Long, Long Time / Autumn Serenade",
+      "image": "/sotd/its-been-a-long-long-time.jpg"
+    },
+    {
+      "num": 13,
+      "date": "January 13th, 2026",
+      "year": 2002,
+      "title": "First It Giveth",
+      "artist": "Queens of the Stone Age",
+      "album": "Songs For The Deaf",
+      "image": "/sotd/songs-for-the-deaf.jpg"
+    },
+    {
+      "num": 14,
+      "date": "January 14th, 2026",
+      "year": 1984,
+      "title": "Red Shadows",
+      "artist": "T.S.O.L.",
+      "album": "Change Today?",
+      "image": "/sotd/change-today.jpg"
+    },
+    {
+      "num": 15,
+      "date": "January 15th, 2026",
+      "year": 1993,
+      "title": "Start Choppin'",
+      "artist": "Dinosaur Jr.",
+      "album": "Where You Been",
+      "image": "/sotd/where-you-been.jpg"
+    }
+  ]
+}
