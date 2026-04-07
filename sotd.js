@@ -2,7 +2,7 @@ async function loadSongCalendar() {
 
   // Map months to their background GIFs
   const monthBackgrounds = {
-    'January': '/backgrounds/moving/stars3.gif',
+    'January': '/backgrounds/moving/northern-lights.gif',
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
     'April': '/backgrounds/moving/leaves.gif',

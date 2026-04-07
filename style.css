@@ -79,7 +79,7 @@ main {
 .window-container {
     display: flex;
     gap: 15px;
-    height: 500px;
+    height: 700px; 
 }
 
 /* common window styles - old windows style */

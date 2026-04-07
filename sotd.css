@@ -1,6 +1,18 @@
 .sotd-page {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('backgrounds/moving/stars3.gif');
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: fixed;
   min-height: 100vh;
+}
+
+.sotd-page .window-container {
+  height: auto; 
+}
+
+.sotd-page .main-window {
+  min-height: 700px; 
+  max-width: 900px;
 }
 
 .sotd-calendar {
@@ -13,9 +25,9 @@
 .month-container {
   padding: 20px;
   border-radius: 8px;
-  background-size: cover;
+  background-size: auto; 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
 }
 
