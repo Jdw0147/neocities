@@ -638,6 +638,51 @@
       "artist": "The Beatles",
       "album": "The Beatles 1962 - 1966 (2023 Edition)",
       "image": "/sotd/the-beatles.jpg"
+    },
+    {
+      "num": 72,
+      "date": "March 13th, 2026",
+      "year": 2017,
+      "title": "Feelings Mutual",
+      "artist": "Lil Uzi Vert",
+      "album": "Luv Is Rage 2",
+      "image": "/sotd/luv-is-rage-2.jpg"
+    },
+    {
+      "num": 73,
+      "date": "March 14th, 2026",
+      "year": 2018,
+      "title": "Donor",
+      "artist": "Bay Faction",
+      "album": "Florida Guilt",
+      "image": "/sotd/florida-guilt.jpg"
+    },
+    {
+      "num": 74,
+      "date": "March 15th, 2026",
+      "year": 2005,
+      "title": "Helicopter",
+      "artist": "Bloc Party",
+      "album": "Silent Alarm",
+      "image": "/sotd/silent-alarm.jpg"
+    },
+    {
+      "num": 75,
+      "date": "March 16th, 2026",
+      "year": 1993,
+      "title": "Coming Right Along",
+      "artist": "The Posies",
+      "album": "Frosting On The Beater",
+      "image": "/sotd/frosting-on-the-beater.jpg"
+    },
+    {
+      "num": 76,
+      "date": "March 17th, 2026",
+      "year": 1991,
+      "title": "The Concept",
+      "artist": "Teenage Fanclub",
+      "album": "Bandwagonesque",
+      "image": "/sotd/bandwagonesque.jpg"
     }
 
   ]
