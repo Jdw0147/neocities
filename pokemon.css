@@ -65,8 +65,11 @@
   background-color: rgba(255, 182, 193, 0.3);
 }
 
-.fire-red h2 {
-  color: #C41E3A;
+.fire-red {
+  background-image: url('/pokemon/fire-red.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .fire-red .team-box {
@@ -75,7 +78,10 @@
 }
 
 .emerald {
-  background-color: rgba(50, 205, 50, 0.3);
+  background-image: url('/pokemon/emerald.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .emerald h2 {
@@ -88,7 +94,7 @@
 }
 
 .platinum {
-  background-color: rgba(192, 192, 192, 0.3);
+  background-color: #D4AF8C; /* Fallback - no platinum image found */
 }
 
 .platinum h2 {
@@ -101,7 +107,10 @@
 }
 
 .heart-gold {
-  background-color: rgba(218, 165, 32, 0.3);
+  background-image: url('/pokemon/heart-gold.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .heart-gold h2 {
@@ -114,7 +123,10 @@
 }
 
 .black {
-  background-color: rgba(47, 79, 79, 0.3);
+  background-image: url('/pokemon/black.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .black h2 {
