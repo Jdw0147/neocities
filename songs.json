@@ -683,7 +683,199 @@
       "artist": "Teenage Fanclub",
       "album": "Bandwagonesque",
       "image": "/sotd/bandwagonesque.jpg"
+    },
+    {
+      "num": 77,
+      "date": "March 18th, 2026",
+      "year": 1981,
+      "title": "Yo-Yo",
+      "artist": "The Kinks",
+      "album": "Give the People What They Want",
+      "image": "/sotd/give-the-people-what-they-want.jpg"
+    },
+    {
+      "num": 78,
+      "date": "March 19th, 2026",
+      "year": 2025,
+      "title": "Stag Party",
+      "artist": "No Culture",
+      "album": "Blue Behind Heaven",
+      "image": "/sotd/blue-behind-heaven.jpg"
+    },
+    {
+      "num": 79,
+      "date": "March 20th, 2026",
+      "year": 1982,
+      "title": "Big Take Over",
+      "artist": "Bad Brains",
+      "album": "Bad Brains",
+      "image": "/sotd/bad-brains.jpg"
+    },
+    {
+      "num": 80,
+      "date": "March 21st, 2026",
+      "year": 2025,
+      "title": "Verde - Live from AubFest VI",
+      "artist": "Carmine Sun",
+      "album": "Verde - Live from AubFest VI",
+      "image": "/sotd/verde.jpg"
+    },
+    {
+      "num": 81,
+      "date": "March 22nd, 2026",
+      "year": 1994,
+      "title": "The Goldheart Mountaintop Queen Directory",
+      "artist": "Guided By Voices",
+      "album": "Bee Thousand",
+      "image": "/sotd/bee-thousand.jpg"
+    },
+    {
+      "num": 82,
+      "date": "March 23rd, 2026",
+      "year": 1995,
+      "title": "Aftermath",
+      "artist": "Tricky, Martina Topley-Bird",
+      "album": "Maxinquaye",
+      "image": "/sotd/maxinquaye.jpg"
+    },
+    {
+      "num": 83,
+      "date": "March 24th, 2026",
+      "year": 1988,
+      "title": "Flowers",
+      "artist": "Galaxie 500",
+      "album": "Today",
+      "image": "/sotd/today.jpg"
+    },
+    
+    {
+      "num": 84,
+      "date": "March 25th, 2026",
+      "year": 1992,
+      "title": "The Act We Act",
+      "artist": "Sugar",
+      "album": "Copper Blue",
+      "image": "/sotd/copper-blue.jpg"
+    },
+    {
+      "num": 85,
+      "date": "March 26th, 2026",
+      "year": 2019,
+      "title": "Come To",
+      "artist": "Fleeting Joys",
+      "album": "Speeding Away to Someday",
+      "image": "/sotd/speeding-away-to-someday.jpg"
+    },
+    {
+      "num": 86,
+      "date": "March 27th, 2026",
+      "year": 1993,
+      "title": "Backwash",
+      "artist": "Archers Of Loaf",
+      "album": "Icky Mettle",
+      "image": "/sotd/icky-mettle.jpg"
+    },
+    {
+      "num": 87,
+      "date": "March 28th, 2026",
+      "year": 2014,
+      "title": "Your Graduation",
+      "artist": "Modern Baseball",
+      "album": "You're Gonna Miss It All",
+      "image": "/sotd/youre-gonna-miss-it-all.jpg"
+    },
+    {
+      "num": 88,
+      "date": "March 29th, 2026",
+      "year": 1997,
+      "title": "No More Smiles",
+      "artist": "Smoking Popes",
+      "album": "Destination Failure",
+      "image": "/sotd/destination-failure.jpg"
+    },
+    {
+      "num": 89,
+      "date": "March 30th, 2026",
+      "year": 1979,
+      "title": "Sailing Alone",
+      "artist": "CASIOPEA",
+      "album": "SUPER FLIGHT",
+      "image": "/sotd/super-flight.jpg"
+    },
+    {
+      "num": 90,
+      "date": "March 31st, 2026",
+      "year": 1984,
+      "title": "Unsatisfied",
+      "artist": "The Replacements",
+      "album": "Let It Be",
+      "image": "/sotd/let-it-be.jpg"
+    },
+
+    {
+      "num": 91,
+      "date": "April 1st, 2026",
+      "year": 2007,
+      "title": "Starting Over",
+      "artist": "LSD and the Search for God",
+      "album": "LSD and the Search for God",
+      "image": "/sotd/lsd-and-the-search-for-god.jpg"
+    },
+    {
+      "num": 92,
+      "date": "April 2nd, 2026",
+      "year": 1983,
+      "title": "Suicide's an Alternative / You'll Be Sorry",
+      "artist": "Suicidal Tendencies",
+      "album": "Suicidal Tendencies",
+      "image": "/sotd/suicidal-tendencies.jpg"
+    },
+    {
+      "num": 93,
+      "date": "April 3rd, 2026",
+      "year": 1984,
+      "title": "YELLOW ART",
+      "artist": "NANIWA EXPRESS",
+      "album": "MODERN BEAT",
+      "image": "/sotd/modern-beat.jpg"
+    },
+    {
+      "num": 94,
+      "date": "April 4th, 2026",
+      "year": 1976,
+      "title": "Autumn Leaves",
+      "artist": "Ryo Fukui",
+      "album": "Scenery",
+      "image": "/sotd/scenery.jpg"
+    },
+    {
+      "num": 95,
+      "date": "April 5th, 2026",
+      "year": 1993,
+      "title": "Crank",
+      "artist": "Catherine Wheel",
+      "album": "Chrome",
+      "image": "/sotd/chrome.jpg"
+    },
+    {
+      "num": 96,
+      "date": "April 6th, 2026",
+      "year": 1959,
+      "title": "It Never Entered My Mind",
+      "artist": "Miles Davis Quintet",
+      "album": "Workin' With The Miles Davis Quintet",
+      "image": "/sotd/workin-with-the-miles-davis-quintet.jpg"
+    },
+    {
+      "num": 97,
+      "date": "April 7th, 2026",
+      "year": 2022,
+      "title": "Heavy Bend",
+      "artist": "Big Thief",
+      "album": "Dragon New Warm Mountain I Believe In You",
+      "image": "/sotd/dragon-new-warm-mountain.jpg"
     }
+
 
   ]
 }

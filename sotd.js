@@ -5,7 +5,7 @@ async function loadSongCalendar() {
     'January': '/backgrounds/moving/northern-lights.gif',
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
-    'April': '/backgrounds/moving/leaves.gif',
+    'April': '/backgrounds/moving/rain.gif',
     'May': '/backgrounds/static/clouds.gif',
     'June': '/backgrounds/static/water.gif',
 
