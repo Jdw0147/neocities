@@ -94,7 +94,10 @@
 }
 
 .platinum {
-  background-color: #D4AF8C; /* Fallback - no platinum image found */
+  background-image: url('/pokemon/dpp.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .platinum h2 {
