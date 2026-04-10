@@ -55,8 +55,32 @@
     color: #CC99FF;
 }
 
+.music-page .aside-window .window-body .stats-section .h3{
+    color: #CC99FF !important;
+}
+
 .music-page .aside-window .window-body {
-    color: #DDDDDD;
+  color: #DDDDDD;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* Aside window scrollbar styles */
+.music-page .aside-window .window-body::-webkit-scrollbar {
+  width: 12px;
+}
+
+.music-page .aside-window .window-body::-webkit-scrollbar-track {
+  background: #2d2d44;
+}
+
+.music-page .aside-window .window-body::-webkit-scrollbar-thumb {
+  background: #9933FF;
+  border-radius: 6px;
+}
+
+.music-page .aside-window .window-body::-webkit-scrollbar-thumb:hover {
+  background: #CC99FF;
 }
 
 .songs-list {
@@ -88,6 +112,76 @@ footer a:hover {
     text-shadow: 0 0 5px #9933FF;
 }
 
+
+/* Styles for stats section (top album, artists, songs) */
+/* Top Album Styles */
+.album-info {
+  text-align: center;
+}
+
+.album-name {
+  font-size: 0.85em;
+  margin: 3px 0;
+  color: #AAA;
+  font-weight: bold;
+}
+
+.album-artist {
+  font-size: 0.8em;
+  margin: 0;
+  color: #999;
+}
+
+/* Top Artists Styles */
+.top-artist-item {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #444;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.artist-thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.artist-name {
+  font-size: 0.85em;
+  margin: 0;
+  color: #AAA;
+  font-weight: bold;
+}
+
+.artist-playcount {
+  font-size: 0.75em;
+  margin: 2px 0 0 0;
+  color: #777;
+}
+
+/* Top Tracks Styles */
+.top-track-item {
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #444;
+}
+
+.top-track-name {
+  font-size: 0.8em;
+  margin: 0;
+  color: #AAA;
+  font-weight: bold;
+}
+
+.top-track-artist {
+  font-size: 0.75em;
+  margin: 2px 0 0 0;
+  color: #777;
+}
 
 /* Styles for the recently played songs section */
 .recent-track {

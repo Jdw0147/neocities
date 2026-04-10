@@ -10,7 +10,7 @@ async function loadWeeklyStats() {
         /* Getting the top albums of last week */
         const albumsResponse = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=5`);
         const albumsData = await albumsResponse.json();
-    
+
         /* Getting the top artists of last week */
         const artistsResponse = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getweeklyartistchart&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=5`);
         const artistsData = await artistsResponse.json();
@@ -26,44 +26,95 @@ async function loadWeeklyStats() {
     }
 }
 
-function displayWeeklyStats(albums, artists, tracks) {
+async function displayWeeklyStats(albums, artists, tracks) {
 
     /* Top albums */
     if (albums.weeklyalbumchart && albums.weeklyalbumchart.album) {
         const topAlbum = albums.weeklyalbumchart.album[0];
-        document.getElementById('album-name').textContent = topAlbum.name || 'Unknown Album';
-        document.getElementById('album-artist').textContent = topAlbum.artist.name || 'Unknown Artist';
+        const artistName = topAlbum.artist['#text'] || 'Unknown Artist';
+        const albumName = topAlbum.name || 'Unknown Album';
 
-        /* Album Cover */
-        if (topAlbum.image?.[3]) {
-            document.getElementById('album-cover').src = topAlbum.image[3]['#text'];
+        // Album Art, second call to lastfm, annoying but temporary
+        try {
+            const albumInfoResponse = await fetch(
+                `https://ws.audioscrobbler.com/2.0/?method=album.getinfo&artist=${encodeURIComponent(artistName)}&album=${encodeURIComponent(albumName)}&api_key=${LASTFM_API_KEY}&format=json`
+            );
+            const albumInfo = await albumInfoResponse.json();
+
+            // Update album name
+            document.getElementById('album-name').textContent = albumName;
+            document.getElementById('album-artist').textContent = artistName;
+
+            /* Get the cover image from the album info */
+            if (albumInfo.album?.image) {
+                const largeImage = albumInfo.album.image.find(img => img.size === 'extralarge');
+                if (largeImage && largeImage['#text']) {
+                    document.getElementById('album-cover').src = largeImage['#text'];
+                }
+            }
+        } catch (error) {
+            console.error('Error fetching album info:', error);
         }
+
     }
 
     /* Top Artists */
     if (artists.weeklyartistchart?.artist) {
-    const topArtistsHTML = artists.weeklyartistchart.artist.slice(0, 3).map(artist => `
-      <div style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #444;">
-        <p style="font-size: 0.85em; margin: 0; color: #AAA;"><strong>${artist.name}</strong></p>
-        <p style="font-size: 0.75em; margin: 2px 0 0; color: #777;">${artist.playcount} plays</p>
-      </div>
-    `).join('');
-    document.getElementById('top-artists').innerHTML = topArtistsHTML;
-  }
+        const artistsContainer = document.getElementById('top-artists');
+        artistsContainer.innerHTML = '';
 
-    /* Top Songs */
+        for (const artist of artists.weeklyartistchart.artist.slice(0, 3)) {
+            
+            const artistDiv = document.createElement('div');
+            artistDiv.className = 'top-artist-item';
+            // Create artist name
+            const artistNameP = document.createElement('p');
+            artistNameP.className = 'artist-name';
+            artistNameP.textContent = artist.name;
+
+            // Create playcount
+            const playcountP = document.createElement('p');
+            playcountP.className = 'artist-playcount';
+            playcountP.textContent = `${artist.playcount} plays`;
+
+            // Add to container
+            artistDiv.appendChild(artistNameP);
+            artistDiv.appendChild(playcountP);
+            artistsContainer.appendChild(artistDiv);
+        };
+    }
+
+    /* Top Tracks */
     if (tracks.weeklytrackchart?.track) {
-    const topTracksHTML = tracks.weeklytrackchart.track.slice(0, 5).map(track => `
-      <div style="margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid #444;">
-        <p style="font-size: 0.8em; margin: 0; color: #AAA;"><strong>${track.name}</strong></p>
-        <p style="font-size: 0.75em; margin: 2px 0 0; color: #777;">by ${track.artist.name}</p>
-      </div>
-    `).join('');
-    document.getElementById('top-tracks').innerHTML = topTracksHTML;
-  }
+        const tracksContainer = document.getElementById('top-tracks');
+        tracksContainer.innerHTML = '';
+
+        tracks.weeklytrackchart.track.slice(0, 5).forEach(track => {
+            // Create track item container
+            const trackDiv = document.createElement('div');
+            trackDiv.className = 'top-track-item';
+
+            // Create track name
+            const trackNameP = document.createElement('p');
+            trackNameP.className = 'top-track-name';
+            trackNameP.textContent = track.name;
+
+            // Create artist name
+            const trackArtistP = document.createElement('p');
+            trackArtistP.className = 'top-track-artist';
+            trackArtistP.textContent = `by ${track.artist['#text']}`;
+
+            // Add to container
+            trackDiv.appendChild(trackNameP);
+            trackDiv.appendChild(trackArtistP);
+            tracksContainer.appendChild(trackDiv);
+        });
+    }
 }
 
-
+function getArtistImage(aristId) {
+    return fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&mbid=${aristId}&api_key=${LASTFM_API_KEY}&format=json`)
+}
 /* RECENT LISTENING FUNCTIONS */
 
 /* Fetching the 5 most recent songs I've listened to */
@@ -85,7 +136,7 @@ async function getRecentTracks() {
 /* Displaying the recent songs in the html */
 function displayRecentTracks(recentTracks) {
     if (recentTracks.recenttracks && recentTracks.recenttracks.track) {
-        
+
         /* creating and clearing the recent tracks container so it stays updated */
         const container = document.getElementById('recent-tracks');
         container.innerHTML = '';
@@ -119,5 +170,7 @@ function displayRecentTracks(recentTracks) {
     }
 }
 
+
+/* Initiates the functions when the dom loads */
 document.addEventListener('DOMContentLoaded', loadWeeklyStats);
 document.addEventListener('DOMContentLoaded', getRecentTracks);
