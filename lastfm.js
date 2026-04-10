@@ -1,3 +1,4 @@
+
 /* A file for pulling my lastfm data to be displayed on the music page */
 
 /* LASTFM credentials */
@@ -25,28 +26,6 @@ async function getTrackInfo(trackName, artistName) {
     }
 }
 
-<<<<<<< HEAD
-/* Helper function to call the Netlify proxy */
-async function callProxy(apiType, params = {}) {
-    try {
-        const response = await fetch('/.netlify/functions/proxy-api', {
-            method: 'POST',
-            body: JSON.stringify({
-                apiType,
-                ...params
-            })
-        });
-
-        if (!response.ok) throw new Error('Proxy request failed');
-        return await response.json();
-    } catch (error) {
-        console.error('Proxy error:', error);
-        return null;
-    }
-}
-
-=======
->>>>>>> parent of 3313b9e (netlify stuff)
 
 async function loadWeeklyStats() {
     try {
@@ -127,12 +106,12 @@ async function displayWeeklyStats(albums, artists, tracks) {
         };
     }
 
-    /* Top Tracks */
+        /* Top Tracks */
     if (tracks.weeklytrackchart?.track) {
         const tracksContainer = document.getElementById('top-tracks');
         tracksContainer.innerHTML = '';
 
-        /* Fetch all track info in parallel */
+        // Fetch all track info in parallel first
         const trackPromises = tracks.weeklytrackchart.track.slice(0, 5).map(async (track) => {
             const albumArt = await getTrackInfo(track.name, track.artist['#text']);
             return { track, albumArt };
@@ -140,11 +119,11 @@ async function displayWeeklyStats(albums, artists, tracks) {
 
         const tracksWithArt = await Promise.all(trackPromises);
 
+        // Then iterate over results
         tracksWithArt.forEach(({ track, albumArt }) => {
             const trackDiv = document.createElement('div');
             trackDiv.className = 'top-track-item';
 
-            /* Add album art if available */
             if (albumArt) {
                 const img = document.createElement('img');
                 img.src = albumArt;
@@ -168,7 +147,7 @@ async function displayWeeklyStats(albums, artists, tracks) {
     }
 }
 
-function getArtistImage(aristId) {
+async function getArtistImage(aristId) {
     return fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&mbid=${aristId}&api_key=${LASTFM_API_KEY}&format=json`)
 }
 /* RECENT LISTENING FUNCTIONS */
@@ -195,7 +174,7 @@ async function displayRecentTracks(recentTracks) {
         const container = document.getElementById('recent-tracks');
         container.innerHTML = '';
 
-        /* Fetch all track info in parallel */
+        // Fetch all track info in parallel first
         const trackPromises = recentTracks.recenttracks.track.map(async (track) => {
             const albumArt = await getTrackInfo(track.name, track.artist['#text']);
             return { track, albumArt };
@@ -203,11 +182,11 @@ async function displayRecentTracks(recentTracks) {
 
         const tracksWithArt = await Promise.all(trackPromises);
 
+        // Then iterate over results (no await needed here)
         tracksWithArt.forEach(({ track, albumArt }) => {
             const trackDiv = document.createElement('div');
             trackDiv.className = 'recent-track';
 
-            /* Add album art if available */
             if (albumArt) {
                 const img = document.createElement('img');
                 img.src = albumArt;
