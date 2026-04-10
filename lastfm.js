@@ -28,7 +28,7 @@ async function getTrackInfo(trackName, artistName) {
 /* Helper function to call the Netlify proxy */
 async function callProxy(apiType, params = {}) {
     try {
-        const response = await fetch('/.netlify/functions/proxy-api', {
+        const response = await fetch('https://neocitiesapi.netlify.app/.netlify/functions/proxy-api', {
             method: 'POST',
             body: JSON.stringify({
                 apiType,
