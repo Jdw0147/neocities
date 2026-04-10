@@ -183,11 +183,29 @@ footer a:hover {
   color: #777;
 }
 
+.track-album-art {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  margin-right: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.top-track-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
 /* Styles for the recently played songs section */
 .recent-track {
   margin-bottom: 8px;
   padding-bottom: 8px;
   border-bottom: 1px solid #444;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .track-name {

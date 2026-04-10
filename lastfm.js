@@ -5,6 +5,27 @@ const LASTFM_USERNAME = 'Dwhee1209';
 const LASTFM_API_KEY = 'bbc4942d5446e22323c15e7468c3812b';
 const LASTFM_API_URL = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=1`;
 
+
+/* Helper function to get track info including album art */
+async function getTrackInfo(trackName, artistName) {
+    try {
+        const response = await fetch(
+            `https://ws.audioscrobbler.com/2.0/?method=track.getinfo&track=${encodeURIComponent(trackName)}&artist=${encodeURIComponent(artistName)}&api_key=${LASTFM_API_KEY}&format=json`
+        );
+        const data = await response.json();
+        
+        if (data.track?.album?.image) {
+            const largeImage = data.track.album.image.find(img => img.size === 'medium');
+            return largeImage?.['#text'] || null;
+        }
+        return null;
+    } catch (error) {
+        console.error('Error fetching track info:', error);
+        return null;
+    }
+}
+
+
 async function loadWeeklyStats() {
     try {
         /* Getting the top albums of last week */
@@ -89,22 +110,35 @@ async function displayWeeklyStats(albums, artists, tracks) {
         const tracksContainer = document.getElementById('top-tracks');
         tracksContainer.innerHTML = '';
 
-        tracks.weeklytrackchart.track.slice(0, 5).forEach(track => {
-            // Create track item container
+        /* Fetch all track info in parallel */
+        const trackPromises = tracks.weeklytrackchart.track.slice(0, 5).map(async (track) => {
+            const albumArt = await getTrackInfo(track.name, track.artist['#text']);
+            return { track, albumArt };
+        });
+
+        const tracksWithArt = await Promise.all(trackPromises);
+
+        tracksWithArt.forEach(({ track, albumArt }) => {
             const trackDiv = document.createElement('div');
             trackDiv.className = 'top-track-item';
 
-            // Create track name
+            /* Add album art if available */
+            if (albumArt) {
+                const img = document.createElement('img');
+                img.src = albumArt;
+                img.className = 'track-album-art';
+                img.alt = 'Album art';
+                trackDiv.appendChild(img);
+            }
+
             const trackNameP = document.createElement('p');
             trackNameP.className = 'top-track-name';
             trackNameP.textContent = track.name;
 
-            // Create artist name
             const trackArtistP = document.createElement('p');
             trackArtistP.className = 'top-track-artist';
             trackArtistP.textContent = `by ${track.artist['#text']}`;
 
-            // Add to container
             trackDiv.appendChild(trackNameP);
             trackDiv.appendChild(trackArtistP);
             tracksContainer.appendChild(trackDiv);
@@ -134,37 +168,42 @@ async function getRecentTracks() {
 }
 
 /* Displaying the recent songs in the html */
-function displayRecentTracks(recentTracks) {
+async function displayRecentTracks(recentTracks) {
     if (recentTracks.recenttracks && recentTracks.recenttracks.track) {
-
-        /* creating and clearing the recent tracks container so it stays updated */
         const container = document.getElementById('recent-tracks');
         container.innerHTML = '';
 
-        /* looping through each track and putting them into html */
-        recentTracks.recenttracks.track.forEach(track => {
+        /* Fetch all track info in parallel */
+        const trackPromises = recentTracks.recenttracks.track.map(async (track) => {
+            const albumArt = await getTrackInfo(track.name, track.artist['#text']);
+            return { track, albumArt };
+        });
 
-            /* Creating a mini container for each song */
+        const tracksWithArt = await Promise.all(trackPromises);
+
+        tracksWithArt.forEach(({ track, albumArt }) => {
             const trackDiv = document.createElement('div');
-
-            /* Applying the class so the information is formated (the styling for this class is already in the CSS file) */
             trackDiv.className = 'recent-track';
 
-            /* Creating song name */
+            /* Add album art if available */
+            if (albumArt) {
+                const img = document.createElement('img');
+                img.src = albumArt;
+                img.className = 'track-album-art';
+                img.alt = 'Album art';
+                trackDiv.appendChild(img);
+            }
+
             const songName = document.createElement('p');
             songName.className = 'track-name';
             songName.textContent = track.name || 'Unknown Track';
 
-            /* Creating artist name */
             const artistName = document.createElement('p');
             artistName.className = 'track-artist';
             artistName.textContent = track.artist['#text'] || 'Unknown Artist';
 
-            /* Adding both to the container */
             trackDiv.appendChild(songName);
             trackDiv.appendChild(artistName);
-
-            /* Adding the track container to the main recent track container */
             container.appendChild(trackDiv);
         });
     }
