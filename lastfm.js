@@ -13,7 +13,7 @@ async function getTrackInfo(trackName, artistName) {
             `https://ws.audioscrobbler.com/2.0/?method=track.getinfo&track=${encodeURIComponent(trackName)}&artist=${encodeURIComponent(artistName)}&api_key=${LASTFM_API_KEY}&format=json`
         );
         const data = await response.json();
-
+        
         if (data.track?.album?.image) {
             const largeImage = data.track.album.image.find(img => img.size === 'medium');
             return largeImage?.['#text'] || null;
@@ -25,6 +25,7 @@ async function getTrackInfo(trackName, artistName) {
     }
 }
 
+<<<<<<< HEAD
 /* Helper function to call the Netlify proxy */
 async function callProxy(apiType, params = {}) {
     try {
@@ -44,13 +45,22 @@ async function callProxy(apiType, params = {}) {
     }
 }
 
+=======
+>>>>>>> parent of 3313b9e (netlify stuff)
 
 async function loadWeeklyStats() {
     try {
-        // Get albums, artists, tracks using proxy
-        const albumsData = await callProxy('lastfm-weekly-album');
-        const artistsData = await callProxy('lastfm-weekly-artist');
-        const tracksData = await callProxy('lastfm-weekly-track');
+        /* Getting the top albums of last week */
+        const albumsResponse = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=5`);
+        const albumsData = await albumsResponse.json();
+
+        /* Getting the top artists of last week */
+        const artistsResponse = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getweeklyartistchart&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=5`);
+        const artistsData = await artistsResponse.json();
+
+        /* Getting top songs of the last week */
+        const tracksResponse = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getweeklytrackchart&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=5`);
+        const tracksData = await tracksResponse.json();
 
         /* Displaying the data */
         displayWeeklyStats(albumsData, artistsData, tracksData);
@@ -69,10 +79,10 @@ async function displayWeeklyStats(albums, artists, tracks) {
 
         // Album Art, second call to lastfm, annoying but temporary
         try {
-            const albumInfo = await callProxy('lastfm-album', {
-                artistName: topAlbum.artist['#text'],
-                albumName: topAlbum.name
-            });
+            const albumInfoResponse = await fetch(
+                `https://ws.audioscrobbler.com/2.0/?method=album.getinfo&artist=${encodeURIComponent(artistName)}&album=${encodeURIComponent(albumName)}&api_key=${LASTFM_API_KEY}&format=json`
+            );
+            const albumInfo = await albumInfoResponse.json();
 
             // Update album name
             document.getElementById('album-name').textContent = albumName;
@@ -97,7 +107,7 @@ async function displayWeeklyStats(albums, artists, tracks) {
         artistsContainer.innerHTML = '';
 
         for (const artist of artists.weeklyartistchart.artist.slice(0, 3)) {
-
+            
             const artistDiv = document.createElement('div');
             artistDiv.className = 'top-artist-item';
             // Create artist name
@@ -158,13 +168,17 @@ async function displayWeeklyStats(albums, artists, tracks) {
     }
 }
 
+function getArtistImage(aristId) {
+    return fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&mbid=${aristId}&api_key=${LASTFM_API_KEY}&format=json`)
+}
 /* RECENT LISTENING FUNCTIONS */
 
 /* Fetching the 5 most recent songs I've listened to */
 async function getRecentTracks() {
     try {
-
-        const recentTracksData = await callProxy('lastfm-recent');
+        /* params method, user, api_key, limit, format */
+        const recentTracksResponse = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&limit=5&format=json`);
+        const recentTracksData = await recentTracksResponse.json();
 
         /*calling the function to display the data
         The fetching functions are async so that we can do this */
