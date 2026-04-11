@@ -892,6 +892,15 @@
       "artist": "My Chemical Romance",
       "album": "I Brought You My Bullets, You Brought Me Your Love",
       "image": "/sotd/i-brought-you-my-bullets.jpg"
+    },
+    {
+      "num": 100,
+      "date": "April 10th, 2026",
+      "year": 1999,
+      "title": "Everyone I Love Is Dead",
+      "artist": "Type O Negative",
+      "album": "World Coming Down",
+      "image": "/sotd/world-coming-down.jpg"
     }
 
 
