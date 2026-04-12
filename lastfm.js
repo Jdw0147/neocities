@@ -14,7 +14,7 @@ async function getTrackInfo(trackName, artistName) {
             `https://ws.audioscrobbler.com/2.0/?method=track.getinfo&track=${encodeURIComponent(trackName)}&artist=${encodeURIComponent(artistName)}&api_key=${LASTFM_API_KEY}&format=json`
         );
         const data = await response.json();
-        
+
         if (data.track?.album?.image) {
             const largeImage = data.track.album.image.find(img => img.size === 'medium');
             return largeImage?.['#text'] || null;
@@ -86,7 +86,7 @@ async function displayWeeklyStats(albums, artists, tracks) {
         artistsContainer.innerHTML = '';
 
         for (const artist of artists.weeklyartistchart.artist.slice(0, 3)) {
-            
+
             const artistDiv = document.createElement('div');
             artistDiv.className = 'top-artist-item';
             // Create artist name
@@ -106,7 +106,7 @@ async function displayWeeklyStats(albums, artists, tracks) {
         };
     }
 
-        /* Top Tracks */
+    /* Top Tracks */
     if (tracks.weeklytrackchart?.track) {
         const tracksContainer = document.getElementById('top-tracks');
         tracksContainer.innerHTML = '';
