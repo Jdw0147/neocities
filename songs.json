@@ -919,6 +919,15 @@
       "artist": "The Kinks",
       "album": "Something Else",
       "image": "/sotd/something-else.jpg"
+    },
+    {
+      "num": 103,
+      "date": "April 13th, 2026",
+      "year": 2021,
+      "title": "movies for guys",
+      "artist": "Jane Remover",
+      "album": "Frailty",
+      "image": "/sotd/frailty.jpg"
     }
 
 
