@@ -928,6 +928,15 @@
       "artist": "Jane Remover",
       "album": "Frailty",
       "image": "/sotd/frailty.jpg"
+    },
+    {
+      "num": 104,
+      "date": "April 14th, 2026",
+      "year": 1978,
+      "title": "Get Up",
+      "artist": "The Kinks",
+      "album": "Misfits",
+      "image": "/sotd/misfits.jpg"
     }
 
 
