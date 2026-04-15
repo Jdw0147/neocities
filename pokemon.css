@@ -1,5 +1,10 @@
 .pokemon-page {
   background-color: #D4AF8C; /* Earthy tan */
+  background-image: url('/pokemon/pokemon-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
 }
 
