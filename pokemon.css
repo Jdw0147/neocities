@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
 .pokemon-page {
   background-color: #D4AF8C; /* Earthy tan */
   background-image: url('/pokemon/pokemon-background.jpg');
@@ -13,8 +17,22 @@
 }
 
 .pokemon-page .site-title h1 {
-  color: #4A7C59;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Press Start 2P', cursive;
+  color: #FFDE00;
+  text-shadow: 
+    -2px -2px 0 #003DA5,
+    2px -2px 0 #003DA5,
+    -2px 2px 0 #003DA5,
+    2px 2px 0 #003DA5,
+    -2px 0 0 #003DA5,
+    2px 0 0 #003DA5,
+    0 -2px 0 #003DA5,
+    0 2px 0 #003DA5,
+    -3px 0 0 #003DA5,
+    3px 0 0 #003DA5,
+    0 -3px 0 #003DA5,
+    0 3px 0 #003DA5;
+  font-size: 2.5em;
 }
 
 .pokemon-container {
@@ -26,6 +44,56 @@
   padding: 20px;
 }
 
+
+/* ###### INTRO SECTION ###### */
+.intro {
+  background: repeating-linear-gradient(
+    45deg,
+    #DC143C,
+    #DC143C 10px,
+    #B22222 10px,
+    #B22222 20px
+  );
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.intro p {
+  background-color: #003DA5;
+  color: #FFDE00;
+  border: 3px solid #FFDE00;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.intro-title {
+  font-family: 'Press Start 2P', cursive;
+  color: #FFDE00;
+  text-shadow: 
+    -2px -2px 0 #003DA5,
+    2px -2px 0 #003DA5,
+    -2px 2px 0 #003DA5,
+    2px 2px 0 #003DA5,
+    -2px 0 0 #003DA5,
+    2px 0 0 #003DA5,
+    0 -2px 0 #003DA5,
+    0 2px 0 #003DA5,
+    -3px 0 0 #003DA5,
+    3px 0 0 #003DA5,
+    0 -3px 0 #003DA5,
+    0 3px 0 #003DA5;
+  font-size: 2.5em;
+}
+
+.intro img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* ###### GAME TEAM DISPLAY SECTION ###### */
 .game-section {
   display: flex;
   flex-direction: column;
@@ -45,9 +113,23 @@
 }
 
 .game-section h2 {
-  font-size: 1.8em;
+  font-family: 'Russo One', sans-serif;
+  color: #FFFFFF;
+  text-shadow: 
+    -2px -2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px 2px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 -2px 0 #000000,
+    0 2px 0 #000000,
+    -3px 0 0 #000000,
+    3px 0 0 #000000,
+    0 -3px 0 #000000,
+    0 3px 0 #000000;
+  font-size: 2.5em;
   margin-bottom: 15px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .team-box {
@@ -93,7 +175,9 @@
   display: block;
 }
 
-/* Per-Game Styling */
+/* ###### INDIVIDUAL GAME STYLES ###### */
+
+/* Fire Red */
 .fire-red {
   background-color: rgba(255, 182, 193, 0.3);
 }
@@ -110,6 +194,7 @@
   border: 3px solid #C41E3A;
 }
 
+/* Emerald */
 .emerald {
   background-image: url('/pokemon/emerald.png');
   background-size: cover;
@@ -117,15 +202,12 @@
   background-repeat: no-repeat;
 }
 
-.emerald h2 {
-  color: #228B22;
-}
-
 .emerald .team-box {
   background: linear-gradient(135deg, #98FB98, #90EE90);
   border: 3px solid #228B22;
 }
 
+/* Platinum */
 .platinum {
   background-image: url('/pokemon/dpp.jpg');
   background-size: cover;
@@ -133,15 +215,12 @@
   background-repeat: no-repeat;
 }
 
-.platinum h2 {
-  color: #696969;
-}
-
 .platinum .team-box {
   background: linear-gradient(135deg, #E8E8E8, #D3D3D3);
   border: 3px solid #696969;
 }
 
+/* Heart Gold */
 .heart-gold {
   background-image: url('/pokemon/heart-gold.jpg');
   background-size: cover;
@@ -149,15 +228,12 @@
   background-repeat: no-repeat;
 }
 
-.heart-gold h2 {
-  color: #B8860B;
-}
-
 .heart-gold .team-box {
   background: linear-gradient(135deg, #FFD700, #FFA500);
   border: 3px solid #B8860B;
 }
 
+/* Black */
 .black {
   background-image: url('/pokemon/black.jpeg');
   background-size: cover;
@@ -173,3 +249,7 @@
   background: linear-gradient(135deg, #404040, #696969);
   border: 3px solid #2F4F4F;
 }
+
+/* X */
+
+/* Sword */
