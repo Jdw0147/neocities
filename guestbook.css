@@ -1,3 +1,9 @@
+main {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url('backgrounds/static/green.jpg');
     background-size: cover;
@@ -47,8 +53,7 @@ header::after {
 
 .guestbook-bubble {
     width: 600px;
-    max-width: 90%;
-    height: 600px;
+    height: 100%;
     background-image: url('backgrounds/moving/water.gif');
     background-size: auto;
     background-repeat: repeat;
@@ -64,6 +69,25 @@ header::after {
     overflow: hidden;
     padding: 15px;
     gap: 10px;
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.window-header {
+    background: linear-gradient(90deg, #000080, #1084D7);
+    color: white;
+    padding: 2px 2px 2px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.window-body {
+    overflow-y: auto;
+    padding: 4px;
+    flex: 1;
 }
 
 .bubble-header {
@@ -90,4 +114,127 @@ header::after {
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
+}
+
+.guestbook-container {
+    display: grid;
+    grid-template-columns: 300px 600px 350px;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+}
+
+.intro-window, .wizard-window {
+    background-color: #F2F2ED;
+    border: solid 2px #0A246A;
+    box-shadow: 1px 1px 0 #DFE5F5, -1px -1px 0 #808080;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-window {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.wizard-window {
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url('backgrounds/moving/stars3.gif');
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.wizard-icon {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 15px auto;
+    object-fit: contain;
+}
+
+.wizard-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.wizard-speech-bubble {
+    background: linear-gradient(135deg, #FFE5B4, #FFDAB9);
+    border: 3px solid #0A246A;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 15px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+}
+
+.wizard-speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 0 solid transparent;
+    border-top: 10px solid #0A246A;
+}
+
+.wizard-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.wizard-orb {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.wizard-orb:hover {
+    transform: scale(1.1);
+}
+
+.suggestion-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #0A246A;
+    border-radius: 10px;
+    padding: 10px 15px;
+    max-width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rainbow-text {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    animation: shimmer 3s infinite;
+}
+
+.rainbow-text.hidden {
+    display: none;
+}
+
+@keyframes shimmer {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
 }

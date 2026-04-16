@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <body>
     <!-- Header -->
     <header>
@@ -9,22 +10,47 @@
 
     <!-- Main Content -->
     <main class="guestbook-page">
-        <div class="guestbook-bubble">
-            <div class="bubble-header">
-                <h2>Sign My Guestbook!</h2>
+
+        <div class="guestbook-container">
+            <div class="intro-window">
+                <div class="window-header">About the Guestbook</div>
+                <div class="window-body">
+                    <p>I absolutely adore the concept of guestbooks. I'd like to hear from you :)</p>
+                    <a href="#" class="wizard-trigger rainbow-text">Don't know what to say? Ask the Wizard</a>
+                </div>
             </div>
-            <div class="bubble-body">
-                <iframe 
-                    src="https://davidwheeler.atabook.org/" 
-                    width="100%" 
-                    height="100%"
-                    style="border: none; display: block;">
-                </iframe>
+
+            <div class="guestbook-bubble">
+                <div class="bubble-header">
+                    <h2>Sign My Guestbook!</h2>
+                </div>
+                <div class="bubble-body">
+                    <iframe src="https://davidwheeler.atabook.org/" width="100%" height="100%"
+                        style="border: none; display: block;">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="wizard-window" id="wizard-window" style="display: none;">
+                <div class="window-header">The Wizard's Suggestions</div>
+                <div class="window-body">
+                    <div class="wizard-speech-bubble">
+                        Ho Ho Ho! I am the wizard! Touch my Orb!
+                    </div>
+                    <img src="icons/wizard.gif" alt="Wizard" class="wizard-icon">
+                    <div class="wizard-bottom">
+                        <img src="icons/wizard-orb.gif" alt="Wizard Orb" class="wizard-orb" id="wizard-orb">
+                        <div class="suggestion-box" id="suggestion-box" style="display: none;"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <a href="index.html" class="back-button">← Back</a>
     </main>
 
+
+    <script src="guestbook.js"></script>
     <script src="random.js"></script>
 </body>
+
 </html>
