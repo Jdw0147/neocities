@@ -1,7 +1,7 @@
 const randomLinks = [
   { url: 'music.html', name: 'Music Page' },
-  { url: 'sotd.html', name: 'Song of the Day' }
-  // Add more links here as you build the site
+  { url: 'sotd.html', name: 'Song of the Day' },
+  { url: 'pokemon.html', name: 'Pokemon Page' }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
