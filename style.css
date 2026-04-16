@@ -55,9 +55,25 @@ main {
 
 /* Main window - right side, wider */
 .main-window {
-    flex: 1;
+    flex: 1;  
     height: 100%;
     background-color: #F2F2ED;
+    border: solid 2px #0A246A;
+    box-shadow: 1px 1px 0 #DFE5F5, -1px -1px 0 #808080;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Guestbook window */
+.guestbook-window {
+    width: calc(100% - 215px);
+    margin-left: 215px;
+    margin-top: 15px;
+    height: 600px;
+    background-color: #F2F2ED;
+    background-image: url('backgrounds/moving/water.gif');
+    background-size: cover;
+    background-repeat: repeat;
     border: solid 2px #0A246A;
     box-shadow: 1px 1px 0 #DFE5F5, -1px -1px 0 #808080;
     display: flex;
