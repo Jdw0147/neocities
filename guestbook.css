@@ -1,0 +1,93 @@
+body {
+    background-image: url('backgrounds/static/green.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    font-family: MS Gothic, Tahoma, monospace;
+    padding: 20px;
+}
+
+.guestbook-page {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+header::after {
+    display: none;
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(180deg, rgba(16, 132, 215, 0.8) 0%, rgba(10, 91, 163, 0.8) 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+    display: inline-block;
+}
+
+.back-button:hover {
+    background: linear-gradient(180deg, rgba(16, 132, 215, 0.95) 0%, rgba(10, 91, 163, 0.95) 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.guestbook-bubble {
+    width: 600px;
+    max-width: 90%;
+    height: 600px;
+    background-image: url('backgrounds/moving/water.gif');
+    background-size: auto;
+    background-repeat: repeat;
+    border-radius: 30px;
+    border: 8px solid #1084D7;
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.3),
+        inset 0 0 25px rgba(255, 255, 255, 1),
+        inset -8px -8px 20px rgba(0, 0, 0, 0.15),
+        inset 15px 15px 25px rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 15px;
+    gap: 10px;
+}
+
+.bubble-header {
+    background: linear-gradient(180deg, rgba(16, 132, 215, 0.85) 0%, rgba(10, 91, 163, 0.85) 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bubble-header h2 {
+    margin: 0;
+    font-size: 28px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bubble-body {
+    flex: 1;
+    overflow: hidden;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+}
