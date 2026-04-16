@@ -30,6 +30,7 @@ const suggestions = [
     "Did you see it?",
     "I can see you",
     "What do you think the wizard's name is?",
+    "What's your deepest, darkest, evilest secret?",
     ];
 
 let usedSuggestions = [];
