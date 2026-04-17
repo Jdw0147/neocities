@@ -6,15 +6,9 @@ header {
     text-align: center;
     padding: 20px;
     margin-bottom: 30px;
-}
-
-header::after {
-    content: '';
-    display: block;
-    width: 80%;
-    height: 3px;
-    background: linear-gradient(90deg, #0A246A, #1084D7, #0A246A);
-    margin: 15px auto;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Body */
