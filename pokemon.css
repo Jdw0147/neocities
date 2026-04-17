@@ -84,7 +84,9 @@
     3px 0 0 #003DA5,
     0 -3px 0 #003DA5,
     0 3px 0 #003DA5;
+  text-align: center;
   font-size: 2.5em;
+  clear: both;
 }
 
 .intro img {
@@ -101,6 +103,9 @@
   justify-content: center;
   width: 100%;
   min-height: 500px;
+  border-radius: 15px;
+  border: 5px solid;
+  border-image: conic-gradient(#003DA5 0deg 90deg, #FFDE00 90deg 180deg, #003DA5 180deg 270deg, #FFDE00 270deg 360deg) 1;
 }
 
 .section-content {
