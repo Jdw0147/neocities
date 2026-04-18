@@ -1,3 +1,7 @@
+// Store all songs for navigation
+let allSongs = [];
+let currentSongIndex = 0;
+
 async function loadSongCalendar() {
 
   // Map months to their background GIFs
@@ -32,6 +36,13 @@ async function loadSongCalendar() {
     // Define month order
     const monthOrder = ['January', 'February', 'March', 'April', 'May', 'June',
       'July', 'August', 'September', 'October', 'November', 'December'];
+
+    allSongs = [];
+    monthOrder.forEach(month => {
+      if (songsByMonth[month]) {
+        allSongs = allSongs.concat(songsByMonth[month]);
+      }
+    });
 
     const calendar = document.getElementById('sotdCalendar');
     calendar.innerHTML = '';
@@ -110,6 +121,10 @@ async function loadSongCalendar() {
 
 // Modal Functions
 function openSongModal(song, monthBackground) {
+
+  // Find the index of this song for navigation
+  currentSongIndex = allSongs.findIndex(s => s.num === song.num);
+
   const modal = document.getElementById('songModal');
   const overlay = document.getElementById('songModalOverlay');
 
@@ -146,11 +161,67 @@ function closeSongModal() {
   document.body.style.overflow = 'auto';
 }
 
+function navigateToSong(index) {
+  // Loop around if out of bounds
+  if (index < 0) {
+    index = allSongs.length - 1;
+  } else if (index >= allSongs.length) {
+    index = 0;
+  }
+  
+  currentSongIndex = index;
+  const song = allSongs[index];
+  
+  // Find the month for this song to get the background
+  const month = song.date.split(' ')[0];
+  const monthBackgrounds = {
+    'January': '/backgrounds/moving/northern-lights.gif',
+    'February': '/backgrounds/moving/pink-lines.gif',
+    'March': '/backgrounds/static/trees.gif',
+    'April': '/backgrounds/moving/rain.gif',
+    'May': '/backgrounds/static/clouds.gif',
+    'June': '/backgrounds/static/water.gif',
+  };
+  
+  // Update modal without closing/reopening
+  document.getElementById('modalTitle').textContent = `${song.title} - ${song.artist}`;
+  document.getElementById('modalCoverImg').src = song.image;
+  document.getElementById('modalCoverImg').alt = song.album;
+  document.getElementById('modalDay').textContent = song.date;
+  document.getElementById('modalAlbum').textContent = song.album;
+  document.getElementById('modalYear').textContent = song.year;
+  
+  const notesSection = document.getElementById('modalNotesSection');
+  if (song.additionalNotes) {
+    document.getElementById('modalNotes').textContent = song.additionalNotes;
+    notesSection.classList.add('show');
+  } else {
+    notesSection.classList.remove('show');
+  }
+  
+  // Update background
+  if (monthBackgrounds[month]) {
+    document.getElementById('songModal').style.backgroundImage = `url('${monthBackgrounds[month]}')`;
+  }
+}
+
+function nextSong() {
+  navigateToSong(currentSongIndex + 1);
+}
+
+function previousSong() {
+  navigateToSong(currentSongIndex - 1);
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   loadSongCalendar();
 
   // Close modal on X button click
   document.getElementById('modalClose').addEventListener('click', closeSongModal);
+
+  // Navigation buttons
+  document.getElementById('nextSongBtn').addEventListener('click', nextSong);
+  document.getElementById('prevSongBtn').addEventListener('click', previousSong);
 
   // Close modal on overlay click
   document.getElementById('songModalOverlay').addEventListener('click', function (e) {

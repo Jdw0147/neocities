@@ -227,3 +227,31 @@
     color: #DDD;
     margin: 8px 0 0 0 !important;
 }
+
+.modal-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.modal-nav-btn {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #FFD700;
+  border-radius: 6px;
+  color: #FFF;
+  padding: 8px 16px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+.modal-nav-btn:hover {
+  background: rgba(255, 215, 0, 0.2);
+  border-color: #FFF;
+}
+
+.modal-nav-btn:active {
+  transform: scale(0.95);
+}
