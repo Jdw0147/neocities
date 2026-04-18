@@ -955,7 +955,26 @@
       "artist": "My Chemical Romance",
       "album": "The Foundations of Decay",
       "image": "/sotd/the-foundations-of-decay.jpg"
+    },
+    {
+      "num": 107,
+      "date": "April 17th, 2026",
+      "year": 2022,
+      "title": "Spanish Summer Rain",
+      "artist": "The Band Silhouette",
+      "album": "Seedlings",
+      "image": "/sotd/seedlings.jpg"
+    },
+    {
+      "num": 108,
+      "date": "April 18th, 2026",
+      "year": 2020,
+      "title": "zombie girl",
+      "artist": "Adrianne Lenker",
+      "album": "songs",
+      "image": "/sotd/songs.jpg"
     }
+
 
 
   ]
