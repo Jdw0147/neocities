@@ -83,10 +83,11 @@ async function loadSongCalendar() {
           img.alt = song.album;
           img.loading = 'lazy';
 
+          dayDiv.setAttribute('data-month', month);
           dayDiv.appendChild(img);
 
           dayDiv.addEventListener('click', () => {
-            alert(`${song.title}\nby ${song.artist}\nfrom ${song.album}`);
+            openSongModal(song, monthBackgrounds[month]);
           });
 
           songsGrid.appendChild(dayDiv);
@@ -106,4 +107,62 @@ async function loadSongCalendar() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', loadSongCalendar);
+
+// Modal Functions
+function openSongModal(song, monthBackground) {
+  const modal = document.getElementById('songModal');
+  const overlay = document.getElementById('songModalOverlay');
+
+  // Set modal background
+  if (monthBackground) {
+    modal.style.backgroundImage = `url('${monthBackground}')`;
+  }
+
+  // Populate modal content
+  document.getElementById('modalTitle').textContent = `${song.title} - ${song.artist}`;
+  document.getElementById('modalCoverImg').src = song.image;
+  document.getElementById('modalCoverImg').alt = song.album;
+  document.getElementById('modalDay').textContent = song.date;
+  document.getElementById('modalAlbum').textContent = song.album;
+  document.getElementById('modalYear').textContent = song.year;
+
+  // Handle optional notes
+  const notesSection = document.getElementById('modalNotesSection');
+  if (song.additionalNotes) {
+    document.getElementById('modalNotes').textContent = song.additionalNotes;
+    notesSection.classList.add('show');
+  } else {
+    notesSection.classList.remove('show');
+  }
+
+  // Show modal
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSongModal() {
+  const overlay = document.getElementById('songModalOverlay');
+  overlay.classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  loadSongCalendar();
+
+  // Close modal on X button click
+  document.getElementById('modalClose').addEventListener('click', closeSongModal);
+
+  // Close modal on overlay click
+  document.getElementById('songModalOverlay').addEventListener('click', function (e) {
+    if (e.target === this) {
+      closeSongModal();
+    }
+  });
+
+  // Close modal on Escape key
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      closeSongModal();
+    }
+  });
+});

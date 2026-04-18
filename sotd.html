@@ -30,6 +30,33 @@
         </section>
     </main>
 
+    <!-- Modal Popup -->
+    <div class="song-modal-overlay" id="songModalOverlay">
+        <div class="song-modal" id="songModal">
+            <button class="modal-close" id="modalClose">&times;</button>
+            
+            <div class="modal-content">
+                <div class="modal-title-section">
+                    <h2 id="modalTitle"></h2>
+                </div>
+                
+                <div class="modal-cover">
+                    <img id="modalCoverImg" src="" alt="Album cover">
+                </div>
+                
+                <div class="modal-info">
+                    <p><strong>Day:</strong> <span id="modalDay"></span></p>
+                    <p><strong>Album:</strong> <span id="modalAlbum"></span></p>
+                    <p><strong>Release Year:</strong> <span id="modalYear"></span></p>
+                    <div id="modalNotesSection">
+                        <p><strong>Notes:</strong></p>
+                        <p id="modalNotes"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Back Link -->
     <footer style="text-align: center; margin-top: 20px;">
         <a href="music.html" style="color: #9933FF; text-decoration: underline;">← Back to Music</a>
