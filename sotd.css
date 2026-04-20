@@ -22,6 +22,39 @@
   margin-top: 20px;
 }
 
+.sotd-page header::after {
+    background: linear-gradient(90deg, #330066, #9933FF, #330066);
+}
+
+.sotd-page .site-title h1 {
+    color: #9933FF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sotd-page .main-window {
+    background-color: #1a1a2e;
+    border: solid 2px #330066;
+    box-shadow: 1px 1px 0 #5533AA, -1px -1px 0 #000;
+}
+
+.sotd-page .main-window .window-header {
+    background: linear-gradient(90deg, #1a0033, #660099);
+    color: #CC99FF;
+}
+
+.sotd-page .main-window .window-body {
+    color: #DDDDDD;
+}
+
+.sotd-page .main-window h2,
+.sotd-page .main-window h3 {
+    color: #9933FF;
+}
+
+.sotd-page .window-body p {
+    color: #DDDDDD;
+}
+
 .month-container {
   padding: 20px;
   border-radius: 8px;
