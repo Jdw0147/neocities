@@ -991,6 +991,15 @@
       "artist": "Prince",
       "album": "Purple Rain (Deluxe Expanded Edition)",
       "image": "/sotd/purple-rain.jpg"
+    },
+    {
+      "num": 111,
+      "date": "April 21st, 2026",
+      "year": 2018,
+      "title": "Pointlessness",
+      "artist": "The Voidz",
+      "album": "Virtue",
+      "image": "/sotd/virtue.jpg"
     }
 
 
