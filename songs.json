@@ -1000,6 +1000,15 @@
       "artist": "The Voidz",
       "album": "Virtue",
       "image": "/sotd/virtue.jpg"
+    },
+    {
+      "num": 112,
+      "date": "April 22nd, 2026",
+      "year": 2000,
+      "title": "title track",
+      "artist": "Death Cab for Cutie",
+      "album": "We Have the Facts and We're Voting Yes",
+      "image": "/sotd/we-have-the-facts.jpg"
     }
 
 
