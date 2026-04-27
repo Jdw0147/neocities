@@ -1027,6 +1027,24 @@
       "artist": "The Beatles",
       "album": "Beatles For Sale",
       "image": "/sotd/beatles-for-sale.jpg"
+    },
+    {
+      "num": 115,
+      "date": "April 25th, 2026",
+      "year": 1965,
+      "title": "Look For Me Baby",
+      "artist": "The Kinks",
+      "album": "Kinda Kinks",
+      "image": "/sotd/kinda-kinks.jpg"
+    },
+    {
+      "num": 116,
+      "date": "April 26th, 2026",
+      "year": 1992,
+      "title": "Goodbye",
+      "artist": "The Sundays",
+      "album": "Blind",
+      "image": "/sotd/blind.jpg"
     }
 
 
