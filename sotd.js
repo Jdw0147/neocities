@@ -1,8 +1,10 @@
 // Store all songs for navigation
 let allSongs = [];
 let currentSongIndex = 0;
+let currentYear = '2026'; 
 
-async function loadSongCalendar() {
+async function loadSongCalendar(year = 2026) {
+  currentYear = year;
 
   // Map months to their background GIFs
   const monthBackgrounds = {
@@ -16,7 +18,10 @@ async function loadSongCalendar() {
   };
 
   try {
-    const response = await fetch('songs.json');
+    //Determine which JSON file to load based on the year
+    const filename = year === 2026 ? 'songs.json' : 'songs25.json';
+    const response = await fetch(filename);
+    
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
     const data = await response.json();
@@ -214,7 +219,20 @@ function previousSong() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  loadSongCalendar();
+
+  // Set up year tab switching
+  const yearTabs = document.querySelectorAll('.year-tab');
+  yearTabs.forEach(tab => {
+    tab.addEventListener('click', (e) => {
+      // Update active tab styling
+      yearTabs.forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+      
+      // Load calendar for selected year
+      const year = parseInt(e.target.getAttribute('data-year'));
+      loadSongCalendar(year);
+    });
+  });
 
   // Close modal on X button click
   document.getElementById('modalClose').addEventListener('click', closeSongModal);
@@ -236,4 +254,7 @@ document.addEventListener('DOMContentLoaded', function () {
       closeSongModal();
     }
   });
+
+  // Load initial calendar (2026)
+  loadSongCalendar(2026);
 });

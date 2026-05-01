@@ -1,0 +1,814 @@
+{
+    "songs": [
+        {
+            "num": 1,
+            "date": "January 1st, 2025",
+            "year": 2024,
+            "title": "Echoes of the Past",
+            "artist": "Current Joys",
+            "album": "East My Love",
+            "image": "/sotd/east-my-love.jpg"
+        },
+        {
+            "num": 2,
+            "date": "January 2nd, 2025",
+            "year": 1981,
+            "title": "No Such Thing",
+            "artist": "Agent Orange",
+            "album": "Living In Darkness",
+            "image": "/sotd/living-in-darkness.jpg"
+        },
+        {
+            "num": 3,
+            "date": "January 3rd, 2025",
+            "year": 2005,
+            "title": "What Sarah Said",
+            "artist": "Death Cab For Cutie",
+            "album": "Plans",
+            "image": "/sotd/plans.jpg"
+        },
+        {
+            "num": 4,
+            "date": "January 4th, 2025",
+            "year": 1981,
+            "title": "Seven Goblins",
+            "artist": "Masayoshi Takanaka",
+            "album": "The Rainbow Goblins",
+            "image": "/sotd/the-rainbow-goblins.jpg"
+        },
+        {
+            "num": 5,
+            "date": "January 5th, 2025",
+            "year": 1996,
+            "title": "Wouldn't Last a Day",
+            "artist": "Agent Orange",
+            "album": "Virtually Indestructible",
+            "image": "/sotd/virtually-indestructible.jpg"
+        },
+        {
+            "num": 6,
+            "date": "January 6th, 2025",
+            "year": 1992,
+            "title": "A Letter To Elise",
+            "artist": "The Cure",
+            "album": "Wish",
+            "image": "/sotd/wish.jpg"
+        },
+        {
+            "num": 7,
+            "date": "January 7th, 2025",
+            "year": 2009,
+            "title": "Anaconda Sniper",
+            "artist": "Title Fight",
+            "album": "The Last Thing You Forget",
+            "image": "/sotd/the-last-thing-you-forget.jpg"
+        },
+        {
+            "num": 8,
+            "date": "January 8th, 2025",
+            "year": 1980,
+            "title": "Let's Lynch the Landlord",
+            "artist": "Dead Kennedys",
+            "album": "Fresh Fruit for Rotting Vegetables",
+            "image": "/sotd/fresh-fruit-for-rotting-vegetables.jpg"
+        },
+        {
+            "num": 9,
+            "date": "January 9th, 2025",
+            "year": 2019,
+            "title": "Kitty Sucker",
+            "artist": "Frank Carter & The Rattlesnakes",
+            "album": "End of Suffering",
+            "image": "/sotd/end-of-suffering.jpg"
+        },
+        {
+            "num": 10,
+            "date": "January 10th, 2025",
+            "year": 2004,
+            "title": "Beef Rapp",
+            "artist": "MF DOOM",
+            "album": "MM..FOOD",
+            "image": "/sotd/mm-food.jpg"
+        },
+        {
+            "num": 11,
+            "date": "January 11th, 2025",
+            "year": 1997,
+            "title": "Word Is",
+            "artist": "T.S.O.L.",
+            "album": "T.S.O.L./Weathered Statues",
+            "image": "/sotd/t-s-o-l.jpg"
+        },
+        {
+            "num": 12,
+            "date": "January 12th, 2025",
+            "year": 1989,
+            "title": "Negative Creep",
+            "artist": "Nirvana",
+            "album": "Bleach",
+            "image": "/sotd/bleach.jpg"
+        },
+        {
+            "num": 13,
+            "date": "January 13th, 2025",
+            "year": 1970,
+            "title": "Our House",
+            "artist": "Crosby, Stills, Nash & Young",
+            "album": "Deja Vu",
+            "image": "/sotd/deja-vu.jpg"
+        },
+        {
+            "num": 14,
+            "date": "January 14th, 2025",
+            "year": 1981,
+            "title": "We've Got a Bigger Problem Now",
+            "artist": "Dead Kennedys",
+            "album": "In God We Trust, Inc.",
+            "image": "/sotd/in-god-we-trust-inc.jpg"
+        },
+        {
+            "num": 15,
+            "date": "January 15th, 2025",
+            "year": 1985,
+            "title": "Soup Is Good Food",
+            "artist": "Dead Kennedys",
+            "album": "Frankenchrist",
+            "image": "/sotd/frankenchrist.jpg"
+        },
+        {
+            "num": 16,
+            "date": "January 16th, 2025",
+            "year": 2013,
+            "title": "Plains",
+            "artist": "Vundabar",
+            "album": "Antics",
+            "image": "/sotd/antics.jpg"
+        },
+        {
+            "num": 17,
+            "date": "January 17th, 2025",
+            "year": 1989,
+            "title": "Debaser",
+            "artist": "Pixies",
+            "album": "Doolittle",
+            "image": "/sotd/doolittle.jpg"
+        },
+        {
+            "num": 18,
+            "date": "January 18th, 2025",
+            "year": 1981,
+            "title": "A Cry for Help in a World Gone Mad",
+            "artist": "Agent Orange",
+            "album": "Living In Darkness",
+            "image": "/sotd/living-in-darkness.jpg"
+        },
+        {
+            "num": 19,
+            "date": "January 19th, 2025",
+            "year": 2024,
+            "title": "Russian Roulette",
+            "artist": "Porter Robinson",
+            "album": "SMILE! :D",
+            "image": "/sotd/smile.jpg"
+        },
+        {
+            "num": 20,
+            "date": "January 20th, 2025",
+            "year": 1987,
+            "title": "Blue Monday",
+            "artist": "New Order",
+            "album": "Substance",
+            "image": "/sotd/substance.jpg"
+        },
+        {
+            "num": 21,
+            "date": "January 21st, 2025",
+            "year": 1965,
+            "title": "Ill Wind",
+            "artist": "Lee Morgan",
+            "album": "Cornbread",
+            "image": "/sotd/cornbread.jpg"
+        },
+        {
+            "num": 22,
+            "date": "January 22nd, 2025",
+            "year": 2021,
+            "title": "Champ",
+            "artist": "Jane Remover",
+            "album": "Frailty",
+            "image": "/sotd/frailty.jpg"
+        },
+        {
+            "num": 23,
+            "date": "January 23rd, 2025",
+            "year": 1982,
+            "title": "THE STATUE OF LIBERTY",
+            "artist": "NANIWA EXPRESS",
+            "album": "NO FUSE",
+            "image": "/sotd/no-fuse.jpg"
+        },
+        {
+            "num": 24,
+            "date": "January 24th, 2025",
+            "year": 2014,
+            "title": "return to the journey",
+            "artist": "Cro-Magnon",
+            "album": "V",
+            "image": "/sotd/v.jpg"
+        },
+        {
+            "num": 25,
+            "date": "January 25th, 2025",
+            "year": 1977,
+            "title": "APRIL WAVE",
+            "artist": "Masayoshi Takanaka",
+            "album": "TAKANAKA",
+            "image": "/sotd/takanaka.jpg"
+        },
+        {
+            "num": 26,
+            "date": "January 26th, 2025",
+            "year": 2023,
+            "title": "Morning Pages",
+            "artist": "The Japanese House, MUNA",
+            "album": "In the End It Always Does",
+            "image": "/sotd/in-the-end-it-always-does.jpg"
+        },
+        {
+            "num": 27,
+            "date": "January 27th, 2025",
+            "year": 2021,
+            "title": "Photograph",
+            "artist": "Arcade Fire, Owen Pallett",
+            "album": "Her (Original Score)",
+            "image": "/sotd/her-original-score.jpg"
+        },
+        {
+            "num": 28,
+            "date": "January 28th, 2025",
+            "year": 2009,
+            "title": "Dead End Friends",
+            "artist": "Them Crooked Vultures",
+            "album": "Them Crooked Vultures",
+            "image": "/sotd/them-crooked-vultures.jpg"
+        },
+        {
+            "num": 29,
+            "date": "January 29th, 2025",
+            "year": 1994,
+            "title": "Forget Her",
+            "artist": "Jeff Buckley",
+            "album": "Grace",
+            "image": "/sotd/grace.jpg"
+        },
+        {
+            "num": 30,
+            "date": "January 30th, 2025",
+            "year": 2006,
+            "title": "Hole in the Earth",
+            "artist": "Deftones",
+            "album": "Saturday Night Wrist",
+            "image": "/sotd/saturday-night-wrist.jpg"
+        },
+        {
+            "num": 31,
+            "date": "January 31st, 2025",
+            "year": 2020,
+            "title": "Rats in Ruin",
+            "artist": "All Them Witches",
+            "album": "Nothing as the Ideal",
+            "image": "/sotd/nothing-as-the-ideal.jpg"
+        },
+        {
+            "num": 32,
+            "date": "February 1st, 2025",
+            "year": 1978,
+            "title": "Coral Reef",
+            "artist": "Shigeru Suzuki",
+            "album": "Pacific",
+            "image": "/sotd/pacific.jpg"
+        },
+        {
+            "num": 33,
+            "date": "January 2nd, 2025",
+            "year": 1972,
+            "title": "Take It Easy",
+            "artist": "Eagles",
+            "album": "Eagles",
+            "image": "/sotd/eagles.jpg"
+        },
+        {
+            "num": 34,
+            "date": "February 3rd, 2025",
+            "year": 2018,
+            "title": "Don't Think It Over",
+            "artist": "Her's",
+            "album": "Invitation to Her's",
+            "image": "/sotd/invitation-to-her's.jpg"
+        },
+        {
+            "num": 35,
+            "date": "February 4th, 2025",
+            "year": 2001,
+            "title": "California Über Alles (Live)",
+            "artist": "Dead Kennedys",
+            "album": "Mutiny On The Bay (Live)",
+            "image": "/sotd/mutiny-on-the-bay-live.jpg"
+        },
+        {
+            "num": 36,
+            "date": "February 5th, 2025",
+            "year": 2025,
+            "title": "Raw Blue",
+            "artist": "Whirr",
+            "album": "Raw Blue",
+            "image": "/sotd/raw-blue.jpg"
+        },
+        {
+            "num": 37,
+            "date": "February 6th, 2025",
+            "year": 2002,
+            "title": "You Think I Ain't Worth a Dollar, But I Feel Like a Millionaire",
+            "artist": "Queens of the Stone Age",
+            "album": "Songs For The Deaf",
+            "image": "/sotd/songs-for-the-deaf.jpg"
+        },
+        {
+            "num": 38,
+            "date": "February 7th, 2025",
+            "year": 2020,
+            "title": "Run",
+            "artist": "Joji",
+            "album": "Nectar",
+            "image": "/sotd/nectar.jpg"
+        },
+        {
+            "num": 39,
+            "date": "February 8th, 2025",
+            "year": 2011,
+            "title": "How It Ended",
+            "artist": "The Drums",
+            "album": "Portamento",
+            "image": "/sotd/portamento.jpg"
+        },
+        {
+            "num": 40,
+            "date": "February 9th, 2025",
+            "year": 1990,
+            "title": "Mildred Pierce",
+            "artist": "Sonic Youth",
+            "album": "Goo",
+            "image": "/sotd/goo.jpg"
+        },
+        {
+            "num": 41,
+            "date": "February 10th, 2025",
+            "year": 2000,
+            "title": "The Everlasting Gaze",
+            "artist": "The Smashing Pumpkins",
+            "album": "Machina / The Machines of God",
+            "image": "/sotd/machina.jpg"
+        },
+        {
+            "num": 42,
+            "date": "February 11th, 2025",
+            "year": 1971,
+            "title": "One of These Days",
+            "artist": "Pink Floyd",
+            "album": "Meddle",
+            "image": "/sotd/meddle.jpg"
+        },
+        {
+            "num": 43,
+            "date": "February 12th, 2025",
+            "year": 2024,
+            "title": "I Didn't Mean It",
+            "artist": "Foxtide",
+            "album": "Chaos",
+            "image": "/sotd/chaos.jpg"
+        },
+        {
+            "num": 44,
+            "date": "February 13th, 2025",
+            "year": 1992,
+            "title": "Bullet In The Head",
+            "artist": "Rage Against The Machine",
+            "album": "Rage Against The Machine",
+            "image": "/sotd/rage-against-the-machine.jpg"
+        },
+        {
+            "num": 45,
+            "date": "February 14th, 2025",
+            "year": 1987,
+            "title": "Caome Here",
+            "artist": "Kath Bloom",
+            "album": "Come Here",
+            "image": "/sotd/come-here.jpg"
+        },
+        {
+            "num": 46,
+            "date": "February 15th, 2025",
+            "year": 1994,
+            "title": "Mojo Pin",
+            "artist": "Jeff Buckley",
+            "album": "Grace",
+            "image": "/sotd/grace.jpg"
+        },
+        {
+            "num": 47,
+            "date": "February 16th, 2025",
+            "year": 2021,
+            "title": "Wind Tempos",
+            "artist": "Porter Robinson",
+            "album": "Nurture",
+            "image": "/sotd/nurture.jpg"
+        },
+        {
+            "num": 48,
+            "date": "February 17th, 2025",
+            "year": 1973,
+            "title": "Breathe (In the Air)",
+            "artist": "Pink Floyd",
+            "album": "The Dark Side of the Moon",
+            "image": "/sotd/the-dark-side-of-the-moon.jpg"
+        },
+        {
+            "num": 49,
+            "date": "February 18th, 2025",
+            "year": 2018,
+            "title": "Good Night - 2018 Mix",
+            "artist": "The Beatles",
+            "album": "The Beatles (Super Deluxe)",
+            "image": "/sotd/the-beatles-super-deluxe.jpg"
+        },
+        {
+            "num": 50,
+            "date": "February 19th, 2025",
+            "year": 2025,
+            "title": "Jordan Rules",
+            "artist": "JPEGMAFIA",
+            "album": "I LAY DOWN MY LIFE FOR YOU (DIRECTORS CUT)",
+            "image": "/sotd/i-lay-down-my-life-for-you-directors-cut.jpg"
+        },
+        {
+            "num": 51,
+            "date": "February 20th, 2025",
+            "year": 1982,
+            "title": "Breakdown",
+            "artist": "Agent Orange",
+            "album": "Bitchin' Summer",
+            "image": "/sotd/bitchin-summer.jpg"
+        },
+        {
+            "num": 52,
+            "date": "February 21st, 2025",
+            "year": 2018,
+            "title": "Happiness Is A Warm Gun - 2018 Mix",
+            "artist": "The Beatles",
+            "album": "The Beatles (Super Deluxe)",
+            "image": "/sotd/the-beatles-super-deluxe.jpg"
+        },
+        {
+            "num": 53,
+            "date": "February 22nd, 2025",
+            "year": 2022,
+            "title": "Linda Claire",
+            "artist": "Fleshwater",
+            "album": "We're Not Here To Be Loved",
+            "image": "/sotd/were-not-here-to-be-loved.jpg"
+        },
+        {
+            "num": 54,
+            "date": "February 23rd, 2025",
+            "year": 2022,
+            "title": "Here, There And Everywhere - 2022 Mix",
+            "artist": "The Beatles",
+            "album": "Revolver (Super Deluxe)",
+            "image": "/sotd/revolver-super-deluxe.jpg"
+        },
+        {
+            "num": 55,
+            "date": "February 24th, 2025",
+            "year": 2022,
+            "title": "No Reason",
+            "artist": "Big Thief",
+            "album": "Dragon New Warm Mountain I Believe In You",
+            "image": "/sotd/dragon-new-warm-mountain-i-believe-in-you.jpg"
+        },
+        {
+            "num": 56,
+            "date": "February 25th, 2025",
+            "year": 2002,
+            "title": "Lapdance",
+            "artist": "N.E.R.D, Vita, Lee Harvey",
+            "album": "In Search Of...",
+            "image": "/sotd/in-search-of.jpg"
+        },
+        {
+            "num": 57,
+            "date": "February 26th, 2025",
+            "year": 1995,
+            "title": "Heaven Beside You",
+            "artist": "Alice In Chains",
+            "album": "Alice In Chains",
+            "image": "/sotd/alice-in-chains.jpg"
+        },
+        {
+            "num": 58,
+            "date": "February 27th, 2025",
+            "year": 2005,
+            "title": "You Know What You Are?",
+            "artist": "Nine Inch Nails",
+            "album": "With Teeth",
+            "image": "/sotd/with-teeth.jpg"
+        },
+        {
+            "num": 59,
+            "date": "February 28th, 2025",
+            "year": 1994,
+            "title": "Song About An Angel",
+            "artist": "Sunny Day Real Estate",
+            "album": "Diary",
+            "image": "/sotd/diary.jpg"
+        },
+        {
+            "num": 60,
+            "date": "March 1st, 2025",
+            "year": 2014,
+            "title": "Lefty",
+            "artist": "Title Fight",
+            "album": "Floral Green",
+            "image": "/sotd/floral-green.jpg"
+        },
+        {
+            "num": 61,
+            "date": "March 2nd, 2025",
+            "year": 1970,
+            "title": "I Found a Reason",
+            "artist": "The Velvet Underground",
+            "album": "Loaded",
+            "image": "/sotd/loaded.jpg"
+        },
+        {
+            "num": 62,
+            "date": "March 3rd, 2025",
+            "year": 2007,
+            "title": "Either Way",
+            "artist": "Wilco",
+            "album": "Sky Blue Sky",
+            "image": "/sotd/sky-blue-sky.jpg"
+        },
+        {
+            "num": 63,
+            "date": "March 4th, 2025",
+            "year": 2003,
+            "title": "Combat Baby",
+            "artist": "Metric",
+            "album": "One World Underground, Where Are You Now?",
+            "image": "/sotd/one-world-underground-where-are-you-now.jpg"
+        },
+        {
+            "num": 64,
+            "date": "March 5th, 2025",
+            "year": 1970,
+            "title": "Bell Bottom Blues",
+            "artist": "Derick & The Dominos",
+            "album": "Layla And Other Assorted Love Songs",
+            "image": "/sotd/layla-and-other-assorted-love-songs.jpg"
+        },
+        {
+            "num": 65,
+            "date": "March 6th, 2025",
+            "year": 2020,
+            "title": "Jacaranda",
+            "artist": "Modern Color",
+            "album": "From the Leaves of Your Garden",
+            "image": "/sotd/from-the-leaves-of-your-garden.jpg"
+        },
+        {
+            "num": 66,
+            "date": "March 7th, 2025",
+            "year": 1994,
+            "title": "Self Esteem",
+            "artist": "The Offspring",
+            "album": "Smash",
+            "image": "/sotd/smash.jpg"
+        },
+        {
+            "num": 67,
+            "date": "March 8th, 2025",
+            "year": 2024,
+            "title": "Though You Were Waving",
+            "artist": "Militarie Gun",
+            "album": "Though You Were Waving",
+            "image": "/sotd/though-you-were-waving.jpg"
+        },
+        {
+            "num": 68,
+            "date": "March 9th, 2025",
+            "year": 1981,
+            "title": "You Can Never Come To This Place",
+            "artist": "Masayoshi Takanaka",
+            "album": "The Rainbow Goblins",
+            "image": "/sotd/the-rainbow-goblins.jpg"
+        },
+        {
+            "num": 69,
+            "date": "March 10th, 2025",
+            "year": 2021,
+            "title": "Opiate",
+            "artist": "Modern Color",
+            "album": "Now, Life is Living You",
+            "image": "/sotd/now-life-is-living-you.jpg"
+        },
+        {
+            "num": 70,
+            "date": "March 11th, 2025",
+            "year": 1971,
+            "title": "Oh! You Pretty Things",
+            "artist": "David Bowie",
+            "album": "Hunky Dory",
+            "image": "/sotd/hunky-dory.jpg"
+        },
+        {
+            "num": 71,
+            "date": "March 12th, 2025",
+            "year": 2014,
+            "title": "Make You Cry",
+            "artist": "Title Fight",
+            "album": "Floral Green",
+            "image": "/sotd/floral-green.jpg"
+        },
+        {
+            "num": 72,
+            "date": "March 13th, 2025",
+            "year": 2025,
+            "title": "Beta Fish",
+            "artist": "Vundabar",
+            "album": "Surgery and Pleasure",
+            "image": "/sotd/surgery-and-pleasure.jpg"
+        },
+        {
+            "num": 73,
+            "date": "March 14th, 2025",
+            "year": 1983,
+            "title": "Institutionalized",
+            "artist": "Suicidal Tendencies",
+            "album": "Suicidal Tendencies",
+            "image": "/sotd/suicidal-tendencies.jpg"
+        },
+        {
+            "num": 74,
+            "date": "March 15th, 2025",
+            "year": 2024,
+            "title": "Slowly like the Wind",
+            "artist": "Current Joys",
+            "album": "East My Love",
+            "image": "/sotd/east-my-love.jpg"
+        },
+        {
+            "num": 75,
+            "date": "March 16th, 2025",
+            "year": 1999,
+            "title": "It's Gonna Kill Me",
+            "artist": "Filter",
+            "album": "Title Of Record",
+            "image": "/sotd/title-of-record.jpg"
+        },
+        {
+            "num": 76,
+            "date": "March 17th, 2025",
+            "year": 1980,
+            "title": "Failing Light",
+            "artist": "Harold Budd, Brian Eno",
+            "album": "Ambient 2: The Plateaux of Mirror",
+            "image": "/sotd/ambient-2.jpg"
+        },
+        {
+            "num": 77,
+            "date": "March 18th, 2025",
+            "year": 1993,
+            "title": "The Forest of Slumber",
+            "artist": "Ken-Ichiro Isoda",
+            "album": "Stress Clinic",
+            "image": "/sotd/stress-clinic.jpg"
+        },
+        {
+            "num": 78,
+            "date": "March 19th, 2025",
+            "year": 1978,
+            "title": "1/1",
+            "artist": "Brian Eno",
+            "album": "Ambient 1: Music for Airports",
+            "image": "/sotd/ambient-1.jpg"
+        },
+        {
+            "num": 79,
+            "date": "March 20th, 2025",
+            "year": 1986,
+            "title": "Time After Time",
+            "artist": "Hiroshi Yoshimura",
+            "album": "Surround",
+            "image": "/sotd/surround.jpg"
+        },
+        {
+            "num": 80,
+            "date": "March 21st, 2025",
+            "year": 2008,
+            "title": "Viva La Vida",
+            "artist": "Coldplay",
+            "album": "Viva La Vida Or Death And All His Friends",
+            "image": "/sotd/viva-la-vida.jpg"
+        },
+        {
+            "num": 81,
+            "date": "March 22nd, 2025",
+            "year": 1999,
+            "title": "Deceptacon",
+            "artist": "Le Tigre",
+            "album": "Le Tigre",
+            "image": "/sotd/le-tigre.jpg"
+        },
+        {
+            "num": 82,
+            "date": "March 23rd, 2025",
+            "year": 2024,
+            "title": "Loss",
+            "artist": "fantasy of a broken heart",
+            "album": "Loss",
+            "image": "/sotd/loss.jpg"
+        },
+        {
+            "num": 83,
+            "date": "March 24th, 2025",
+            "year": 1995,
+            "title": "Cupid De Locke",
+            "artist": "The Smashing Pumpkins",
+            "album": "Mellon Collie And The Infinite Sadness",
+            "image": "/sotd/mellon-collie.jpg"
+        },
+        {
+            "num": 84,
+            "date": "March 25th, 2025",
+            "year": 2025,
+            "title": "Angel",
+            "artist": "Weatherday",
+            "album": "Hornet Disaster",
+            "image": "/sotd/hornet-disaster.jpg"
+        },
+        {
+            "num": 85,
+            "date": "March 26th, 2025",
+            "year": 2025,
+            "title": "Chopland Sedans",
+            "artist": "Weatherday",
+            "album": "Hornet Disaster",
+            "image": "/sotd/hornet-disaster.jpg"
+        },
+        {
+            "num": 86,
+            "date": "March 27th, 2025",
+            "year": 1984,
+            "title": "Black Coffee",
+            "artist": "Black Flag",
+            "album": "Slip It In",
+            "image": "/sotd/slip-it-in.jpg"
+        },
+        {
+            "num": 87,
+            "date": "March 28th, 2025",
+            "year": 2015,
+            "title": "Paper Trail$",
+            "artist": "Joey Bada$$",
+            "album": "B4.DA.$$",
+            "image": "/sotd/b4-da.jpg"
+        },
+        {
+            "num": 88,
+            "date": "March 29th, 2025",
+            "year": 2025,
+            "title": "Ripped Apart By Hands",
+            "artist": "Weatherday",
+            "album": "Hornet Disaster",
+            "image": "/sotd/hornet-disaster.jpg"
+        },
+        {
+            "num": 89,
+            "date": "March 30th, 2025",
+            "year": 2022,
+            "title": "Fear City",
+            "artist": "Surf Curse",
+            "album": "Magic Hour",
+            "image": "/sotd/magic-hour.jpg"
+        },
+        {
+            "num": 90,
+            "date": "March 31st, 2025",
+            "year": 2019,
+            "title": "Angry Lizard Noise",
+            "artist": "benches",
+            "album": "Wishful Thinking (At Its Best)",
+            "image": "/sotd/wishful-thinking.jpg"
+        }
+    ]
+}
