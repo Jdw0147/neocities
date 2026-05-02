@@ -795,20 +795,572 @@
         {
             "num": 89,
             "date": "March 30th, 2025",
-            "year": 2022,
-            "title": "Fear City",
-            "artist": "Surf Curse",
-            "album": "Magic Hour",
-            "image": "/sotd/magic-hour.jpg"
-        },
-        {
-            "num": 90,
-            "date": "March 31st, 2025",
             "year": 2019,
             "title": "Angry Lizard Noise",
             "artist": "benches",
             "album": "Wishful Thinking (At Its Best)",
             "image": "/sotd/wishful-thinking.jpg"
+        },
+        {
+            "num": 90,
+            "date": "March 31st, 2025",
+            "year": 2001,
+            "title": "Glide",
+            "artist": "Lily Chou-Chou",
+            "album": "Kokyuu",
+            "image": "/sotd/kokyuu.jpg"
+        },
+        {
+            "num": 91,
+            "date": "April 1st, 2025",
+            "year": 2014,
+            "title": "Black Seretonin",
+            "artist": "Hail The Sun",
+            "album": "Wake",
+            "image": "/sotd/wake.jpg"
+        },
+        {
+            "num": 92,
+            "date": "April 2nd, 2025",
+            "year": 2012,
+            "title": "Entombed",
+            "artist": "Deftones",
+            "album": "Koi No Yokan",
+            "image": "/sotd/koi-no-yokan.jpg"
+        },
+        {
+            "num": 93,
+            "date": "April 3rd, 2025",
+            "year": 1986,
+            "title": "Lazy Calm",
+            "artist": "Cocteau Twins",
+            "album": "Victorialand",
+            "image": "/sotd/victorialand.jpg"
+        },
+        {
+            "num": 94,
+            "date": "April 4th, 2025",
+            "year": 2022,
+            "title": "Woohoo",
+            "artist": "Fleshwater",
+            "album": "We're Not Here To Be Loved",
+            "image": "/sotd/were-not-here-to-be-loved.jpg"
+        },
+        {
+            "num": 95,
+            "date": "April 5th, 2025",
+            "year": 2025,
+            "title": "I Feel Alive (from \"A Minecraft Movie\")",
+            "artist": "Jack Black",
+            "album": "I Feel Alive (from \"A Minecraft Movie\")",
+            "image": "/sotd/i-feel-alive.jpg"
+        },
+        {
+            "num": 96,
+            "date": "April 6th, 2025",
+            "year": 2022,
+            "title": "Cool - Bonus Track",
+            "artist": "Sobs",
+            "album": "Air Guitar",
+            "image": "/sotd/air-guitar.jpg"
+        },
+        {
+            "num": 97,
+            "date": "April 7th, 2025",
+            "year": 2008,
+            "title": "Let the Flames Begin - Live at the Congress Theatre, Chicago, IL, 8/12/2008",
+            "artist": "Paramore",
+            "album": "The Final Riot!",
+            "image": "/sotd/the-final-riot.jpg"
+        },
+        {
+            "num": 98,
+            "date": "April 8th, 2025",
+            "year": 2006,
+            "title": "Xerces",
+            "artist": "Deftones",
+            "album": "Saturday Night Wrist",
+            "image": "/sotd/saturday-night-wrist.jpg"
+        },
+        {
+            "num": 99,
+            "date": "April 9th, 2025",
+            "year": 2003,
+            "title": "I Don't Wanna Be Me",
+            "artist": "Type O Negative",
+            "album": "Life Is Killing Me",
+            "image": "/sotd/life-is-killing-me.jpg"
+        },
+        {
+            "num": 100,
+            "date": "April 10th, 2025",
+            "year": 2012,
+            "title": "I'm Low On Gas And You Need A Jacket",
+            "artist": "Pierce The Veil",
+            "album": "Collide With The Sky",
+            "image": "/sotd/collide-with-the-sky.jpg"
+        },
+        {
+            "num": 101,
+            "date": "April 11th, 2025",
+            "year": 2017,
+            "title": "Flowerchild",
+            "artist": "Citizen",
+            "album": "As You Please",
+            "image": "/sotd/as-you-please.jpg"
+        },
+        {
+            "num": 102,
+            "date": "April 12th, 2025",
+            "year": 1995,
+            "title": "Fake Plastic Trees",
+            "artist": "Radiohead",
+            "album": "The Bends",
+            "image": "/sotd/the-bends.jpg"
+        },
+        {
+            "num": 103,
+            "date": "April 13th, 2025",
+            "year": 2022,
+            "title": "Two-Way Mirror",
+            "artist": "Loathe",
+            "album": "I Let It in And It Took Everything",
+            "image": "/sotd/i-let-it-in-and-it-took-everything.jpg"
+        },
+        {
+            "num": 104,
+            "date": "April 14th, 2025",
+            "year": 2003,
+            "title": "The End Has No End",
+            "artist": "The Strokes",
+            "album": "Room On Fire",
+            "image": "/sotd/room-on-fire.jpg"
+        },
+        {
+            "num": 105,
+            "date": "April 15th, 2025",
+            "year": 1983,
+            "title": "Pipeline",
+            "artist": "Agent Orange",
+            "album": "Bitchin' Summer",
+            "image": "/sotd/bitchin-summer.jpg"
+        },
+        {
+            "num": 106,
+            "date": "April 16th, 2025",
+            "year": 2024,
+            "title": "Pretty Pictures",
+            "artist": "Foxtide",
+            "album": "Chaos",
+            "image": "/sotd/chaos.jpg"
+        },
+        {
+            "num": 107,
+            "date": "April 17th, 2025",
+            "year": 1972,
+            "title": "Moonage Daydream",
+            "artist": "David Bowie",
+            "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+            "image": "/sotd/ziggy-stardust.jpg"
+        },
+        {
+            "num": 108,
+            "date": "April 18th, 2025",
+            "year": 2004,
+            "title": "2nd Movement of the Odyssey",
+            "artist": "Incubus, Halo",
+            "album": "Halo 2, Vol. 1 (Original Soundtrack)",
+            "image": "/sotd/halo-2.jpg"
+        },
+        {
+            "num": 109,
+            "date": "April 19th, 2025",
+            "year": 2023,
+            "title": "Bootstraps",
+            "artist": "Smoke Free Home",
+            "album": "Bootstraps",
+            "image": "/sotd/bootstraps.jpg"
+        },
+        {
+            "num": 110,
+            "date": "April 20th, 2025",
+            "year": 1981,
+            "title": "The Moon Rose",
+            "artist": "Masayoshi Takanaka",
+            "album": "The Rainbow Goblins",
+            "image": "/sotd/the-rainbow-goblins.jpg"
+        },
+        {
+            "num": 111,
+            "date": "April 21st, 2025",
+            "year": 1980,
+            "title": "Your Phone's off the Hook, But You're Not",
+            "artist": "X",
+            "album": "Los Angeles",
+            "image": "/sotd/los-angeles.jpg"
+        },
+        {
+            "num": 112,
+            "date": "April 22nd, 2025",
+            "year": 1995,
+            "title": "Suicidal Dream",
+            "artist": "Silverchair",
+            "album": "Frogstomp",
+            "image": "/sotd/frogstomp.jpg"
+        },
+        {
+            "num": 113,
+            "date": "April 23rd, 2025",
+            "year": 1999,
+            "title": "Cyco Vision",
+            "artist": "Suicidal Tendencies",
+            "album": "Freedumb",
+            "image": "/sotd/freedumb.jpg"
+        },
+        {
+            "num": 114,
+            "date": "April 24th, 2025",
+            "year": 2023,
+            "title": "Tunnel Vision Alibi",
+            "artist": "Hail The Sun",
+            "album": "Divine Inner Tension",
+            "image": "/sotd/divine-inner-tension.jpg"
+        },
+        {
+            "num": 115,
+            "date": "April 25th, 2025",
+            "year": 2020,
+            "title": "Anthem",
+            "artist": "Father John Misty",
+            "album": "Anthem +3",
+            "image": "/sotd/anthem-plus-3.jpg"
+        },
+        {
+            "num": 116,
+            "date": "April 26th, 2025",
+            "year": 2017,
+            "title": "Garden Shed (feat.Estelle)",
+            "artist": "Tyler, The Creator, Estelle",
+            "album": "Flower Boy",
+            "image": "/sotd/flower-boy.jpg"
+        },
+        {
+            "num": 117,
+            "date": "April 27th, 2025",
+            "year": 2019,
+            "title": "Low Beam",
+            "artist": "Her's",
+            "album": "Invitation to Her's",
+            "image": "/sotd/invitation-to-hers.jpg"
+        },
+        {
+            "num": 118,
+            "date": "April 18th, 2025",
+            "year": 2020,
+            "title": "Unlucky",
+            "artist": "Lunar Vacation",
+            "album": "Unlucky",
+            "image": "/sotd/unlucky.jpg"
+        },
+        {
+            "num": 119,
+            "date": "April 29th, 2025",
+            "year": 1979,
+            "title": "Fix Me",
+            "artist": "Black Flag",
+            "album": "Nervous Breakdown",
+            "image": "/sotd/nervous-breakdown.jpg"
+        },
+        {
+            "num": 120,
+            "date": "April 30th, 2025",
+            "year": 2005,
+            "title": "Battle of the Heroes",
+            "artist": "John Williams, London Symphony Orchestra",
+            "album": "Star Wars: Revenge of the Sith (Original Motion Picture Soundtrack)",
+            "image": "/sotd/revenge-of-the-sith.jpg"
+        },
+        {
+            "num": 121,
+            "date": "May 1st, 2025",
+            "year": 1978,
+            "title": "Just What I Needed",
+            "artist": "The Cars",
+            "album": "The Cars",
+            "image": "/sotd/the-cars.jpg"
+        },
+        {
+            "num": 122,
+            "date": "May 2nd, 2025",
+            "year": 2015,
+            "title": "Intrapersonal",
+            "artist": "Turnover",
+            "album": "Peripheral Vision",
+            "image": "/sotd/peripheral-vision.jpg"
+        },
+        {
+            "num": 123,
+            "date": "May 3rd, 2025",
+            "year": 1983,
+            "title": "Memories Fade",
+            "artist": "Tears For Fears",
+            "album": "The Hurting",
+            "image": "/sotd/the-hurting.jpg"
+        },
+        {
+            "num": 124,
+            "date": "May 4th, 2025",
+            "year": 1978,
+            "title": "Rhapsoody In Blue",
+            "artist": "George Gershwin",
+            "album": "Gershwin Plays Gershwin: The Piano Rolls",
+            "image": "/sotd/gershwin.jpg"
+        },
+        {
+            "num": 125,
+            "date": "May 5th, 2025",
+            "year": 2014,
+            "title": "Dare I Care",
+            "artist": "The Voidz",
+            "album": "Tyranny",
+            "image": "/sotd/tyranny.jpg"
+        },
+        {
+            "num": 126,
+            "date": "May 6th, 2025",
+            "year": 2013,
+            "title": "Epic Rap Battle: Nerd vs. Geek",
+            "artist": "Rhett and Link",
+            "album": "Epic Rap Battle: Nerd vs. Geek",
+            "image": "/sotd/nerd-vs-geek.jpg"
+        },
+        {
+            "num": 127,
+            "date": "May 7th, 2025",
+            "year": 2017,
+            "title": "HEAT",
+            "artist": "BROCKHAMPTON",
+            "album": "SATURATION",
+            "image": "/sotd/saturation.jpg"
+        },
+        {
+            "num": 128,
+            "date": "May 8th, 2025",
+            "year": 1985,
+            "title": "Jock-O-Rama (aka Macho Rama)",
+            "artist": "Dead Kennedys",
+            "album": "Frankenchrist",
+            "image": "/sotd/frankenchrist.jpg"
+        },
+        {
+            "num": 129,
+            "date": "May 9th, 2025",
+            "year": 2006,
+            "title": "Cancer",
+            "artist": "My Chemical Romance",
+            "album": "The Black Parade",
+            "image": "/sotd/the-black-parade.jpg"
+        },
+        {
+            "num": 130,
+            "date": "May 10th, 2025",
+            "year": 1987,
+            "title": "The Second Summer",
+            "artist": "Himiko Kikuchi",
+            "album": "FLYING BEAGLE",
+            "image": "/sotd/flying-beagle.jpg"
+        },
+        {
+            "num": 131,
+            "date": "May 11th, 2025",
+            "year": 2001,
+            "title": "Schism",
+            "artist": "Tool",
+            "album": "Lateralus",
+            "image": "/sotd/lateralus.jpg"
+        },
+        {
+            "num": 132,
+            "date": "May 12th, 2025",
+            "year": 2008,
+            "title": "Decode",
+            "artist": "Paramore",
+            "album": "Decode",
+            "image": "/sotd/decode.jpg"
+        },
+        {
+            "num": 133,
+            "date": "May 13th, 2025",
+            "year": 1982,
+            "title": "First Light",
+            "artist": "Makoto Matsushita",
+            "album": "FIRST LIGHT",
+            "image": "/sotd/first-light.jpg"
+        },
+        {
+            "num": 134,
+            "date": "May 14th, 2025",
+            "year": 2017,
+            "title": "TEAM",
+            "artist": "BROCKHAMPTON",
+            "album": "SATURATION III",
+            "image": "/sotd/saturation-iii.jpg"
+        },
+        {
+            "num": 135,
+            "date": "May 15th, 2025",
+            "year": 2020,
+            "title": "Agni Kai - Epic Version",
+            "artist": "Samuel Kim",
+            "album": "Avatar: The Last Airbender (Epic Collection)",
+            "image": "/sotd/avatar-the-last-airbender.jpg"
+        },
+        {
+            "num": 136,
+            "date": "May 16th, 2025",
+            "year": 1996,
+            "title": "I Will Survive",
+            "artist": "Cake",
+            "album": "Fashion Nugget",
+            "image": "/sotd/fashion-nugget.jpg"
+        },
+        {
+            "num": 137,
+            "date": "May 17th, 2025",
+            "year": 2020,
+            "title": "A Sad Cartoon",
+            "artist": "Loathe",
+            "album": "I Let It in And It Took Everything",
+            "image": "/sotd/i-let-it-in-and-it-took-everything.jpg"
+        },
+        {
+            "num": 138,
+            "date": "May 18th, 2025",
+            "year": 2014,
+            "title": "Human Sadness",
+            "artist": "The Voidz",
+            "album": "Tyranny",
+            "image": "/sotd/tyranny.jpg"
+        },
+        {
+            "num": 139,
+            "date": "May 19th, 2025",
+            "year": 1969,
+            "title": "Space Oddity",
+            "artist": "David Wheeler",
+            "album": "David Bowie (aka Space Oddity)",
+            "image": "/sotd/david-bowie.jpg"
+        },
+        {
+            "num": 140,
+            "date": "May 20th, 2025",
+            "year": 1997,
+            "title": "It's Gonna Be (Alright)",
+            "artist": "Ween",
+            "album": "The Mollusk",
+            "image": "/sotd/the-mollusk.jpg"
+        },
+        {
+            "num": 131,
+            "date": "May 21st, 2025",
+            "year": 2015,
+            "title": "Dræm Girl",
+            "artist": "No Vaction",
+            "album": "Summer Break Mixtape",
+            "image": "/sotd/summer-break-mixtape.jpg"
+        },
+        {
+            "num": 132,
+            "date": "May 22nd, 2025",
+            "year": 2023,
+            "title": "I Saw You Hanging",
+            "artist": "Hail The Sun",
+            "album": "Divine Inner Tension",
+            "image": "/sotd/divine-inner-tension.jpg"
+        },
+        {
+            "num": 133,
+            "date": "May 23rd, 2025",
+            "year": 2020,
+            "title": "Hello Goodbye",
+            "artist": "waveform*",
+            "album": "Last Room",
+            "image": "/sotd/last-room.jpg"
+        },
+        {
+            "num": 134,
+            "date": "May 24th, 2025",
+            "year": 1994,
+            "title": "RAINBOW",
+            "artist": "Masayoshi Takanaka",
+            "album": "On Guitar",
+            "image": "/sotd/on-guitar.jpg"
+        },
+        {
+            "num": 135,
+            "date": "May 25th, 2025",
+            "year": 2023,
+            "title": "from here on out",
+            "artist": "lighthearted",
+            "album": "from here on out",
+            "image": "/sotd/from-here-on-out.jpg"
+        },
+        {
+            "num": 136,
+            "date": "May 26th, 2025",
+            "year": 2017,
+            "title": "ALASKA",
+            "artist": "BROCKHAMPTON",
+            "album": "SATURATION III",
+            "image": "/sotd/saturation-iii.jpg"
+        },
+        {
+            "num": 137,
+            "date": "May 27th, 2025",
+            "year": 2025,
+            "title": "I Lied to You",
+            "artist": "Miles Caton, Sinners Movie",
+            "album": "Sinners (Original Motion Picture Soundtrack)",
+            "image": "/sotd/sinners.jpg"
+        },
+        {
+            "num": 138,
+            "date": "May 28th, 2025",
+            "year": 2017,
+            "title": "No Longer Making Time",
+            "artist": "Slowdive",
+            "album": "Slowdive",
+            "image": "/sotd/slowdive.jpg"
+        },
+        {
+            "num": 139,
+            "date": "May 29th, 2025",
+            "year": 2013,
+            "title": "The House on the Corner",
+            "artist": "Choir Vandals",
+            "album": "Darker Things",
+            "image": "/sotd/darker-things.jpg"
+        },
+        {
+            "num": 140,
+            "date": "May 30th, 2025",
+            "year": 2025,
+            "title": "Afterlife",
+            "artist": "Alex G",
+            "album": "Afterlife",
+            "image": "/sotd/afterlife.jpg"
+        },
+        {
+            "num": 141,
+            "date": "May 31st, 2025",
+            "year": 1987,
+            "title": "Strangers Of The Heart",
+            "artist": "Heart",
+            "album": "Bad Animals",
+            "image": "/sotd/bad-animals.jpg"
         }
+
+
+
     ]
 }
