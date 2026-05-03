@@ -1081,7 +1081,26 @@
       "artist": "The Strokes",
       "album": "Future Present Past",
       "image": "/sotd/future-present-past.jpg"
+    },
+    {
+      "num": 121,
+      "date": "May 1st, 2026",
+      "year": 1962,
+      "title": "Misirlou",
+      "artist": "Dick Dale And His Del-Tones",
+      "album": "Surfer's Choice",
+      "image": "/sotd/surfers-choice.jpg"
+    },
+    {
+      "num": 122,
+      "date": "May 2nd, 2026",
+      "year": 1995,
+      "title": "Bed For The Scraping",
+      "artist": "Fugazi",
+      "album": "Red Medicine",
+      "image": "/sotd/red-medicine.jpg"
     }
+
 
 
 

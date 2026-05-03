@@ -290,7 +290,7 @@
         },
         {
             "num": 33,
-            "date": "January 2nd, 2025",
+            "date": "February 2nd, 2025",
             "year": 1972,
             "title": "Take It Easy",
             "artist": "Eagles",
@@ -1358,9 +1358,303 @@
             "artist": "Heart",
             "album": "Bad Animals",
             "image": "/sotd/bad-animals.jpg"
+        },
+        {
+            "num": 142,
+            "date": "June 1st, 2025",
+            "year": 2016,
+            "title": "Lucky Blade",
+            "artist": "Jacuzzi Boys",
+            "album": "Ping Pong",
+            "image": "/sotd/ping-pong.jpg"
+        },
+        {
+            "num": 143,
+            "date": "June 2nd, 2025",
+            "year": 2023,
+            "title": "Lethal",
+            "artist": "Frost Children",
+            "album": "Hearth Room",
+            "image": "/sotd/hearth-room.jpg"
+        },
+        {
+            "num": 144,
+            "date": "June 3rd, 2025",
+            "year": 2021,
+            "title": "do-re-mi-fa-so-la-ti-do",
+            "artist": "Porter Robinson",
+            "album": "Nurture",
+            "image": "/sotd/nurture.jpg"
+        },
+        {
+            "num": 145,
+            "date": "June 4th, 2025",
+            "year": 2003,
+            "title": "IOU",
+            "artist": "Metric",
+            "album": "One World Underground, Where Are You Now?",
+            "image": "/sotd/one-world-underground-where-are-you-now.jpg"
+        },
+        {
+            "num": 146,
+            "date": "June 5th, 2025",
+            "year": 2020,
+            "title": "It Doesn't Have To Change",
+            "artist": "benches",
+            "album": "It Doesn't Have To Change",
+            "image": "/sotd/it-doesnt-have-to-change.jpg"
+        },
+        {
+            "num": 147,
+            "date": "June 6th, 2025",
+            "year": 2024,
+            "title": "SLOWDIVE",
+            "artist": "Turnstile",
+            "album": "NEVER ENOUGH",
+            "image": "/sotd/never-enough.jpg"
+        },
+        {
+            "num": 148,
+            "date": "June 7th, 2025",
+            "year": 1996,
+            "title": "Pillowhead",
+            "artist": "Failure",
+            "album": "Fantastic Planet",
+            "image": "/sotd/fantastic-planet.jpg"
+        },
+        {
+            "num": 149,
+            "date": "June 8th, 2025",
+            "year": 1994,
+            "title": "Seven",
+            "artist": "Sunny Day Real Estate",
+            "album": "Diary",
+            "image": "/sotd/diary.jpg"
+        },
+        {
+            "num": 150,
+            "date": "June 9th, 2025",
+            "year": 2022,
+            "title": "Four Point Steel Star",
+            "artist": "Kumo 99",
+            "album": "Body N. Will",
+            "image": "/sotd/body-n-will.jpg"
+        },
+        {
+            "num": 151,
+            "date": "June 10th, 2025",
+            "year": 1965,
+            "title": "Tell Her No",
+            "artist": "The Zombies",
+            "album": "Begin Here",
+            "image": "/sotd/begin-here.jpg"
+        },
+        {
+            "num": 152,
+            "date": "June 11th, 2025",
+            "year": 1972,
+            "title": "The Magician's Birthday",
+            "artist": "Uriah Heep",
+            "album": "The Magician's Birthday",
+            "image": "/sotd/the-magicians-birthday.jpg"
+        },
+        {
+            "num": 153,
+            "date": "June 12th, 2025",
+            "year": 2022,
+            "title": "Fuzz Jam",
+            "artist": "The Lazy Eyes",
+            "album": "SongBook",
+            "image": "/sotd/songbook.jpg"
+        },
+        {
+            "num": 154,
+            "date": "June 13th, 2025",
+            "year": 1963,
+            "title": "Ring of Fire",
+            "artist": "Johnny Cash",
+            "album": "Ring Of Fire: The Best of Johnny Cash",
+            "image": "/sotd/ring-of-fire.jpg"
+        },
+        {
+            "num": 155,
+            "date": "June 14th, 2025",
+            "year": 1994,
+            "title": "Shadows",
+            "artist": "Sunny Day Real Estate",
+            "album": "Diary",
+            "image": "/sotd/diary.jpg"
+        },
+        {
+            "num": 156,
+            "date": "June 15th, 2025",
+            "year": 1982,
+            "title": "Take Me",
+            "artist": "Point Blank",
+            "album": "On a Roll",
+            "image": "/sotd/on-a-roll.jpg"
+        },
+        {
+            "num": 157,
+            "date": "June 16th, 2025",
+            "year": 2018,
+            "title": "Jeju Island",
+            "artist": "Item",
+            "album": "Sad Light",
+            "image": "/sotd/sad-light.jpg"
+        },
+        {
+            "num": 158,
+            "date": "June 17th, 2025",
+            "year": 2024,
+            "title": "seams",
+            "artist": "twikipedia",
+            "album": "for the rest of your life",
+            "image": "/sotd/for-the-rest-of-your-life.jpg"
+        },
+        {
+            "num": 159,
+            "date": "June 18th, 2025",
+            "year": 2024,
+            "title": "Desire",
+            "artist": "Fontaines D.C.",
+            "album": "Romance",
+            "image": "/sotd/romance.jpg"
+        },
+        {
+            "num": 160,
+            "date": "June 19th, 2025",
+            "year": 1984,
+            "title": "Willaim, It Was Really Nothing",
+            "artist": "The Smiths",
+            "album": "Hatful of Hollow",
+            "image": "/sotd/hatful-of-hollow.jpg"
+        },
+        {
+            "num": 161,
+            "date": "June 20th, 2025",
+            "year": 2024,
+            "title": "dry your eyes",
+            "artist": "twikipedia",
+            "album": "for the rest of your life",
+            "image": "/sotd/for-the-rest-of-your-life.jpg"
+        },
+        {
+            "num": 162,
+            "date": "June 21st, 2025",
+            "year": 2013,
+            "title": "Crust Bucket",
+            "artist": "The Frights",
+            "album": "The Frights",
+            "image": "/sotd/the-frights.jpg"
+        },
+        {
+            "num": 163,
+            "date": "June 22nd, 2025",
+            "year": 2024,
+            "title": "cardboard boxes",
+            "artist": "twikipedia",
+            "album": "for the rest of your life",
+            "image": "/sotd/for-the-rest-of-your-life.jpg"
+        },
+        {
+            "num": 164,
+            "date": "June 23rd, 2025",
+            "year": 2023,
+            "title": "Stare At The Sun",
+            "artist": "Frost Children",
+            "album": "Hearth Room",
+            "image": "/sotd/hearth-room.jpg"
+        },
+        {
+            "num": 165,
+            "date": "June 24th, 2025",
+            "year": 2024,
+            "title": "learn yourself",
+            "artist": "twikipedia",
+            "album": "for the rest of your life",
+            "image": "/sotd/for-the-rest-of-your-life.jpg"
+        },
+        {
+            "num": 166,
+            "date": "June 25th, 2025",
+            "year": 2002,
+            "title": "Say Hello to the Angels",
+            "artist": "Interpol",
+            "album": "Turn On The Bright Lights",
+            "image": "/sotd/turn-on-the-bright-lights.jpg"
+        },
+        {
+            "num": 167,
+            "date": "June 26th, 2025",
+            "year": 1973,
+            "title": "Don't Let Me Down",
+            "artist": "The Beatles",
+            "album": "The Beatles 1967-1970",
+            "image": "/sotd/the-beatles-1967-1970.jpg"
+        },
+        {
+            "num": 168,
+            "date": "June 27th, 2025",
+            "year": 2023,
+            "title": "I Thought You'd Change",
+            "artist": "Hotline TNT",
+            "album": "Cartwheel",
+            "image": "/sotd/cartwheel.jpg"
+        },
+        {
+            "num": 169,
+            "date": "June 28th, 2025",
+            "year": 2025,
+            "title": "97-Jag",
+            "artist": "Kevin Abstract, Love Spells",
+            "album": "Blush",
+            "image": "/sotd/blush.jpg"
+        },
+        {
+            "num": 170,
+            "date": "June 29th, 2025",
+            "year": 2023,
+            "title": "Sunburn",
+            "artist": "Dominic Fike",
+            "album": "Sunburn",
+            "image": "/sotd/sunburn.jpg"
+        },
+        {
+            "num": 171,
+            "date": "June 30th, 2025",
+            "year": 1996,
+            "title": "Roseblood",
+            "artist": "Mazzy Star",
+            "album": "Among My Swan",
+            "image": "/sotd/among-my-swan.jpg"
+        },
+        {
+            "num": 172,
+            "date": "July 1st, 2025",
+            "year": 2003,
+            "title": "Pot Kettle Black",
+            "artist": "Wilco",
+            "album": "Yankee Hotel Foxtrot",
+            "image": "/sotd/yankee-hotel-foxtrot.jpg"
+        },
+        {
+            "num": 173,
+            "date": "July 2nd, 2025",
+            "year": 2019,
+            "title": "Sleepwalk",
+            "artist": "Boyscott",
+            "album": "Goose Bumps",
+            "image": "/sotd/goose-bumps.jpg"
+        },{
+            "num": 174,
+            "date": "July 3rd, 2025",
+            "year": 1991,
+            "title": "Sometimes",
+            "artist": "My Bloody Valentine",
+            "album": "Loveless",
+            "image": "/sotd/loveless.jpg"
         }
-
-
-
+        
     ]
 }
