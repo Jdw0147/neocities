@@ -1646,7 +1646,8 @@
             "artist": "Boyscott",
             "album": "Goose Bumps",
             "image": "/sotd/goose-bumps.jpg"
-        },{
+        },
+        {
             "num": 174,
             "date": "July 3rd, 2025",
             "year": 1991,
@@ -1654,7 +1655,258 @@
             "artist": "My Bloody Valentine",
             "album": "Loveless",
             "image": "/sotd/loveless.jpg"
+        },
+        {
+            "num": 175,
+            "date": "July 4th, 2025",
+            "year": 1981,
+            "title": "Bloodstains - Original Version",
+            "artist": "Agent Orange",
+            "album": "Living In Darkness",
+            "image": "/sotd/living-in-darkness.jpg"
+        },
+        {
+            "num": 176,
+            "date": "July 5th, 2025",
+            "year": 2018,
+            "title": "1K",
+            "artist": "Bay Faction",
+            "album": "Florida Guilt",
+            "image": "/sotd/florida-guilt.jpg"
+        },
+        {
+            "num": 177,
+            "date": "July 6th, 2025",
+            "year": 2022,
+            "title": "Imposter Syndrome",
+            "artist": "Candy Cigarette",
+            "album": "Candy Cigarette",
+            "image": "/sotd/candy-cigarette.png"
+        },
+        {
+            "num": 178,
+            "date": "July 7th, 2025",
+            "year": 2002,
+            "title": "Paint's Peeling",
+            "artist": "Rilo Kiley",
+            "album": "The Execution of All Things",
+            "image": "/sotd/the-execution-of-all-things.jpg"
+        },
+        {
+            "num": 179,
+            "date": "July 8th, 2025",
+            "year": 1967,
+            "title": "Hello, Goodbye",
+            "artist": "The Beatles",
+            "album": "Magical Mystery Tour",
+            "image": "/sotd/magical-mystery-tour.jpg"
+        },
+        {
+            "num": 180,
+            "date": "July 9th, 2025",
+            "year": 1987,
+            "title": "Ceremony",
+            "artist": "New Order",
+            "album": "Substance",
+            "image": "/sotd/substance.jpg"
+        },
+        {
+            "num": 181,
+            "date": "July 10th, 2025",
+            "year": 2018,
+            "title": "the cool",
+            "artist": "Oso Oso",
+            "album": "the yunahon mixtape",
+            "image": "/sotd/the-yunahon-mixtape.jpg"
+        },
+        {
+            "num": 182,
+            "date": "July 11th, 2025",
+            "year": 2018,
+            "title": "Donor",
+            "artist": "Bay Faction",
+            "album": "Florida Guilt",
+            "image": "/sotd/florida-guilt.jpg"
+        },
+        {
+            "num": 183,
+            "date": "July 12th, 2025",
+            "year": 2024,
+            "title": "My Favorite Girl Loves Reading",
+            "artist": "Foxtide",
+            "album": "Chaos",
+            "image": "/sotd/chaos.jpg"
+        },
+        {
+            "num": 184,
+            "date": "July 13th, 2025",
+            "year": 2018,
+            "title": "shoes (the sneaker song)",
+            "artist": "Oso Oso",
+            "album": "the yunahon mixtape",
+            "image": "/sotd/the-yunahon-mixtape.jpg"
+        },
+        {
+            "num": 185,
+            "date": "July 14th, 2025",
+            "year": 2023,
+            "title": "Blight",
+            "artist": "Zeruel",
+            "album": "Blight",
+            "image": "/sotd/blight.jpg"
+        },
+        {
+            "num": 186,
+            "date": "July 15th, 2025",
+            "year": 1982,
+            "title": "Once Upon a Song",
+            "artist": "Masayoshi Takanaka",
+            "album": "The Rainbow Goblins",
+            "image": "/sotd/the-rainbow-goblins.jpg"
+        },
+        {
+            "num": 187,
+            "date": "July 16th, 2025",
+            "year": 2018,
+            "title": "READY FOR WAR",
+            "artist": "BROCKHAMPTON",
+            "album": "PUPPY",
+            "image": "/sotd/puppy.jpg"
+        },
+        {
+            "num": 188,
+            "date": "July 17th, 2025",
+            "year": 1989,
+            "title": "Blue Thunder",
+            "artist": "Galaxie 500",
+            "album": "On Fire",
+            "image": "/sotd/on-fire.jpg"
+        },
+        {
+            "num": 189,
+            "date": "July 18th, 2025",
+            "year": 2018,
+            "title": "Dear Prudence - 2018 Mix",
+            "artist": "The Beatles",
+            "album": "The Beatles (Super Deluxe)",
+            "image": "/sotd/the-beatles-super-deluxe.jpg"
+        },
+        {
+            "num": 190,
+            "date": "July 19th, 2025",
+            "year": 2003,
+            "title": "Expo'86",
+            "artist": "Death Cab For Cutie",
+            "album": "Transatlanticism",
+            "image": "/sotd/transatlanticism.jpg"
+        },
+        {
+            "num": 191,
+            "date": "July 20th, 2026",
+            "year": 2007,
+            "title": "My Way Home Is Through You",
+            "artist": "My Chemical Romance",
+            "album": "Famous Last Words",
+            "image": "/sotd/famous-last-words.jpg"
+        },
+        {
+            "num": 192,
+            "date": "July 21st, 2025",
+            "year": 1999,
+            "title": "Carry the Zero",
+            "artist": "Built To Spill",
+            "album": "Keep It Like a Secret",
+            "image": "/sotd/keep-it-like-a-secret.jpg"
+        },
+        {
+            "num": 193,
+            "date": "July 22nd, 2025",
+            "year": 2021,
+            "title": "Blossom",
+            "artist": "Porter Robinson",
+            "album": "Nurture",
+            "image": "/sotd/nurture.jpg"
+        },
+        {
+            "num": 194,
+            "date": "July 23rd, 2025",
+            "year": 2004,
+            "title": "Non Photo-Blue",
+            "artist": "Pinback",
+            "album": "Summer in Abaddon",
+            "image": "/sotd/summer-in-abaddon.jpg"
+        },
+        {
+            "num": 195,
+            "date": "July 24th, 2025",
+            "year": 1979,
+            "title": "Chain Of Command",
+            "artist": "XTC",
+            "album": "Drums And Wires",
+            "image": "/sotd/drums-and-wires.jpg"
+        },
+        {
+            "num": 196,
+            "date": "July 25th, 2025",
+            "year": 2025,
+            "title": "GODSTAINED",
+            "artist": "Quadeca",
+            "album": "Vanisher, Horizon Scraper",
+            "image": "/sotd/vanisher-horizon-scraper.jpg"
+        },
+        {
+            "num": 197,
+            "date": "July 26th, 2025",
+            "year": 1973,
+            "title": "Lullaby",
+            "artist": "Loudon Wainwright III",
+            "album": "Attempted Mustache",
+            "image": "/sotd/attempted-mustache.jpg"
+        },
+        {
+            "num": 198,
+            "date": "July 27th, 2025",
+            "year": 2022,
+            "title": "Human Crime",
+            "artist": "Pixies",
+            "album": "Human Crime",
+            "image": "/sotd/human-crime.jpg"
+        },
+        {
+            "num": 199,
+            "date": "July 28th, 2025",
+            "year": 2024,
+            "title": "Am I In Love With You",
+            "artist": "Foxtide",
+            "album": "Chaos",
+            "image": "/sotd/chaos.jpg"
+        },
+        {
+            "num": 200,
+            "date": "July 29th, 2025",
+            "year": 2012,
+            "title": "Spoiled",
+            "artist": "Basement",
+            "album": "Colourmeinkindness",
+            "image": "/sotd/colourmeinkindness.jpg"
+        },
+        {
+            "num": 201,
+            "date": "July 30th, 2025",
+            "year": 2017,
+            "title": "Jet",
+            "artist": "Citizen",
+            "album": "As You Please",
+            "image": "/sotd/as-you-please.jpg"
+        },
+        {
+            "num": 202,
+            "date": "July 31st, 2025",
+            "year": 2025,
+            "title": "I CARE",
+            "artist": "Turnstile",
+            "album": "NEVER ENOUGH",
+            "image": "/sotd/never-enough.jpg"
         }
-        
     ]
 }

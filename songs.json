@@ -1099,6 +1099,15 @@
       "artist": "Fugazi",
       "album": "Red Medicine",
       "image": "/sotd/red-medicine.jpg"
+    },
+    {
+      "num": 123,
+      "date": "May 3rd, 2026",
+      "year": 1997,
+      "title": "The Colour And The Shape",
+      "artist": "Foo Fighters",
+      "album": "The Colour And The Shape",
+      "image": "/sotd/the-colour-and-the-shape.jpg"
     }
 
 
