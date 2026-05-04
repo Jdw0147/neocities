@@ -184,8 +184,9 @@ function navigateToSong(index) {
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
     'April': '/backgrounds/moving/rain.gif',
-    'May': '/backgrounds/static/clouds.gif',
-    'June': '/backgrounds/static/water.gif',
+    'May': '/backgrounds/static/clouds.png',
+    'June': '/backgrounds/moving/water.gif',
+    'July': '/backgrounds/static/yellow.png',
   };
   
   // Update modal without closing/reopening
