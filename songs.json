@@ -1108,6 +1108,15 @@
       "artist": "Foo Fighters",
       "album": "The Colour And The Shape",
       "image": "/sotd/the-colour-and-the-shape.jpg"
+    },
+    {
+      "num": 124,
+      "date": "May 4th, 2026",
+      "year": 1996,
+      "title": "Waiting",
+      "artist": "The Rentals",
+      "album": "Return Of The Rentals",
+      "image": "/sotd/return-of-the-rentals.jpg"
     }
 
 
