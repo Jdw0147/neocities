@@ -12,10 +12,14 @@ async function loadSongCalendar(year = 2026) {
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
     'April': '/backgrounds/moving/rain.gif',
-    'May': '/backgrounds/static/flowers.jpg',
+    'May': '/backgrounds/static/flower-field.jpg',
     'June': '/backgrounds/moving/water.gif',
     'July': '/backgrounds/static/poolfloor.jpg',
-
+    'August': '/backgrounds/static/fabric.jpg',
+    'September': '/backgrounds/static/butterflies.gif',
+    'October': '/backgrounds/moving/ghouls.gif',
+    'November': '/backgrounds/static/leaves.jpg',
+    'December': '/backgrounds/moving/winter-sky.gif'
   };
 
   try {
@@ -185,10 +189,14 @@ function navigateToSong(index) {
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
     'April': '/backgrounds/moving/rain.gif',
-    'May': '/backgrounds/static/flowers.jpg',
+    'May': '/backgrounds/static/flower-field.jpg',
     'June': '/backgrounds/moving/water.gif',
     'July': '/backgrounds/static/poolfloor.jpg',
     'August': '/backgrounds/static/fabric.jpg',
+    'September': '/backgrounds/static/butterflies.gif',
+    'October': '/backgrounds/moving/ghouls.gif',
+    'November': '/backgrounds/static/leaves.jpg',
+    'December': '/backgrounds/moving/winter-sky.gif'
   };
   
   // Update modal without closing/reopening
