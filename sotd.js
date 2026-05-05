@@ -12,12 +12,12 @@ async function loadSongCalendar(year = 2026) {
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
     'April': '/backgrounds/moving/rain.gif',
-    'May': '/backgrounds/static/flower-field.jpg',
+    'May': '/backgrounds/static/flower-field.gif',
     'June': '/backgrounds/moving/water.gif',
     'July': '/backgrounds/static/poolfloor.jpg',
     'August': '/backgrounds/static/fabric.jpg',
     'September': '/backgrounds/static/butterflies.gif',
-    'October': '/backgrounds/moving/ghouls.gif',
+    'October': '/backgrounds/static/ghouls.gif',
     'November': '/backgrounds/static/leaves.jpg',
     'December': '/backgrounds/moving/winter-sky.gif'
   };
