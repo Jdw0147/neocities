@@ -2735,6 +2735,555 @@
             "artist": "My Chemical Romance",
             "album": "Three Cheers For Sweet Revenge (Deluxe Edition)",
             "image": "/sotd/three-cheers-for-sweet-revenge.jpg"
+        },
+        {
+            "num": 305,
+            "date": "November 1st, 2025",
+            "year": 1993,
+            "title": "All Apologies",
+            "artist": "Nirvana",
+            "album": "In Utero",
+            "image": "/sotd/in-utero.jpg"
+        },
+        {
+            "num": 306,
+            "date": "November 2nd, 2025",
+            "year": 2024,
+            "title": "Favorite",
+            "artist": "Fontaines D.C.",
+            "album": "Romance",
+            "image": "/sotd/romance.jpg"
+        },
+        {
+            "num": 307,
+            "date": "November 3rd, 2025",
+            "year": 1998,
+            "title": "Rabbit in Your Headlights",
+            "artist": "UNKLE, Thom Yorke",
+            "album": "Psyence Fiction",
+            "image": "/sotd/psyence-fiction.jpg"
+        },
+        {
+            "num": 308,
+            "date": "November 4th, 2025",
+            "year": 2025,
+            "title": "my mind is a mountain",
+            "artist": "Deftones",
+            "album": "private music",
+            "image": "/sotd/private-music.jpg"
+        },
+        {
+            "num": 309,
+            "date": "November 5th, 2025",
+            "year": 1993,
+            "title": "Know Who You Are At Every Age",
+            "artist": "Cocteau Twins",
+            "album": "Four-Calendar Café",
+            "image": "/sotd/four-calendar-cafe.jpg"
+        },
+        {
+            "num": 310,
+            "date": "November 6th, 2025",
+            "year": 2019,
+            "title": "Younger Than You",
+            "artist": "Whirr",
+            "album": "Feels Like You",
+            "image": "/sotd/feels-like-you.png"
+        },
+        {
+            "num": 311,
+            "date": "November 7th, 2025",
+            "year": 2019,
+            "title": "GONE, GONE / THANK YOU",
+            "artist": "Tyler, The Creator",
+            "album": "IGOR",
+            "image": "/sotd/igor.jpg"
+        },
+        {
+            "num": 312,
+            "date": "November 8th, 2025",
+            "year": 2000,
+            "title": "Pink Maggit",
+            "artist": "Deftones",
+            "album": "White Pony",
+            "image": "/sotd/white-pony.jpg"
+        },
+        {
+            "num": 313,
+            "date": "November 9th, 2025",
+            "year": 2014,
+            "title": "Option",
+            "artist": "Crosses",
+            "album": "Crosses",
+            "image": "/sotd/crosses.jpg"
+        },
+        {
+            "num": 314,
+            "date": "November 10th, 2025",
+            "year": 1979,
+            "title": "Young Lust",
+            "artist": "Pink Floyd",
+            "album": "The Wall",
+            "image": "/sotd/the-wall.jpg"
+        },
+        {
+            "num": 315,
+            "date": "November 11th, 2025",
+            "year": 1981,
+            "title": "Too Young to Die",
+            "artist": "Agent Orange",
+            "album": "Living In Darkness",
+            "image": "/sotd/living-in-darkness.jpg"
+        },
+        {
+            "num": 316,
+            "date": "November 12th, 2025",
+            "year": 1969,
+            "title": "I Want You (She's So Heavy)",
+            "artist": "The Beatles",
+            "album": "Abbey Road",
+            "image": "/sotd/abbey-road.jpg"
+        },
+        {
+            "num": 317,
+            "date": "November 13th, 2025",
+            "year": 1983,
+            "title": "Musette and Drums",
+            "artist": "Cocteau Twins",
+            "album": "Head Over Heels",
+            "image": "/sotd/head-over-heels.jpg"
+        },
+        {
+            "num": 318,
+            "date": "November 14th, 2025",
+            "year": 2012,
+            "title": "Bad Apple",
+            "artist": "Basement",
+            "album": "Colourmeinkindness",
+            "image": "/sotd/colourmeinkindness.jpg"
+        },
+        {
+            "num": 319,
+            "date": "November 15th, 2025",
+            "year": 2005,
+            "title": "Getting Smaller",
+            "artist": "Nine Inch Nails",
+            "album": "With Teeth",
+            "image": "/sotd/with-teeth.jpg"
+        },
+        {
+            "num": 320,
+            "date": "November 16th, 2025",
+            "year": 1992,
+            "title": "Bombtrack",
+            "artist": "Rage Against The Machine",
+            "album": "Rage Against The Machine",
+            "image": "/sotd/rage-against-the-machine.jpg"
+        },
+        {
+            "num": 321,
+            "date": "November 17th, 2025",
+            "year": 1993,
+            "title": "Soma",
+            "artist": "The Smashing Pumkins",
+            "album": "Siamese Dream",
+            "image": "/sotd/siamese-dream.jpg"
+        },
+        {
+            "num": 322,
+            "date": "November 18th, 2025",
+            "year": 1984,
+            "title": "Runaway",
+            "artist": "Bon Jovi",
+            "album": "Bon Jovi",
+            "image": "/sotd/bon-jovi.jpg"
+        },
+        {
+            "num": 323,
+            "date": "November 19th, 2025",
+            "year": 2020,
+            "title": "Neon Hell - Live",
+            "artist": "Current Joys",
+            "album": "Live at Kilby Court",
+            "image": "/sotd/live-at-kilby-court.jpg"
+        },
+        {
+            "num": 324,
+            "date": "November 20th, 2025",
+            "year": 2002,
+            "title": "Roland",
+            "artist": "Interpol",
+            "album": "Turn On The Bright Lights",
+            "image": "/sotd/turn-on-the-bright-lights.jpg"
+        },
+        {
+            "num": 325,
+            "date": "November 21st, 2025",
+            "year": 2024,
+            "title": "Mona Lisa",
+            "artist": "Porter Robinson, Frost Children",
+            "album": "SMILE! :D",
+            "image": "/sotd/smile.jpg"
+        },
+        {
+            "num": 326,
+            "date": "November 22nd, 2025",
+            "year": 2006,
+            "title": "Starcharts",
+            "artist": "Pasteboard",
+            "album": "Glitter",
+            "image": "/sotd/glitter.jpg"
+        },
+        {
+            "num": 327,
+            "date": "November 23rd, 2025",
+            "year": 1999,
+            "title": "You Were Right",
+            "artist": "Built To Spill",
+            "album": "Keep It Like a Secret",
+            "image": "/sotd/keep-it-like-a-secret.jpg"
+        },
+        {
+            "num": 328,
+            "date": "November 24th, 2025",
+            "year": 1996,
+            "title": "Pepper",
+            "artist": "Butthole Surfers",
+            "album": "Electriclarryland",
+            "image": "/sotd/electriclarryland.jpg"
+        },
+        {
+            "num": 329,
+            "date": "November 25th, 2025",
+            "year": 2009,
+            "title": "Panic Switch",
+            "artist": "Silversun Pickups",
+            "album": "Swoon",
+            "image": "/sotd/swoon.jpg"
+        },
+        {
+            "num": 330,
+            "date": "November 26th, 2025",
+            "year": 2009,
+            "title": "No One Loves Me and Neither Do I",
+            "artist": "Them Crooked Vultures",
+            "album": "Them Crooked Vultures",
+            "image": "/sotd/them-crooked-vultures.jpg"
+        },
+        {
+            "num": 331,
+            "date": "November 27th, 2025",
+            "year": 2019,
+            "title": "High",
+            "artist": "Slow Pulp",
+            "album": "Big Day",
+            "image": "/sotd/big-day.jpg"
+        },
+        {
+            "num": 332,
+            "date": "November 28th, 2025",
+            "year": 2017,
+            "title": "Medicine",
+            "artist": "Citizen",
+            "album": "As You Please",
+            "image": "/sotd/as-you-please.jpg"
+        },
+        {
+            "num": 333,
+            "date": "November 29th, 2025",
+            "year": 2025,
+            "title": "Blunt",
+            "artist": "Luke Potter, Jack Sears, Karsen Betzold",
+            "album": "Blunt",
+            "image": "/sotd/blunt.jpg"
+        },
+        {
+            "num": 334,
+            "date": "November 30th, 2025",
+            "year": 1992,
+            "title": "In The Mouth A Desert",
+            "artist": "Pavement",
+            "album": "Slanted & Enchanted",
+            "image": "/sotd/slanted-&-enchanted.jpg"
+        },
+        {
+            "num": 335,
+            "date": "December 1st, 2025",
+            "year": 1992,
+            "title": "Kick The Tragedy",
+            "artist": "Drop Nineteens",
+            "album": "Delaware",
+            "image": "/sotd/delaware.jpg"
+        },
+        {
+            "num": 336,
+            "date": "December 2nd, 2025",
+            "year": 2019,
+            "title": "Kiss a Girl in Black",
+            "artist": "Fleeting Joys",
+            "album": "Speeding Away to Someday",
+            "image": "/sotd/speeding-away-to-someday.jpg"
+        },
+        {
+            "num": 337,
+            "date": "December 3rd, 2025",
+            "year": 2025,
+            "title": "Throw Yourself to the Sword",
+            "artist": "Die Spitz",
+            "album": "Something To Consume",
+            "image": "/sotd/something-to-consume.jpg"
+        },
+        {
+            "num": 338,
+            "date": "December 4th, 2025",
+            "year": 2021,
+            "title": "Dread",
+            "artist": "Modern Color",
+            "album": "Dread",
+            "image": "/sotd/dread.jpg"
+        },
+        {
+            "num": 339,
+            "date": "December 5th, 2025",
+            "year": 2010,
+            "title": "Blue",
+            "artist": "Whirr",
+            "album": "Distressor",
+            "image": "/sotd/distressor.jpg"
+        },
+        {
+            "num": 340,
+            "date": "December 6th, 2025",
+            "year": 2014,
+            "title": "It's Been So Long",
+            "artist": "The Living Tombstone",
+            "album": "It's Been So Long",
+            "image": "/sotd/its-been-so-long.jpg"
+        },
+        {
+            "num": 341,
+            "date": "December 7th, 2025",
+            "year": 1973,
+            "title": "Clear as the Driven Snow",
+            "artist": "The Doobie Brothers",
+            "album": "The Captain and Me",
+            "image": "/sotd/the-captain-and-me.jpg"
+        },
+        {
+            "num": 342,
+            "date": "December 8th, 2025",
+            "year": 2020,
+            "title": "New Faces in the Dark",
+            "artist": "Loathe",
+            "album": "I Let It in And It Took Everything",
+            "image": "/sotd/i-let-it-in-and-it-took-everything.jpg"
+        },
+        {
+            "num": 343,
+            "date": "December 9th, 2025",
+            "year": 2001,
+            "title": "Plug In Baby",
+            "artist": "Muse",
+            "album": "Origin of Symmetry",
+            "image": "/sotd/origin-of-symmetry.jpg"
+        },
+        {
+            "num": 344,
+            "date": "December 10th, 2025",
+            "year": 2002,
+            "title": "Song For The Dead",
+            "artist": "Queens of the Stone Age",
+            "album": "Songs For The Deaf",
+            "image": "/sotd/songs-for-the-deaf.jpg"
+        },
+        {
+            "num": 345,
+            "date": "December 11th, 2025",
+            "year": 2013,
+            "title": "Cigarette Daydreams",
+            "artist": "Cage The Elephant",
+            "album": "Melophobia",
+            "image": "/sotd/melophobia.jpg"
+        },
+        {
+            "num": 346,
+            "date": "December 12th, 2025",
+            "year": 2024,
+            "title": "Take Your Mask Off",
+            "artist": "Tyler, The Creator, Daniel Caesar, LaToinya Williams",
+            "album": "CHROMAKOPIA",
+            "image": "/sotd/chromakopia.jpg"
+        },
+        {
+            "num": 347,
+            "date": "December 13th, 2025",
+            "year": 2024,
+            "title": "Cheerleader",
+            "artist": "Porter Robinson",
+            "album": "SMILE! :D",
+            "image": "/sotd/smile.jpg"
+        },
+        {
+            "num": 348,
+            "date": "December 14th, 2025",
+            "year": 2025,
+            "title": "Rainy Days and Mondays (from The Chair Company)",
+            "artist": "Aimee Mann",
+            "album": "The Chair Company (Soundtrack fron the HBO Orignal Series)",
+            "image": "/sotd/the-chair-company.jpg"
+        },
+        {
+            "num": 349,
+            "date": "December 15th, 2025",
+            "year": 1997,
+            "title": "Slave",
+            "artist": "Silverchair",
+            "album": "Freak Show",
+            "image": "/sotd/freak-show.jpg"
+        },
+        {
+            "num": 350,
+            "date": "December 16th, 2025",
+            "year": 1993,
+            "title": "Strawberry",
+            "artist": "Butthole Surfers",
+            "album": "Independent Worm Saloon",
+            "image": "/sotd/independent-worm-saloon.jpg"
+        },
+        {
+            "num": 351,
+            "date": "December 17th, 2025",
+            "year": 2006,
+            "title": "Starlight",
+            "artist": "Muse",
+            "album": "Black Holes and Revelations",
+            "image": "/sotd/black-holes-and-revelations.jpg"
+        },
+        {
+            "num": 352,
+            "date": "December 18th, 2025",
+            "year": 2023,
+            "title": "Running from Myself",
+            "artist": "Foxtide",
+            "album": "Paradise",
+            "image": "/sotd/paradise.jpg"
+        },
+        {
+            "num": 353,
+            "date": "December 19th, 2025",
+            "year": 2004,
+            "title": "Jenny Was A Friend Of Mine",
+            "artist": "The Killers",
+            "album": "Hot Fuss",
+            "image": "/sotd/hot-fuss.jpg"
+        },
+        {
+            "num": 354,
+            "date": "December 20th, 2025",
+            "year": 2020,
+            "title": "Ode To The Mets",
+            "artist": "The Strokes",
+            "album": "The New Abnormal",
+            "image": "/sotd/the-new-abnormal.jpg"
+        },
+        {
+            "num": 355,
+            "date": "December 21st, 2025",
+            "year": 2003,
+            "title": "The District Sleeps Alone Tonight",
+            "artist": "The Postal Service",
+            "album": "Give Up",
+            "image": "/sotd/give-up.jpg"
+        },
+        {
+            "num": 356,
+            "date": "December 22nd, 2025",
+            "year": 2002,
+            "title": "The Good That Won't Come Out",
+            "artist": "Rilo Kiley",
+            "album": "The Execution of All Things",
+            "image": "/sotd/the-execution-of-all-things.jpg"
+        },
+        {
+            "num": 357,
+            "date": "December 23rd, 2025",
+            "year": 2006,
+            "title": "Famous Last Words",
+            "artist": "My Chemical Romance",
+            "album": "The Black Parade",
+            "image": "/sotd/the-black-parade.jpg"
+        },
+        {
+            "num": 358,
+            "date": "December 24th, 2025",
+            "year": 2024,
+            "title": "Piece By Piece",
+            "artist": "Knocked Loose",
+            "album": "You Won't Go Before You're Supposed To",
+            "image": "/sotd/you-wont-go-before-youre-supposed-to.jpg"
+        },
+        {
+            "num": 359,
+            "date": "December 25th, 2025",
+            "year": 1971,
+            "title": "Starship Trooper: a. Life Seeker, b. Disillusion, c. Wurm",
+            "artist": "Yes",
+            "album": "The Yes Album",
+            "image": "/sotd/the-yes-album.jpg"
+        },
+        {
+            "num": 360,
+            "date": "December 26th, 2025",
+            "year": 1996,
+            "title": "Eddie Vedder",
+            "artist": "Local H",
+            "album": "As Good As Dead",
+            "image": "/sotd/as-good-as-dead.jpg"
+        },
+        {
+            "num": 361,
+            "date": "December 27th, 2025",
+            "year": 2004,
+            "title": "A Decade Under The Influence",
+            "artist": "Taking Back Sunday",
+            "album": "Where You Want To Be",
+            "image": "/sotd/where-you-want-to-be.jpg"
+        },
+        {
+            "num": 362,
+            "date": "December 28th, 2025",
+            "year": 2022,
+            "title": "Helmet",
+            "artist": "Steve Lacy",
+            "album": "Gemini Rights",
+            "image": "/sotd/gemini-rights.jpg"
+        },
+        {
+            "num": 363,
+            "date": "December 29th, 2025",
+            "year": 1999,
+            "title": "Girl O' Clock",
+            "artist": "Dismemberment Plan",
+            "album": "Emergency & I",
+            "image": "/sotd/emergency-and-i.jpg"
+        },
+        {
+            "num": 364,
+            "date": "December 30th, 2025",
+            "year": 2001,
+            "title": "Pictures Of Success",
+            "artist": "Rilo Kiley",
+            "album": "Take Offs And Landings",
+            "image": "/sotd/take-offs-and-landings.jpg"
+        },
+        {
+            "num": 365,
+            "date": "December 31st, 2025",
+            "year": 2021,
+            "title": "Trying to Feel Alive",
+            "artist": "Porter Robinson",
+            "album": "Nurture",
+            "image": "/sotd/nurture.jpg"
         }
 
 
