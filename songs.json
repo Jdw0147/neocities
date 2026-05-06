@@ -1117,6 +1117,15 @@
       "artist": "The Rentals",
       "album": "Return Of The Rentals",
       "image": "/sotd/return-of-the-rentals.jpg"
+    },
+    {
+      "num": 125,
+      "date": "May 5th, 2026",
+      "year": 1982,
+      "title": "Go",
+      "artist": "The Replacements",
+      "album": "Stink",
+      "image": "/sotd/stink.jpg"
     }
 
 
