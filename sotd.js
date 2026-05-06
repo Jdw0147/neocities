@@ -18,7 +18,7 @@ async function loadSongCalendar(year = 2026) {
     'August': '/backgrounds/static/fabric.jpg',
     'September': '/backgrounds/static/butterflies.gif',
     'October': '/backgrounds/static/ghouls.gif',
-    'November': '/backgrounds/moving/leaves.gif',
+    'November': "url('/backgrounds/moving/leaves.gif'), url('/backgrounds/static/tree.jpg')",
     'December': '/backgrounds/moving/winter-sky.gif'
   };
 
@@ -74,7 +74,7 @@ async function loadSongCalendar(year = 2026) {
 
         // Set background if defined
         if (monthBackgrounds[month]) {
-          monthContainer.style.backgroundImage = `url('${monthBackgrounds[month]}')`;
+          monthContainer.style.backgroundImage = monthBackgrounds[month].includes('url(') ? monthBackgrounds[month] : `url('${monthBackgrounds[month]}')`;
         }
 
         // Add month heading
@@ -140,7 +140,7 @@ function openSongModal(song, monthBackground) {
 
   // Set modal background
   if (monthBackground) {
-    modal.style.backgroundImage = `url('${monthBackground}')`;
+    modal.style.backgroundImage = monthBackground.includes('url(') ? monthBackground : `url('${monthBackground}')`;
   }
 
   // Populate modal content
@@ -195,7 +195,7 @@ function navigateToSong(index) {
     'August': '/backgrounds/static/fabric.jpg',
     'September': '/backgrounds/static/butterflies.gif',
     'October': '/backgrounds/static/ghouls.gif',
-    'November': '/backgrounds/moving/leaves.gif',
+    'November': "url('/backgrounds/moving/leaves.gif'), url('/backgrounds/static/tree.jpg')",
     'December': '/backgrounds/moving/winter-sky.gif'
   };
   
@@ -217,7 +217,7 @@ function navigateToSong(index) {
   
   // Update background
   if (monthBackgrounds[month]) {
-    document.getElementById('songModal').style.backgroundImage = `url('${monthBackgrounds[month]}')`;
+    document.getElementById('songModal').style.backgroundImage = monthBackgrounds[month].includes('url(') ? monthBackgrounds[month] : `url('${monthBackgrounds[month]}')`;
   }
 }
 
