@@ -11,8 +11,15 @@
 }
 
 .sotd-page .main-window {
-  min-height: 700px; 
+  min-height: 700px;
   max-width: 900px;
+  background-color: #1a1a2e;
+  background-image: url('/backgrounds/moving/stars2.gif');
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+  border: solid 2px #330066;
+  box-shadow: 1px 1px 0 #5533AA, -1px -1px 0 #000;
 }
 
 .sotd-calendar {
@@ -55,40 +62,50 @@
     color: #DDDDDD;
 }
 
-.year-tabs {
+.year-buttons {
   display: flex;
-  gap: 8px;
-  margin-bottom: 15px;
+  gap: 16px;
+  margin-bottom: 20px;
+  margin-top: 12px;
   justify-content: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  border-radius: 8px;
 }
 
-.year-tab {
-  font-size: 1.1em;
-  padding: 12px 28px;
-  background: linear-gradient(180deg, #330066, #220044);
-  color: #CC99FF;
-  border: 2px solid #660099;
-  border-bottom: 3px solid #660099;
-  border-radius: 12px 12px 0 0;
-  cursor: pointer;
-  transition: all 0.15s ease;
+.year-btn {
+  font-family: 'Courier New', monospace;
+  font-size: 1.6em;
   font-weight: bold;
-  letter-spacing: 0.5px;
-  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.3);
-}
-
-.year-tab:hover:not(.active) {
-  background: linear-gradient(180deg, #440077, #330066);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.3);
-}
-
-.year-tab.active {
-  background: linear-gradient(180deg, #9933FF, #7722CC);
+  padding: 18px 48px;
+  border: 3px solid #330066;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
   color: #FFF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.year-btn[data-year="2025"] {
+  background-image: url('/backgrounds/static/pink-sky.png');
+}
+
+.year-btn[data-year="2026"] {
+  background-image: url('/backgrounds/static/purple-sky.png');
+}
+
+.year-btn:hover {
+  transform: scale(1.08);
   border-color: #9933FF;
-  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.1);
-  transform: translateY(2px);
+}
+
+.year-btn.active {
+  border-color: #FFD700;
 }
 
 .month-container {

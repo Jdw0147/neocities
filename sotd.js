@@ -118,11 +118,7 @@ async function loadSongCalendar(year = 2026) {
         calendar.appendChild(monthContainer);
       }
     });
-
-    const todaySong = document.getElementById('today-song');
-    if (todaySong) {
-      todaySong.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    
   } catch (error) {
     console.error('Failed to load song calendar:', error);
   }
@@ -232,7 +228,7 @@ function previousSong() {
 document.addEventListener('DOMContentLoaded', function () {
 
   // Set up year tab switching
-  const yearTabs = document.querySelectorAll('.year-tab');
+  const yearTabs = document.querySelectorAll('.year-btn');
   yearTabs.forEach(tab => {
     tab.addEventListener('click', (e) => {
       // Update active tab styling
