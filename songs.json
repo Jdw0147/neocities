@@ -1126,7 +1126,17 @@
       "artist": "The Replacements",
       "album": "Stink",
       "image": "/sotd/stink.jpg"
+    },
+    {
+      "num": 126,
+      "date": "May 6th, 2026",
+      "year": 1982,
+      "title": "Undone",
+      "artist": "Failure",
+      "album": "Magnified",
+      "image": "/sotd/magnified.jpg"
     }
+
 
 
 
