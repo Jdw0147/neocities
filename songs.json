@@ -1130,12 +1130,31 @@
     {
       "num": 126,
       "date": "May 6th, 2026",
-      "year": 1982,
+      "year": 1994,
       "title": "Undone",
       "artist": "Failure",
       "album": "Magnified",
       "image": "/sotd/magnified.jpg"
+    },
+    {
+      "num": 127,
+      "date": "May 7th, 2026",
+      "year": 2024,
+      "title": "Go Away",
+      "artist": "Deux Visages",
+      "album": "Catch 22",
+      "image": "/sotd/catch-22.jpg"
+    },
+    {
+      "num": 128,
+      "date": "May 8th, 2026",
+      "year": 2026,
+      "title": "A Hero's Grave",
+      "artist": "Free Throw",
+      "album": "Moments Before The Wind",
+      "image": "/sotd/moments-before-the-wind.jpg"
     }
+
 
 
 
