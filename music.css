@@ -48,6 +48,12 @@
     border: solid 2px #330066;
     box-shadow: 1px 1px 0 #5533AA, -1px -1px 0 #000;
     width: 200px;
+    position: fixed;
+    right: calc(50% - 730px);
+    top: 130px;
+bottom: 80px;
+max-height: calc(100vh - 160px);
+    z-index: 998;
 }
 
 .music-page .aside-window .window-header {
@@ -258,4 +264,77 @@ footer {
 
 .back-button:active {
   transform: scale(0.95);
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/** Aside Icons **/
+.window-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.side-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-shrink: 0;
+    z-index: 999;
+    left: calc(50% - 600px);
+    max-height: calc(100vh - 250px);
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s ease;
+}
+
+.nav-item a:hover {
+    transform: scale(1.2);
+}
+
+.nav-icon {
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+.nav-item p {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 18px;
+    margin: 0;
+    color: #AAA;
+    font-weight: bold;
+}
+
+.main-window {
+    flex: 1;
+}
+
+.aside-window {
+    flex-shrink: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
