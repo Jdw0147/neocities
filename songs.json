@@ -1149,7 +1149,16 @@
       "num": 128,
       "date": "May 8th, 2026",
       "year": 2026,
-      "title": "A Hero's Grave",
+      "title": "Head is Like a Sinking Stone",
+      "artist": "Tiger's Jaw",
+      "album": "Lost on You",
+      "image": "/sotd/lost-on-you.jpg"
+    },
+    {
+      "num": 129,
+      "date": "May 9th, 2026",
+      "year": 2026,
+      "title": "This Dollar General Store Ain't Gonna Rob Itself",
       "artist": "Free Throw",
       "album": "Moments Before The Wind",
       "image": "/sotd/moments-before-the-wind.jpg"
