@@ -5,9 +5,9 @@ main {
 }
 
 body {
-    background-image: url('backgrounds/static/green.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('backgrounds/static/library.gif');
+    background-size: auto;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
     margin: 0;
