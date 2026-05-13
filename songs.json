@@ -1162,6 +1162,33 @@
       "artist": "Free Throw",
       "album": "Moments Before The Wind",
       "image": "/sotd/moments-before-the-wind.jpg"
+    },
+    {
+      "num": 130,
+      "date": "May 10th, 2026",
+      "year": 1964,
+      "title": "Don't Worry Baby",
+      "artist": "The Beach Boys",
+      "album": "Shut Down, Vol. 2",
+      "image": "/sotd/shut-down-vol-2.jpg"
+    },
+    {
+      "num": 131,
+      "date": "May 11th, 2026",
+      "year": 2020,
+      "title": "Bebop",
+      "artist": "The Buttertones",
+      "album": "Jazzhound",
+      "image": "/sotd/jazzhound.jpg"
+    },
+    {
+      "num": 132,
+      "date": "May 12th, 2026",
+      "year": 2020,
+      "title": "Petty Crime",
+      "artist": "Vundabar",
+      "album": "Either Light",
+      "image": "/sotd/either-light.jpg"
     }
 
 
