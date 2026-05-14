@@ -1198,6 +1198,15 @@
       "artist": "Big Star",
       "album": "#1 Record",
       "image": "/sotd/number-1-record.jpg"
+    },
+    {
+      "num": 134,
+      "date": "May 14th, 2026",
+      "year": 1983,
+      "title": "Shaking Through",
+      "artist": "R.E.M.",
+      "album": "Murmur",
+      "image": "/sotd/murmur.jpg"
     }
   ]
 }
