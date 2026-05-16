@@ -1207,6 +1207,15 @@
       "artist": "R.E.M.",
       "album": "Murmur",
       "image": "/sotd/murmur.jpg"
+    },
+    {
+      "num": 135,
+      "date": "May 15th, 2026",
+      "year": 2014,
+      "title": "Televisions",
+      "artist": "Current Joys",
+      "album": "Wild Heart",
+      "image": "/sotd/wild-heart.jpg"
     }
   ]
 }
