@@ -1216,6 +1216,24 @@
       "artist": "Current Joys",
       "album": "Wild Heart",
       "image": "/sotd/wild-heart.jpg"
+    },
+    {
+      "num": 136,
+      "date": "May 16th, 2026",
+      "year": 2018,
+      "title": "YEAH RIGHT",
+      "artist": "Joji",
+      "album": "BALLADS 1",
+      "image": "/sotd/ballads-1.jpg"
+    },
+    {
+      "num": 137,
+      "date": "May 17th, 2026",
+      "year": 2017,
+      "title": "Plimsoll Punks",
+      "artist": "Alvvays",
+      "album": "Antisocialites",
+      "image": "/sotd/antisocialites.jpg"
     }
   ]
 }
