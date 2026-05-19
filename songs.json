@@ -1234,6 +1234,16 @@
       "artist": "Alvvays",
       "album": "Antisocialites",
       "image": "/sotd/antisocialites.jpg"
+    },
+    {
+      "num": 138,
+      "date": "May 18th, 2026",
+      "year": 1969,
+      "title": "Kick Out the Jams",
+      "artist": "MC5",
+      "album": "Kick Out the Jams (Live)",
+      "image": "/sotd/kick-out-the-jams.jpg"
     }
+
   ]
 }
