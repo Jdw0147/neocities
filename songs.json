@@ -1252,6 +1252,15 @@
       "artist": "Sunny Day Real Estate",
       "album": "Lipton Witch / Bad Heart",
       "image": "/sotd/lipton-witch.jpg"
+    },
+    {
+      "num": 140,
+      "date": "May 20th, 2026",
+      "year": 1996,
+      "title": "Red Water (Christmas Mourning)",
+      "artist": "Type O Negative",
+      "album": "October Rust",
+      "image": "/sotd/october-rust.jpg"
     }
 
   ]
