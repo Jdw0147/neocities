@@ -1261,6 +1261,33 @@
       "artist": "Cocteau Twins",
       "album": "Heaven or Las Vegas",
       "image": "/sotd/heaven-or-las-vegas.jpg"
+    },
+    {
+      "num": 141,
+      "date": "May 21st, 2026",
+      "year": 2013,
+      "title": "Speaking With a Ghost",
+      "artist": "Citizen",
+      "album": "Youth",
+      "image": "/sotd/youth.jpg"
+    },
+    {
+      "num": 142,
+      "date": "May 22nd, 2026",
+      "year": 1981,
+      "title": "No More",
+      "artist": "Black Flag",
+      "album": "Damaged",
+      "image": "/sotd/damaged.jpg"
+    },
+    {
+      "num": 143,
+      "date": "May 23rd, 2026",
+      "year": 1981,
+      "title": "Dancing With Myself",
+      "artist": "Generation X",
+      "album": "Kiss Me Deadly",
+      "image": "/sotd/kiss-me-deadly.jpg"
     }
 
   ]
