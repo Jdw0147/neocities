@@ -1288,6 +1288,15 @@
       "artist": "Generation X",
       "album": "Kiss Me Deadly",
       "image": "/sotd/kiss-me-deadly.jpg"
+    },
+    {
+      "num": 144,
+      "date": "May 24th, 2026",
+      "year": 1998,
+      "title": "If You Are To Bloom",
+      "artist": "Hum",
+      "album": "Downward Is Heavenward",
+      "image": "/sotd/downward-is-heavenward.jpg"
     }
 
   ]
