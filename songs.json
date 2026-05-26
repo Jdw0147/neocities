@@ -1297,6 +1297,24 @@
       "artist": "Hum",
       "album": "Downward Is Heavenward",
       "image": "/sotd/downward-is-heavenward.jpg"
+    },
+    {
+      "num": 145,
+      "date": "May 25th, 2026",
+      "year": 2017,
+      "title": "Smoke Signals",
+      "artist": "Phoebe Bridgers",
+      "album": "Stranger In The Alps",
+      "image": "/sotd/stranger-in-the-alps.jpg"
+    },
+    {
+      "num": 146,
+      "date": "May 26th, 2026",
+      "year": 2013,
+      "title": "Sleep",
+      "artist": "Citizen",
+      "album": "Youth",
+      "image": "/sotd/youth.jpg"
     }
 
   ]
