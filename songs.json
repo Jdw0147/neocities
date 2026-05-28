@@ -1324,6 +1324,15 @@
       "artist": "Starflyer 59",
       "album": "Americana",
       "image": "/sotd/americana.jpg"
+    },
+    {
+      "num": 148,
+      "date": "May 28th, 2026",
+      "year": 1987,
+      "title": "I Don't Know",
+      "artist": "The Replacements",
+      "album": "Pleased To Meet Me",
+      "image": "/sotd/pleased-to-meet-me.jpg"
     }
 
   ]
