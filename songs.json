@@ -1315,6 +1315,15 @@
       "artist": "Local H",
       "album": "Pack Up The Cats",
       "image": "/sotd/pack-up-the-cats.jpg"
+    },
+    {
+      "num": 147,
+      "date": "May 27th, 2026",
+      "year": 1997,
+      "title": "The Voyager",
+      "artist": "Starflyer 59",
+      "album": "Americana",
+      "image": "/sotd/americana.jpg"
     }
 
   ]
