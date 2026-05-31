@@ -1342,6 +1342,15 @@
       "artist": "Kyuss",
       "album": "Welcome To Sky Valley",
       "image": "/sotd/welcome-to-sky-valley.jpg"
+    },
+    {
+      "num": 150,
+      "date": "May 30th, 2026",
+      "year": 1996,
+      "title": "Nothing Special",
+      "artist": "Local H",
+      "album": "As Good As Dead",
+      "image": "/sotd/as-good-as-dead.jpg"
     }
 
   ]
