@@ -1360,6 +1360,15 @@
       "artist": "Citizen",
       "album": "Youth",
       "image": "/sotd/youth.jpg"
+    },
+    {
+      "num": 152,
+      "date": "June 1st, 2026",
+      "year": 2021,
+      "title": "SIR BAUDELAIRE",
+      "artist": "Tyler, The Creator, DJ Drama",
+      "album": "CALL ME IF YOU GET LOST",
+      "image": "/sotd/cmiygl.jpg"
     }
 
   ]
