@@ -1351,6 +1351,15 @@
       "artist": "Local H",
       "album": "As Good As Dead",
       "image": "/sotd/as-good-as-dead.jpg"
+    },
+    {
+      "num": 151,
+      "date": "May 31st, 2026",
+      "year": 2013,
+      "title": "Roam The Room",
+      "artist": "Citizen",
+      "album": "Youth",
+      "image": "/sotd/youth.jpg"
     }
 
   ]
