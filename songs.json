@@ -1369,6 +1369,15 @@
       "artist": "Tyler, The Creator, DJ Drama",
       "album": "CALL ME IF YOU GET LOST",
       "image": "/sotd/cmiygl.jpg"
+    },
+    {
+      "num": 153,
+      "date": "June 2nd, 2026",
+      "year": 2015,
+      "title": "Dig Into Me",
+      "artist": "Superheaven",
+      "album": "Ours Is Chrome",
+      "image": "/sotd/ours-is-chrome.jpg"
     }
 
   ]
