@@ -1364,11 +1364,11 @@
     {
       "num": 152,
       "date": "June 1st, 2026",
-      "year": 2021,
-      "title": "SIR BAUDELAIRE",
-      "artist": "Tyler, The Creator, DJ Drama",
-      "album": "CALL ME IF YOU GET LOST",
-      "image": "/sotd/cmiygl.jpg"
+      "year": 2023,
+      "title": "SORRY NOT SORRY",
+      "artist": "Tyler, The Creator",
+      "album": "CALL ME IF YOU GET LOST: The Estate Sale",
+      "image": "/sotd/the-estate-sale.jpg"
     },
     {
       "num": 153,
@@ -1378,6 +1378,24 @@
       "artist": "Superheaven",
       "album": "Ours Is Chrome",
       "image": "/sotd/ours-is-chrome.jpg"
+    },
+    {
+      "num": 154,
+      "date": "June 3rd, 2026",
+      "year": 2011,
+      "title": "Who Are You Now",
+      "artist": "Sleeping With Sirens",
+      "album": "Let's Cheers To This",
+      "image": "/sotd/lets-cheers-to-this.jpg"
+    },
+    {
+      "num": 155,
+      "date": "June 4th, 2026",
+      "year": 2025,
+      "title": "Paper Tigers",
+      "artist": "L.S. Dunes",
+      "album": "Violet",
+      "image": "/sotd/violet.jpg"
     }
 
   ]
