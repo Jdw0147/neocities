@@ -1405,7 +1405,17 @@
       "artist": "My Chemical Romance",
       "album": "I Brought You My Bullets, You Brought Me Your Love",
       "image": "/sotd/i-brought-you-my-bullets.jpg"
+    },
+    {
+      "num": 157,
+      "date": "June 6th, 2026",
+      "year": 2025,
+      "title": "Violet",
+      "artist": "L.S. Dunes",
+      "album": "Violet",
+      "image": "/sotd/violet.jpg"
     }
+
 
   ]
 }
