@@ -36,6 +36,9 @@
 .sotd-page .site-title h1 {
     color: #9933FF;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+
 }
 
 .sotd-page .main-window {
