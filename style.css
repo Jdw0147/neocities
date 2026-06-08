@@ -22,7 +22,7 @@ body {
 
     /* misc body styles */
     margin: 0;
-    font-family: MS Gothic, Tahoma, monospace;
+    font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
     padding: 20px;
 }
 
@@ -38,7 +38,7 @@ main {
     color: #0A246A;
     font-size: 2.5em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    font-family: MS Gothic, Tahoma, monospace;
+    font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
 }
 
 .tagline {
