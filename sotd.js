@@ -8,7 +8,7 @@ async function loadSongCalendar(year = 2026) {
 
   // Map months to their background GIFs
   const monthBackgrounds = {
-    'January': '/backgrounds/moving/northern-lights.gif',
+    'January': '/backgrounds/moving/snow.gif',
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
     'April': '/backgrounds/moving/rain.gif',
@@ -181,7 +181,7 @@ function navigateToSong(index) {
   // Find the month for this song to get the background
   const month = song.date.split(' ')[0];
   const monthBackgrounds = {
-    'January': '/backgrounds/moving/northern-lights.gif',
+    'January': '/backgrounds/moving/snow.gif',
     'February': '/backgrounds/moving/pink-lines.gif',
     'March': '/backgrounds/static/trees.gif',
     'April': '/backgrounds/moving/rain.gif',
