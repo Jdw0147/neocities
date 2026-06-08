@@ -1,9 +1,30 @@
 .sotd-page {
+  position: relative;
   background-image: url('backgrounds/static/music.jpg');
   background-size: auto;
   background-repeat: repeat;
   background-attachment: fixed;
   min-height: 100vh;
+}
+
+/* Decorative album art flanking the title/year-buttons - randomized in sotd.js */
+.sotd-side-art {
+  position: absolute;
+  top: 70px;
+  width: 240px;
+  height: 240px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.6));
+  pointer-events: none;
+  z-index: 1;
+}
+
+.sotd-side-art.is-cover {
+  left: calc(50% - 450px);
+}
+
+.sotd-side-art.is-lp {
+  right: calc(50% - 450px);
 }
 
 .sotd-page .window-container {

@@ -1,7 +1,37 @@
 // Store all songs for navigation
 let allSongs = [];
 let currentSongIndex = 0;
-let currentYear = '2026'; 
+let currentYear = '2026';
+
+// Physical albums - cover art (left) paired with their spinning record gif (right)
+const physicalAlbums = [
+  { name: 'Damaged', cover: 'physical-albums/damaged.gif', lp: 'physical-albums/damaged-lp.gif' },
+  { name: 'Floral Green', cover: 'physical-albums/floral-green-outside.gif', lp: 'physical-albums/floral-green-lp.gif' },
+  { name: 'Give Me Convenience or Give Me Death', cover: 'physical-albums/give-me-conenience-or-give-me-death.gif', lp: 'physical-albums/give-me-conenience-or-give-me-death-lp.gif' },
+  { name: 'Living in Darkness', cover: 'physical-albums/living-in-darkness.gif', lp: 'physical-albums/living-in-darkness-lp.gif' },
+  { name: 'Meat Is Murder', cover: 'physical-albums/meat-is-murder.gif', lp: 'physical-albums/meat-is-murder-lp.gif' },
+  { name: 'Mingus Ah Um', cover: 'physical-albums/mingus-ah-um.gif', lp: 'physical-albums/mingus-ah-um-lp.gif' },
+  { name: 'Moments of Clarity', cover: 'physical-albums/moments-of-clarity.gif', lp: 'physical-albums/moments-of-clarity-lp.gif' },
+  { name: 'Nonstop Feeling', cover: 'physical-albums/nonstop-feeling.gif', lp: 'physical-albums/nonstop-feeling-lp.gif' },
+  { name: 'Pink Moon', cover: 'physical-albums/pink-moon.gif', lp: 'physical-albums/pink-moon-lp.gif' },
+  { name: 'Scenery', cover: 'physical-albums/scenery.gif', lp: 'physical-albums/scenery-lp.gif' },
+  { name: 'Siamese Dream', cover: 'physical-albums/siamese-dream.gif', lp: 'physical-albums/siamese-dream-lp1.gif' },
+  { name: 'Stranger in the Alps', cover: 'physical-albums/stranger-in-the-alps.gif', lp: 'physical-albums/stranger-in-the-alps-lp.gif' },
+  { name: 'The Rainbow Goblins', cover: 'physical-albums/the-rainbow-goblins.gif', lp: 'physical-albums/the-rainbow-goblins-lp1.gif' },
+  { name: "You Won't Go Before You're Supposed To", cover: 'physical-albums/you-wont-go-before-youre-supposed-to.gif', lp: 'physical-albums/you-wont-go-before-youre-supposed-to-lp.gif' }
+];
+
+function showRandomPhysicalAlbum() {
+  const cover = document.getElementById('sotdAlbumCover');
+  const lp = document.getElementById('sotdAlbumLp');
+  if (!cover || !lp) return;
+
+  const album = physicalAlbums[Math.floor(Math.random() * physicalAlbums.length)];
+  cover.src = album.cover;
+  cover.alt = `${album.name} album cover`;
+  lp.src = album.lp;
+  lp.alt = `${album.name} record spinning on a turntable`;
+}
 
 async function loadSongCalendar(year = 2026) {
   currentYear = year;
@@ -264,4 +294,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Load initial calendar (2026)
   loadSongCalendar(2026);
+
+  // Pick a random physical album to flank the title/buttons
+  showRandomPhysicalAlbum();
 });
