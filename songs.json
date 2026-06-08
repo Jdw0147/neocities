@@ -1423,6 +1423,15 @@
       "artist": "Brian Eno",
       "album": "Apollo",
       "image": "/sotd/apollo.jpg"
+    },
+    {
+      "num": 159,
+      "date": "June 8th, 2026",
+      "year": 1962,
+      "title": "I Hear A Rhapsody",
+      "artist": "Bill Evans, Jim Hall",
+      "album": "Undercurrent",
+      "image": "/sotd/undercurrent.jpg"
     }
 
 
