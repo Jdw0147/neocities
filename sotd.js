@@ -18,7 +18,13 @@ const physicalAlbums = [
   { name: 'Siamese Dream', cover: 'physical-albums/siamese-dream.gif', lp: 'physical-albums/siamese-dream-lp1.gif' },
   { name: 'Stranger in the Alps', cover: 'physical-albums/stranger-in-the-alps.gif', lp: 'physical-albums/stranger-in-the-alps-lp.gif' },
   { name: 'The Rainbow Goblins', cover: 'physical-albums/the-rainbow-goblins.gif', lp: 'physical-albums/the-rainbow-goblins-lp1.gif' },
-  { name: "You Won't Go Before You're Supposed To", cover: 'physical-albums/you-wont-go-before-youre-supposed-to.gif', lp: 'physical-albums/you-wont-go-before-youre-supposed-to-lp.gif' }
+  { name: "You Won't Go Before You're Supposed To", cover: 'physical-albums/you-wont-go-before-youre-supposed-to.gif', lp: 'physical-albums/you-wont-go-before-youre-supposed-to-lp.gif' },
+  { name: 'Doolittle', cover: 'physical-albums/doolittle.gif', lp: 'physical-albums/doolittle-lp.gif' },
+  { name: "First Two Seven Inches", cover: 'physical-albums/first-two-seven-inches.gif', lp: 'physical-albums/first-two-seven-inches-lp.gif' },
+  { name: "Jar of Flies", cover: 'physical-albums/jar-of-flies.gif', lp: 'physical-albums/jar-of-flies-lp.gif' },
+  { name: "Rage Against the Machine", cover: 'physical-albums/rage-against-the-machine.gif', lp: 'physical-albums/rage-against-the-machine-lp.gif' },
+  { name: "Songs For The Deaf", cover: 'physical-albums/songs-for-the-deaf.gif', lp: 'physical-albums/songs-for-the-deaf-lp1.gif' },
+  { name: "Take Offs and Landings", cover: 'physical-albums/take-offs-and-landings.gif', lp: 'physical-albums/take-offs-and-landings-lp1.gif' },
 ];
 
 function showRandomPhysicalAlbum() {
