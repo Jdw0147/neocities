@@ -62,6 +62,15 @@
     color: #DDDDDD;
 }
 
+.note-divider {
+  height: 40px;
+  margin: 4px 0 16px;
+  background-image: url('icons/sliding-note.gif');
+  background-repeat: repeat-x;
+  background-position: left center;
+  background-size: auto 40px;
+}
+
 .year-buttons {
   display: flex;
   gap: 16px;
@@ -81,7 +90,7 @@
   font-weight: bold;
   padding: 18px 48px;
   border: 3px solid #330066;
-  border-radius: 12px;
+  border-radius: 0;
   cursor: pointer;
   transition: all 0.2s ease;
   background-size: cover;
@@ -105,7 +114,10 @@
 }
 
 .year-btn.active {
-  border-color: #FFD700;
+  border-color: #330066;
+  filter: grayscale(50%) brightness(0.8);
+  box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.7);
+  transform: translateY(2px);
 }
 
 .month-container {
