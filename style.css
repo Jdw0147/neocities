@@ -14,7 +14,7 @@ header {
 /* Body */
 body {
     /* Background */
-    background-image: url('backgrounds/static/site-background.jpg');
+    background-image: url('backgrounds/static/windows-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -56,6 +56,18 @@ main {
     box-shadow: 1px 1px 0 #DFE5F5, -1px -1px 0 #808080;
     display: flex;
     flex-direction: column;
+}
+
+/* Header window - main window inside the page header, with moving bg */
+.header-window {
+    background-image: url('backgrounds/moving/david-bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-window .window-body {
+    background: rgba(242, 242, 237, 0.4);
 }
 
 /* Guestbook window */
