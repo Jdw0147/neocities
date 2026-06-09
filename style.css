@@ -192,3 +192,41 @@ main {
     font-size: 18px;
     color: #0A246A;
 }
+
+/* Margin ads - desktop only, positioned outside the 900px content area */
+.margin-ad {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    z-index: 100;
+}
+
+.margin-ad.visible {
+    display: flex;
+}
+
+.margin-ad-left {
+    left: 10px;
+    max-width: calc((100vw - 940px) / 2);
+}
+
+.margin-ad-right {
+    right: 10px;
+    max-width: calc((100vw - 940px) / 2);
+}
+
+.margin-ad img {
+    max-width: 100%;
+    height: auto;
+    image-rendering: pixelated;
+}
+
+@media (max-width: 1100px) {
+    .margin-ad {
+        display: none !important;
+    }
+}

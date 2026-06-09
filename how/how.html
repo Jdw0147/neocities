@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Did He Do That?</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            cursor: pointer;
+        }
+
+        img {
+            width: 100vw;
+            height: 100vh;
+            display: block;
+            object-fit: fill;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <img id="hat" src="hat.png" alt="Hat">
+
+    <script>
+        const hat = document.getElementById('hat');
+        hat.addEventListener('click', () => {
+            hat.src = hat.src.endsWith('hat2.png') ? 'hat.png' : 'hat2.png';
+        });
+    </script>
+</body>
+</html>
