@@ -22,6 +22,10 @@
     background-size: auto !important;
 }
 
+.music-intro-window .window-body {
+    text-align: center;
+}
+
 .music-section-nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
