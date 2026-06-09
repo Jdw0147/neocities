@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book</title>
+    <style>
+        body {
+            background-image: url('../backgrounds/static/windows-bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #book-image {
+            width: 80vw;
+            height: 70vh;
+            display: block;
+            object-fit: contain;
+        }
+
+        #book-image.clickable {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        #book-image.clickable:hover {
+            transform: scale(1.03);
+        }
+
+        #nav-buttons {
+            display: none;
+            margin-top: 24px;
+            gap: 40px;
+            align-items: center;
+        }
+
+        #nav-buttons.visible {
+            display: flex;
+        }
+
+        .nav-btn {
+            cursor: pointer;
+            transition: transform 0.1s;
+            image-rendering: pixelated;
+        }
+
+        .nav-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-btn.hidden {
+            visibility: hidden;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="book-image" class="clickable" src="../icons/orbs/necronomicon.png" alt="The Book">
+
+    <div id="nav-buttons">
+        <img id="prev-btn" class="nav-btn" src="../icons/orbs/prev.gif" alt="Previous">
+        <img id="next-btn" class="nav-btn" src="../icons/orbs/next.gif" alt="Next">
+    </div>
+
+    <script>
+        const pages = [
+            '../icons/orbs/orbs-1-2-both-dithered.gif',
+            '../icons/orbs/orbs-3-4-both-dithered.gif',
+            '../icons/orbs/orb-5-both-dithered.gif',
+        ];
+
+        const bookImage = document.getElementById('book-image');
+        const navButtons = document.getElementById('nav-buttons');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+
+        let currentPage = -1; // -1 = cover
+
+        function updateState() {
+            const onCover = currentPage === -1;
+            const onLast = currentPage === pages.length - 1;
+
+            navButtons.classList.toggle('visible', !onCover);
+            prevBtn.classList.toggle('hidden', false);
+            nextBtn.classList.toggle('hidden', onLast);
+
+            bookImage.src = onCover ? '../icons/orbs/necronomicon.png' : pages[currentPage];
+            bookImage.classList.toggle('clickable', onCover);
+        }
+
+        bookImage.addEventListener('click', () => {
+            if (currentPage === -1) {
+                currentPage = 0;
+                updateState();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentPage < pages.length - 1) {
+                currentPage++;
+                updateState();
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            currentPage--;
+            updateState();
+        });
+    </script>
+</body>
+</html>
