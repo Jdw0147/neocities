@@ -38,7 +38,7 @@
         #nav-buttons {
             display: none;
             margin-top: 24px;
-            gap: 40px;
+            gap: 100px;
             align-items: center;
         }
 
@@ -50,6 +50,8 @@
             cursor: pointer;
             transition: transform 0.1s;
             image-rendering: pixelated;
+            height: 80px;
+            width: auto;
         }
 
         .nav-btn:hover {
@@ -60,15 +62,30 @@
             visibility: hidden;
             pointer-events: none;
         }
+
+        #back-btn {
+            position: fixed;
+            bottom: 16px;
+            left: 16px;
+            cursor: pointer;
+            transition: transform 0.1s;
+            image-rendering: pixelated;
+        }
+
+        #back-btn:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
 
     <img id="book-image" class="clickable" src="../icons/orbs/necronomicon.png" alt="The Book">
 
+    <a href="../index.html"><img id="back-btn" src="../icons/orbs/back2.gif" alt="Back"></a>
+
     <div id="nav-buttons">
-        <img id="prev-btn" class="nav-btn" src="../icons/orbs/prev.gif" alt="Previous">
-        <img id="next-btn" class="nav-btn" src="../icons/orbs/next.gif" alt="Next">
+        <img id="prev-btn" class="nav-btn" src="../icons/orbs/pointprev.gif" alt="Previous">
+        <img id="next-btn" class="nav-btn" src="../icons/orbs/pointnext.gif" alt="Next">
     </div>
 
     <script>
