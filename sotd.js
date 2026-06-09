@@ -25,6 +25,14 @@ const physicalAlbums = [
   { name: "Rage Against the Machine", cover: 'physical-albums/rage-against-the-machine.gif', lp: 'physical-albums/rage-against-the-machine-lp.gif' },
   { name: "Songs For The Deaf", cover: 'physical-albums/songs-for-the-deaf.gif', lp: 'physical-albums/songs-for-the-deaf-lp1.gif' },
   { name: "Take Offs and Landings", cover: 'physical-albums/take-offs-and-landings.gif', lp: 'physical-albums/take-offs-and-landings-lp1.gif' },
+  { name: "Transatlanicism", cover: 'physical-albums/transatlanticism.gif', lp: 'physical-albums/transatlanticism-lp2.gif' },
+  { name: "Souvlaki", cover: 'physical-albums/souvlaki.gif', lp: 'physical-albums/souvlaki-lp.gif' },
+  { name: "Room on Fire", cover: 'physical-albums/room-on-fire.gif', lp: 'physical-albums/room-on-fire-lp.gif' },
+  { name: "Fear Fun", cover: 'physical-albums/fear-fun.gif', lp: 'physical-albums/fear-fun-lp.gif' },
+  { name: "Come In", cover: 'physical-albums/come-in.gif', lp: 'physical-albums/come-in-lp1.gif' },
+  { name: "Bloodstains", cover: 'physical-albums/bloodstains.gif', lp: 'physical-albums/bloodstains-lp.gif' },
+  { name: "Atlanta Millionaire's Club", cover: 'physical-albums/atlanta-millionaires-club.gif', lp: 'physical-albums/atlanta-millionaires-club-lp.gif' },
+  { name: "A New World Record", cover: 'physical-albums/a-new-world-record.gif', lp: 'physical-albums/a-new-world-record-lp.gif' },
 ];
 
 function showRandomPhysicalAlbum() {
