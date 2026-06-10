@@ -22,3 +22,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (rightAd) rightAd.classList.add('visible');
   }
 });
+
+// Peter Alert
+const petericon = document.getElementById('peter-icon');
+if (petericon) {
+  petericon.addEventListener('click', peterAlert);
+  const okbtn = document.getElementById('peter-btn');
+  if (okbtn) {
+    okbtn.addEventListener('click', closePeterAlert);
+  }
+}
+
+function peterAlert() {
+  let peter = document.getElementById('peter-alert');
+  peter.style.display = 'flex';
+}
+
+function closePeterAlert() {
+  let peter = document.getElementById('peter-alert');
+  peter.style.display = 'none';
+}
