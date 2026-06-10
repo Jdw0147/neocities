@@ -159,6 +159,12 @@
   overflow: hidden;
 }
 
+.pokemon-slot a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .pokemon-slot img {
   width: 100%;
   height: 100%;
@@ -305,7 +311,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     color: #FFFF00;
-    text-shadow: 
+    text-shadow:
         -2px -2px 0 #0066CC,
         2px -2px 0 #0066CC,
         -2px 2px 0 #0066CC,
@@ -314,4 +320,85 @@
         2px 0 0 #0066CC,
         0 -2px 0 #0066CC,
         0 2px 0 #0066CC;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .side-nav {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        transform: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        max-height: none;
+        background-color: #003DA5;
+        border: 3px solid #FFDE00;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .side-nav .nav-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .side-nav .nav-item p {
+        font-size: 11px;
+    }
+
+    .pokemon-page .site-title h1 {
+        font-size: 1.5em;
+    }
+
+    .pokemon-container {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .intro {
+        padding: 15px;
+    }
+
+    .intro > a {
+        display: none;
+    }
+
+    .intro-title {
+        font-size: 1.4em;
+    }
+
+    .intro p {
+        padding: 12px;
+        font-size: 0.9em;
+    }
+
+    .game-section {
+        min-height: auto;
+        padding: 15px 0;
+    }
+
+    .game-section h2 {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .section-content {
+        gap: 10px;
+    }
+
+    .game-cover {
+        width: 90px;
+    }
+
+    .team-box {
+        padding: 8px;
+        gap: 6px;
+    }
+
+    .pokemon-slot {
+        width: 50px;
+        height: 50px;
+    }
 }
