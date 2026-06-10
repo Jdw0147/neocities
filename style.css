@@ -248,3 +248,54 @@ main {
         display: none !important;
     }
 }
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header,
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .window-container {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .aside-window {
+        order: -1;
+        width: 100%;
+        height: auto;
+    }
+
+    .icon-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .icon-link-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon-link-text {
+        margin-top: 4px;
+        font-size: 12px;
+    }
+
+    .main-window {
+        width: 100%;
+        height: auto;
+    }
+
+    .david-sphere {
+        width: 120px;
+    }
+}
