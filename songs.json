@@ -1441,7 +1441,17 @@
       "artist": "Hail The Sun",
       "album": "Wake",
       "image": "/sotd/wake.jpg"
+    },
+    {
+      "num": 161,
+      "date": "June 10th, 2026",
+      "year": 1974,
+      "title": "Just When We Started Makin' It",
+      "artist": "Tower Of Power",
+      "album": "Back To Oakland",
+      "image": "/sotd/back-to-oakland.jpg"
     }
+
 
 
   ]
