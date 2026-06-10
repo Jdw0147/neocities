@@ -47,6 +47,7 @@ main {
     font-size: 0.9em;
 }
 
+/* Neighbors box*/
 .neighbors {
     background-image: url('backgrounds/static/houses-dithered.png');
     background-size: cover;
@@ -79,6 +80,26 @@ main {
     background-repeat: repeat;
     background-position: center;
     outline: solid 1px #ffffff;
+}
+
+/* My Buttons Box */
+.my-btns-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.my-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px 0 20px;
+}
+.misc-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Main window - right side, wider */
