@@ -356,6 +356,7 @@ footer {
     align-items: flex-start;
     justify-content: center;
     position: relative;
+    height: auto;
 }
 
 .side-nav {
