@@ -47,6 +47,40 @@ main {
     font-size: 0.9em;
 }
 
+.neighbors {
+    background-image: url('backgrounds/static/houses-dithered.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    padding: 20px 0;
+    border: solid 2px #0A246A;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.neighbor-header {
+    display: flex;
+    justify-content: center;
+}
+.neighbors h1 {
+    color: #FFFFFF;
+    font-size: 4em;
+    margin: 0 20px 20px 20px;
+}
+.neighbor-btns {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    background-image: url('backgrounds/moving/cat.gif');
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center;
+    outline: solid 1px #ffffff;
+}
+
 /* Main window - right side, wider */
 .main-window {
     flex: 1;  
