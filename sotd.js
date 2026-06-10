@@ -33,6 +33,15 @@ const physicalAlbums = [
   { name: "Bloodstains", cover: 'physical-albums/bloodstains.gif', lp: 'physical-albums/bloodstains-lp.gif' },
   { name: "Atlanta Millionaire's Club", cover: 'physical-albums/atlanta-millionaires-club.gif', lp: 'physical-albums/atlanta-millionaires-club-lp.gif' },
   { name: "A New World Record", cover: 'physical-albums/a-new-world-record.gif', lp: 'physical-albums/a-new-world-record-lp.gif' },
+  { name: "You're Living All Over Me", cover: 'physical-albums/youre-living-all-over-me.gif', lp: 'physical-albums/youre-living-all-over-me-lp.gif' },
+  { name: "Is This It", cover: 'physical-albums/is-this-it.gif', lp: 'physical-albums/is-this-it-lp.gif' },
+  { name: "Survival Horror", cover: 'physical-albums/survival-horror.gif', lp: 'physical-albums/survival-horror-lp.gif' },
+  { name: "Saturday Night Wrist", cover: 'physical-albums/saturday-night-wrist.gif', lp: 'physical-albums/saturday-night-wrist-lp.gif' },
+  { name: "Nebraska", cover: 'physical-albums/nebraska.gif', lp: 'physical-albums/nebraska-lp.gif' },
+  { name: "Grace", cover: 'physical-albums/grace.gif', lp: 'physical-albums/grace-lp.gif' },
+  { name: "Everyone Else Is Doing It, So Why Can't We?", cover: 'physical-albums/everyone-else-is-doing-it.gif', lp: 'physical-albums/everyone-else-is-doing-it-lp.gif' },
+  { name: "Four-Calendar Café", cover: 'physical-albums/four-calendar-cafe.gif', lp: 'physical-albums/four-calendar-cafe-lp.gif' },
+  { name: "Alive 2007", cover: 'physical-albums/alive-2007.gif', lp: 'physical-albums/alive-2007-lp1.gif' },
 ];
 
 function showRandomPhysicalAlbum() {
