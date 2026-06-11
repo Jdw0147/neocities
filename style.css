@@ -266,6 +266,11 @@ main {
     margin: 0 0 8px 12px;
 }
 
+.profile-link {
+    float: left;
+    margin-right: 20px;
+}
+
 #peter-alert {
     flex-direction: column;
     width: 250px;
@@ -315,7 +320,6 @@ main {
     border: none;
     font-size: 18px;
 }
-
 
 /* Margin ads - desktop only, positioned outside the 900px content area */
 .margin-ad {
