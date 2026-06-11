@@ -42,6 +42,9 @@ const physicalAlbums = [
   { name: "Everyone Else Is Doing It, So Why Can't We?", cover: 'physical-albums/everyone-else-is-doing-it.gif', lp: 'physical-albums/everyone-else-is-doing-it-lp.gif' },
   { name: "Four-Calendar Café", cover: 'physical-albums/four-calendar-cafe.gif', lp: 'physical-albums/four-calendar-cafe-lp.gif' },
   { name: "Alive 2007", cover: 'physical-albums/alive-2007.gif', lp: 'physical-albums/alive-2007-lp1.gif' },
+  { name: "Life's A Trip", cover: 'physical-albums/lifes-a-trip.gif', lp: 'physical-albums/lifes-a-trip-lp.gif' },
+  { name: "Man on the Moon: The End of Day", cover: 'physical-albums/man-on-the-moon.gif', lp: 'physical-albums/man-on-the-moon-lp1.gif'},
+  { name: "Are You Experienced?", cover: 'physical-albums/are-you-experienced.gif', lp: 'physical-albums/are-you-experienced-lp.gif' },
 ];
 
 function showRandomPhysicalAlbum() {
