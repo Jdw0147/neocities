@@ -339,18 +339,30 @@ main {
 
 .margin-ad-left {
     left: 10px;
-    max-width: calc((100vw - 940px) / 2);
+    bottom: 10px;
+    top: auto;
+    transform: none;
+    width: calc((100vw - 940px) / 2 - 10px);
 }
 
 .margin-ad-right {
     right: 10px;
-    max-width: calc((100vw - 940px) / 2);
+    width: calc((100vw - 940px) / 2 - 10px);
 }
 
 .margin-ad img {
     max-width: 100%;
     height: auto;
     image-rendering: pixelated;
+}
+
+.margin-ad-left a {
+    display: block;
+    width: 100%;
+}
+
+.margin-ad-left img {
+    width: 80%;
 }
 
 @media (max-width: 1100px) {

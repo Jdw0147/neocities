@@ -21,6 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const rightAd = document.getElementById('margin-ad-right');
     if (rightAd) rightAd.classList.add('visible');
   }
+
+  // Left margin ad: 1/5 chance of showing on each page load
+  if (Math.random() < 1/5) {
+    const leftAd = document.getElementById('margin-ad-left');
+    if (leftAd) leftAd.classList.add('visible');
+  }
 });
 
 // Peter Alert
