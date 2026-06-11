@@ -1450,6 +1450,15 @@
       "artist": "Tower Of Power",
       "album": "Back To Oakland",
       "image": "/sotd/back-to-oakland.jpg"
+    },
+    {
+      "num": 162,
+      "date": "June 11th, 2026",
+      "year": 2024,
+      "title": "Dog Days",
+      "artist": "Dehd",
+      "album": "Poetry",
+      "image": "/sotd/poetry.jpg" 
     }
 
 
