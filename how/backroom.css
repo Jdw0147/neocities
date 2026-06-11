@@ -1,0 +1,29 @@
+body {
+            margin: 0;
+            min-height: 100vh;
+            background-image: url('/backgrounds/static/backrooms-dithered.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+.br-body {
+    outline: solid 2px black;
+    margin-left: 20px;
+    margin-right: 50em;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.br-body h1 {
+    color: white;
+    font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
+    padding: 20px;
+}
+
+.br-body p {
+    color: white;
+    font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
+    padding: 20px;
+
+}
