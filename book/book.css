@@ -1,0 +1,86 @@
+body {
+            background-image: url('../backgrounds/static/windows-bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #book-image {
+            width: 80vw;
+            height: 70vh;
+            display: block;
+            object-fit: contain;
+        }
+
+        #book-image.clickable {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        #book-image.clickable:hover {
+            transform: scale(1.03);
+        }
+
+        #nav-buttons {
+            display: none;
+            margin-top: 24px;
+            gap: 100px;
+            align-items: center;
+        }
+
+        #nav-buttons.visible {
+            display: flex;
+        }
+
+        .nav-btn {
+            cursor: pointer;
+            transition: transform 0.1s;
+            image-rendering: pixelated;
+            height: 80px;
+            width: auto;
+        }
+
+        .nav-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-btn.hidden {
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        #back-btn {
+            position: fixed;
+            bottom: 16px;
+            left: 16px;
+            cursor: pointer;
+            transition: transform 0.1s;
+            image-rendering: pixelated;
+        }
+
+        #back-btn:hover {
+            transform: scale(1.1);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            #book-image {
+                width: 100%;
+                height: auto;
+            }
+
+            #nav-buttons {
+                gap: 50px;
+            }
+
+            .nav-btn {
+                height: 60px;
+            }
+        }
