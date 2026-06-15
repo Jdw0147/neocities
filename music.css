@@ -1,19 +1,34 @@
 /* Music Page Specific Styles */
 
+
+
+.win-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.win-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#music-videos, #live {
+    background-image: url('backgrounds/static/funky.gif');
+    background-size: auto;
+    background-repeat: repeat;
+}
+
 .music-header-flame {
     display: block;
     margin: 0 auto;
     height: 100px;
     width: auto;
-}
-
-.escape-divider {
-    width: 100%;
-    height: 80px;
-    background-image: url('icons/musicscroll.gif');
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-    margin: 12px 0 0;
 }
 
 .music-intro-window {
@@ -413,4 +428,18 @@ footer {
 
 html {
     scroll-behavior: smooth;
+}
+
+
+/* Mobile layout */
+@media (max-width: 768px) {
+
+    /* Hide side window */
+    .aside-window {
+        display: none;
+    }
+
+
+
+
 }
