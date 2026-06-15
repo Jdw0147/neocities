@@ -1486,6 +1486,15 @@
       "artist": "Oliver Tree",
       "album": "Ugly Is Beautiful",
       "image": "/sotd/ugly-is-beautiful.jpg" 
+    },
+    {
+      "num": 166,
+      "date": "June 15th, 2026",
+      "year": 2017,
+      "title": "Your Cat",
+      "artist": "Slaughter Beach, Dog",
+      "album": "Motorcycle.jpg",
+      "image": "/sotd/motorcycle.jpg" 
     }
 
 
