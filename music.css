@@ -104,6 +104,16 @@
     display: block;
 }
 
+.live-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+}
+
 .music-nav-small img {
     width: 80px;
     height: 80px;
