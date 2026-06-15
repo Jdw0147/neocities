@@ -1,6 +1,6 @@
 const randomLinks = [
   { url: 'music.html', name: 'Music Page' },
-  { url: 'music-video.html', name: 'Music Video Page' },
+  { url: 'music-videos.html', name: 'Music Video Page' },
   { url: 'live-music.html', name: 'Live Music Page' },
   { url: 'sotd.html', name: 'Song of the Day' },
   { url: 'pokemon.html', name: 'Pokemon Page' },
