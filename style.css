@@ -47,61 +47,6 @@ main {
     font-size: 0.9em;
 }
 
-/* Neighbors box*/
-.neighbors {
-    background-image: url('backgrounds/static/houses-dithered.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    padding: 20px 0;
-    border: solid 2px #0A246A;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.neighbor-header {
-    display: flex;
-    justify-content: center;
-}
-.neighbors h1 {
-    color: #FFFFFF;
-    font-size: 4em;
-    margin: 0 20px 20px 20px;
-}
-.neighbor-btns {
-    margin-top: 10px;
-    display: flex;
-    gap: 20px;
-    padding: 20px 30px;
-    background-image: url('backgrounds/moving/cat.gif');
-    background-size: auto;
-    background-repeat: repeat;
-    background-position: center;
-    outline: solid 1px #ffffff;
-}
-
-/* My Buttons Box */
-.my-btns-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px 0 20px;
-}
-.my-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 0 20px 0 20px;
-}
-.misc-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 /* Main window - right side, wider */
 .main-window {
     flex: 1;  
@@ -259,7 +204,7 @@ main {
     clear: both;
 }
 
-/* David sphere float */
+/* David sphere & Site profile float */
 .david-sphere {
     float: right;
     width: 300px;
@@ -271,6 +216,78 @@ main {
     margin-right: 20px;
 }
 
+/* Neighbors box*/
+.neighbors {
+    background-image: url('backgrounds/static/houses-dithered.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    padding: 20px 0;
+    border: solid 2px #0A246A;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.neighbor-header {
+    display: flex;
+    justify-content: center;
+}
+.neighbors h1 {
+    color: #FFFFFF;
+    font-size: 4em;
+    margin: 0 20px 20px 20px;
+}
+.neighbor-btns {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    background-image: url('backgrounds/moving/cat.gif');
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center;
+    outline: solid 1px #ffffff;
+}
+
+/* My Buttons */
+.my-btns-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.my-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+}
+
+.peter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.misc-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Peter Alert Styles */
 #peter-alert {
     flex-direction: column;
     width: 250px;
@@ -433,5 +450,15 @@ main {
 
     .neighbor-header h1{
         font-size: 2.5em;
+    }
+
+    .my-btns-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .my-btns {
+        flex-direction: column;
+        gap: 10px;
     }
 }
