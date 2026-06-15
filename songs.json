@@ -1459,6 +1459,33 @@
       "artist": "Dehd",
       "album": "Poetry",
       "image": "/sotd/poetry.jpg" 
+    },
+    {
+      "num": 163,
+      "date": "June 12th, 2026",
+      "year": 2026,
+      "title": "Sentimetal",
+      "artist": "Of Lunar Flights",
+      "album": "It's Gonna Feel So Good To Let It Go",
+      "image": "/sotd/its-gonna-feel-so-good-to-let-it-go.jpg" 
+    },
+    {
+      "num": 164,
+      "date": "June 13th, 2026",
+      "year": 2022,
+      "title": "intellectual greed",
+      "artist": "brakence",
+      "album": "hypochondriac",
+      "image": "/sotd/hypochondriac.jpg" 
+    },
+    {
+      "num": 165,
+      "date": "June 14th, 2026",
+      "year": 2020,
+      "title": "Me, Myself & I",
+      "artist": "Oliver Tree",
+      "album": "Ugly Is Beautiful",
+      "image": "/sotd/ugly-is-beautiful.jpg" 
     }
 
 
