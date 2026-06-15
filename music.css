@@ -477,12 +477,141 @@ html {
 /* Mobile layout */
 @media (max-width: 768px) {
 
-    /* Hide side window */
+    /** ************MUSIC PAGE **************** */
     .aside-window {
         display: none;
     }
 
+    body {
+        padding: 10px;
+    }
+
+    header,
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .music-header-flame {
+        height: 60px;
+    }
+
+    /* Stack containers vertically on mobile */
+    .window-container {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .music-intro-window {
+        width: 100% !important;
+        height: auto;
+    }
+
+    
+    /* Music section nav: stack in 2 columns on mobile instead of 5 */
+    .music-section-nav {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+    }
+
+    /* Reposition grid items for mobile */
+    .music-section-link:nth-child(1) { grid-column: 1; grid-row: 1; }
+    .music-section-link:nth-child(2) { grid-column: 2; grid-row: 1; }
+    .music-section-link:nth-child(3) { grid-column: 1; grid-row: 2; }
+    .music-section-link:nth-child(4) { grid-column: 2; grid-row: 2; }
+    .music-section-link:nth-child(5) { grid-column: 1 / 3; grid-row: 3; justify-self: center; }
+
+    .music-section-link img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .music-nav-small img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .head-title {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .head-title h1 {
+        font-size: 1.8em;
+    }
+
+    .head-title img {
+        width: 120px;
+    }
+
+    .mv-title img {
+        width: 100px;
+        margin: 0 20px;
+    }
+
+    .sony-monkey {
+        width: 100%;
+        height: auto;
+    }
 
 
 
+    /** ************MUSIC VIDEOS PAGE **************** */
+
+    .head-title.mv-title img {
+        width: 50px;
+        margin: 0;
+    }
+
+    .head-title.mv-title {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .music-section-nav.live-nav {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .win-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .win-content iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .win-content h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .win-header h1 {
+        font-size: 1.8em;
+        margin: 10px 0;
+    }
+
+    
+    .head-title {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head-title img {
+        width: 60px;
+        height: auto;
+    }
 }
+
+
