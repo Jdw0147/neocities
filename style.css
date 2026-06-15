@@ -286,6 +286,10 @@ main {
     flex-direction: column;
 }
 
+.btn-col.mobile-btn {
+        display: none;
+    }
+
 
 /*Peter Alert Styles */
 #peter-alert {
@@ -476,9 +480,14 @@ main {
         gap: 10px;
     }
     .btn-col {
+        display: none;
+    }
+    
+    /* Show only the ones with col-vis class */
+    .btn-col.mobile-btn {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
