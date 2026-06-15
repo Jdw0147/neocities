@@ -24,6 +24,33 @@
     background-repeat: repeat;
 }
 
+.head-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.head-title h1 {
+    font-size: 3em;
+}
+
+.head-title img {
+    width: 200px;
+    height: auto;
+}
+
+.live-reverse {
+    transform: scaleX(-1);
+}
+
+.divider {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+
 .music-header-flame {
     display: block;
     margin: 0 auto;
