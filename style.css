@@ -443,7 +443,8 @@ main {
 
     /* Floating icons now smaller to make more room for text */
     .david-sphere {
-        width: 120px;
+        width: 200px;
+        margin: 30px 0 0 0;
     }
     
     .profile-link img {
