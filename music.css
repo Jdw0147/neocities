@@ -118,6 +118,7 @@
     justify-content: space-between;
     gap: 20px;
     width: 90%;
+    padding: 10px;
 }
 
 .music-nav-small img {
@@ -574,6 +575,7 @@ html {
     }
 
     .music-section-nav.live-nav {
+        width: 100%;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;

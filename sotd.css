@@ -75,6 +75,8 @@
 
 .sotd-page .main-window .window-body {
     color: #DDDDDD;
+    text-align: center;
+    justify-content: center;
 }
 
 .sotd-page .main-window h2,
@@ -416,3 +418,9 @@ footer {
 .back-button:active {
   transform: scale(0.95);
 }
+
+.music-links {
+    display: flex;
+    justify-content: center;
+}
+
