@@ -388,6 +388,7 @@ main {
     }
 }
 
+
 /* Mobile layout */
 @media (max-width: 768px) {
     body {
@@ -406,6 +407,12 @@ main {
         gap: 10px;
     }
 
+    .main-window {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Aside Window now horizontal on top of main window */
     .aside-window {
         order: -1;
         width: 100%;
@@ -429,11 +436,8 @@ main {
         font-size: 12px;
     }
 
-    .main-window {
-        width: 100%;
-        height: auto;
-    }
 
+    /* Floating icons now smaller to make more room for text */
     .david-sphere {
         width: 120px;
     }
@@ -442,6 +446,7 @@ main {
         width: 175px;
     }
 
+    /* Neighbor Buttons now vertical */
     .neighbor-btns {
         flex-direction: column;
         height: auto;
@@ -452,6 +457,7 @@ main {
         font-size: 2.5em;
     }
 
+    /* My buttons now vertically laid out */
     .my-btns-container {
         flex-direction: column;
         gap: 10px;
