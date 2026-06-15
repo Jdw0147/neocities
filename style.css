@@ -467,4 +467,18 @@ main {
         flex-direction: column;
         gap: 10px;
     }
+
+    /* Buttons at bottom of index */
+    .misc-btns {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .btn-col {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
 }
