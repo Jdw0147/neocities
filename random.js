@@ -2,7 +2,10 @@ const randomLinks = [
   { url: 'music.html', name: 'Music Page' },
   { url: 'sotd.html', name: 'Song of the Day' },
   { url: 'pokemon.html', name: 'Pokemon Page' },
-  { url: 'guestbook.html', name: 'Guestbook' }
+  { url: 'guestbook.html', name: 'Guestbook' },
+  { url: 'how/backroom.html', name: 'Backroom Page' },
+  { url: 'how/how.html', name: 'How Did He Do That?' },
+  { url: 'book/book.html', name: 'The Tome'}
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
