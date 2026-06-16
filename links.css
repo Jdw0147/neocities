@@ -23,7 +23,7 @@ body {
 .link-tab {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     border-radius: 5px;
@@ -57,6 +57,7 @@ body {
     display: inline-block;
     height: 350px;
     width: 600px;
+    text-align: center;
     overflow-y: auto;
 
 }
