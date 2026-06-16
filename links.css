@@ -40,7 +40,7 @@ body {
     margin: 10px;
 }
 
-.tab-body li {
+.tab-body li, .tab-body p {
     color: beige;
     font-size: 1em;
     margin: 10px 0;
@@ -59,7 +59,6 @@ body {
     width: 600px;
     text-align: center;
     overflow-y: auto;
-
 }
 
 link-tab.tab-lg {
