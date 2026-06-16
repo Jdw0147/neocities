@@ -53,3 +53,23 @@ function closePeterAlert() {
   let peter = document.getElementById('peter-alert');
   peter.style.display = 'none';
 }
+
+// Retep Alert
+const retepicon = document.getElementById('retep-icon');
+if (retepicon) {
+  retepicon.addEventListener('click', retepAlert);
+  const okbtn = document.getElementById('retep-btn');
+  if (okbtn) {
+    okbtn.addEventListener('click', closeRetepAlert);
+  }
+}
+
+function retepAlert() {
+  let retep = document.getElementById('retep-alert');
+  retep.style.display = 'flex';
+}
+
+function closeRetepAlert() {
+  let retep = document.getElementById('retep-alert');
+  retep.style.display = 'none';
+}

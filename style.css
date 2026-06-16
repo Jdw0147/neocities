@@ -292,7 +292,7 @@ main {
 
 
 /*Peter Alert Styles */
-#peter-alert {
+#peter-alert, #retep-alert {
     flex-direction: column;
     width: 250px;
     height: 200px;
@@ -314,6 +314,16 @@ main {
     font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
 }
 
+.retep-header {
+    background-color: rgb(6, 124, 6);
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
+}
+
 .peter-body {
     background-color:#f5f5f5;
     display: flex;
@@ -324,18 +334,29 @@ main {
     height: 165px;
 }
 
-#peter-btn {
+.retep-body {
+    background-color: rgb(7, 94, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 165px;
+}
+
+#peter-btn, #retep-btn {
     padding: 3px 25px 3px 25px;
     border-radius: 0px;
     font-family: 'MS Gothic', Tahoma, monospace;
     font-size: 14.75px;
 }
 
-#peter-icon {
+#peter-icon, #retep-icon {
     width: 50px;
     height: 50px;
 }
-#peter-close-btn {
+
+#peter-close-btn, #retep-close-btn {
     color: black;
     background-color: transparent;
     border: none;
