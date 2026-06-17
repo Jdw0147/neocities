@@ -1,0 +1,65 @@
+
+
+
+
+
+
+/* centering and creating box for header and main*/
+header {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Containers in Main */
+
+.month-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.month-favs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.media-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.media-title {
+    background-color: rgb(39, 39, 39);
+    color: rgb(170, 170, 170);
+    height: 10%;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
