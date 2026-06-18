@@ -2,18 +2,22 @@
 
 
 
-
+body {
+    background-image: url("../backgrounds/static/teal.jpg");
+    background-size: auto;
+    background-repeat: repeat;
+}
 
 /* centering and creating box for header and main*/
 header {
-    max-width: 900px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
 main {
-    max-width: 900px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -62,4 +66,125 @@ main {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.month-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: nowrap;
+    width: auto; 
+    margin: 0 auto;
+}
+
+.media-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    flex-shrink: 0;
+}
+
+.month-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    width: 380px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.media-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+    background-color: rgb(66, 66, 66);
+    color: rgb(170, 170, 170);
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.media-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 90%;
+    box-sizing: border-box;
+    min-width: 0;
+    padding: 10px 0 10px 0;
+}
+
+.media-item h3 {
+    flex: 1; 
+    min-width: 0;  
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.album-art {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.media-header {
+    background-color: rgb(39, 39, 39);
+    color: rgb(170, 170, 170);
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.media-header h1 {
+    margin: 10px;
+}
+
+.book-cover {
+    width: 40%;
+    height: auto;
+}
+
+.media-item.book-item {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.media-item.book-item h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+.album {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text {
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-item p {
+    margin: 5px 0 0 0;
 }
