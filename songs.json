@@ -1504,7 +1504,44 @@
       "artist": "Turnstile",
       "album": "Nonstop Feeling",
       "image": "/sotd/nonstop-feeling.jpg" 
+    },
+    {
+      "num": 168,
+      "date": "June 17th, 2026",
+       "year": 2022,
+      "title": "Leader of the Pack",
+      "artist": "Wunderhorse",
+      "album": "Cub",
+      "image": "/sotd/cub.jpg"
+    },
+    {
+      "num": 169,
+      "date": "June 18th, 2026", 
+      "year": 1978,
+      "title": "Ghost Song",
+      "artist": "Jim Morrison, The Doors",
+      "album": "An American Prayer",
+      "image": "/sotd/an-american-prayer.jpg"
+    },
+    {
+      "num": 170,
+      "date": "June 19th, 2026", 
+      "year": 2020,
+      "title": "Parasite Eve",
+      "artist": "Bring Me The Horizon",
+      "album": "POST HUMAN: SURVIVAL HORROR",
+      "image": "/sotd/survival-horror.jpg"
+    },
+    {
+      "num": 171,
+      "date": "June 20th, 2026", 
+      "year": 2003,
+      "title": "Tiny Vessels",
+      "artist": "Death Cab for Cutie",
+      "album": "Transatlanticism",
+      "image": "/sotd/transatlanticism.jpg"
     }
+
 
 
 
