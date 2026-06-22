@@ -3,9 +3,10 @@
 
 
 body {
-    background-image: url("../backgrounds/static/teal.jpg");
-    background-size: auto;
-    background-repeat: repeat;
+    background-image: url("../backgrounds/static/car.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* centering and creating box for header and main*/
