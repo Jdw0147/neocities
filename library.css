@@ -2,6 +2,7 @@ body {
     background-image: url("backgrounds/static/library.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Jacquard 12', cursive;
 }
 
@@ -27,7 +28,7 @@ body {
 .lib-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     gap: 100px;
     margin-top: 50px;
@@ -37,12 +38,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(250, 216, 172, 0.664);
 }
 
 .lib-item img {
     width: 400px;
     height: auto;
 }
+
 
 
 /* Ribozone Image Hover effect */
@@ -72,3 +75,4 @@ body {
 .imgtxt:hover img, .imgtxt:focus img {
   /* add hover effects like transform or filter to your images here! */
 }
+
