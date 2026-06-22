@@ -1,0 +1,135 @@
+    {
+        "Books": [
+            {
+                "read-order": 1,
+                "release-date": "January 28, 2014",
+                "read-date": "Early 2024",
+                "title": "Red Rising",
+                "author": "Pierce Brown",
+                "rating": 9,
+                "cover": "/books/red-rising.png",
+                "genres": [
+                    "Science Fiction",
+                    "Dystopian"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction",
+                    "Favorite"
+                ]
+            },
+            {
+                "read-order": 2,
+                "release-date": "January 6, 2015",
+                "read-date": "Early-Mid 2024",
+                "title": "Golden Son",
+                "author": "Pierce Brown",
+                "rating": 8,
+                "cover": "/books/golden-son.png",
+                "genres": [
+                    "Science Fiction",
+                    "Dystopian"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction"
+                ]
+            },
+
+            {
+                "read-order": 3,
+                "release-date": "February 9, 2016",
+                "read-date": "Late 2024",
+                "title": "Morning Star",
+                "author": "Pierce Brown",
+                "rating": 8.5,
+                "cover": "/books/morning-star.png",
+                "genres": [
+                    "Science Fiction",
+                    "Dystopian"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction",
+                    "Favorite"
+                ]
+            },
+
+            {
+                "read-order": 4,
+                "release-date": "October 16, 2018",
+                "read-date": "Late 2024",
+                "title": "Atomic Habits",
+                "author": "James Clear",
+                "rating": 7,
+                "cover": "/books/atomic-habits.png",
+                "genres": [
+                    "Self-Help",
+                    "Psychology",
+                    "Productivity"
+                ],
+                "tags": [
+                    "Book",
+                    "Non-Fiction"
+                ]
+            },
+
+            {
+                "read-order": 5,
+                "release-date": "April 10, 1925",
+                "read-date": "Late 2024 - Early 2025",
+                "title": "The Great Gatsby",
+                "author": "F. Scott Fitzgerald",
+                "rating": 7.5,
+                "cover": "/books/the-great-gatsby.png",
+                "genres": [
+                    "Literary Fiction",
+                    "Romance",
+                    "Drama"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction"
+                ]
+            },
+
+            {
+                "read-order": 6,
+                "release-date": "November 1936",
+                "read-date": "Late 2024 - Early 2025",
+                "title": "How to Win Friends and Influence People",
+                "author": "Dale Carnegie",
+                "rating": 7,
+                "cover": "/books/how-to-win-friends",
+                "genres": [
+                    "Self-Help",
+                    "Personal Development"
+                ],
+                "tags": [
+                    "Book",
+                    "Non-Fiction"
+                ]
+            },
+
+            {
+                "read-order": 7,
+                "release-date": "November 2012",
+                "read-date": "Late 2024 - Early 2025",
+                "title": "The Travelling Cat Chronicles",
+                "author": "Hiro Arikawa",
+                "rating": 7,
+                "cover": "/books/the-travelling-cat-chronicles",
+                "genres": [
+                    "Contemporary Fiction",
+                    "Japanese Literature"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction"
+                ]
+            }
+
+
+
+        ]
+    }
