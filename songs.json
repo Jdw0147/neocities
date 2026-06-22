@@ -1540,6 +1540,15 @@
       "artist": "Death Cab for Cutie",
       "album": "Transatlanticism",
       "image": "/sotd/transatlanticism.jpg"
+    },
+    {
+      "num": 172,
+      "date": "June 21st, 2026", 
+      "year": 1997,
+      "title": "Paranoid Android",
+      "artist": "Radiohead",
+      "album": "OK Computer",
+      "image": "/sotd/ok-computer.jpg"
     }
 
 
