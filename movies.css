@@ -1,0 +1,189 @@
+body {
+    background-image: url("backgrounds/static/box-office.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Jacquard 12', cursive;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.site-header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 550px;
+    background-color: rgba(26, 26, 26, 0.664);
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAADAElEQVR4AeyX4Y6jMAyE9+793/kuSPmBv1DMYNPuakdKlRqPx+EDWe3fr6+vfx/+jPZhqecJxSNQ61v1G9BxBq8uAgbaRXL6GOgE0bVdAfpnNHvywxmm9qrWq/0GjtfrCtDX1c4sBAx0QVK7YKA1fkv1EVDOFM6oxSS5wHrGWT/qGav1yXGXdNYvFBwBDQIHGgED1XilagNNEWmCK0A5ozhT2JF51jNW9dV69lPPT32IrwANBQ7OCRjoOR85a6AysvOCO0DVGcaZxTjzo56xWp/pmT8niOwdoLBwuCdgoHsaDd8NtAHi3uIOUHWGcSYxzvyoZ6zWZ3rm97zS73eApqa/WWCgzU/fQD8AlDNFnWFb/f7DW8j89rVH31lPf9ZQr+bpH2K/oQFHPTDQOsPgYKABRz14B1DOrOzU1Gex6pfpS/l3AC0d8KcVG2jzEzPQB4ByRqm/y7L65iOX7brvL9y/39Dy84kGBhp5lCMDLSOMBhvQR2fKaEf/cenS6hKxf5h5o0lrfgM6PL26CBhoF8npY6ATRNdmoF0kp4+BThBdm4F2kZw+BjpBdG0G2kVy+hjoBNG1GWgXyeljoBNE17YBffS/7Tgo/celx9aRMfu3/ncfDYP/BnRc8+oiYKBdJKePgU4QXdsG9NGZ0nXQRp8w84Zv6/1vQIenVxcBA+0iOX0MdILo2t4BlDMqOzv1Waz6ZfpS/h1ASwf8acUG2vzEDPQDQLt/t/EWOCPZL4tZT3/WU6/m6R9iv6EBRz0w0DrD4GCgAUc9uANUnTmcWYwzP+oZq/WZnnmJ8h2gUoPfJjbQ5iduoN8AqDrDOJMYZ37UM1brMz3zEnK/oRKuXGygOSNJYaASrlx8BShnCmcYuzDPesaqvlrPfur5N/3LzxWgL4udWAkY6MqkdMVAS/jW4iOg2YxaXc6vcGYxzvpRz1itPz/tms36hYojoEHgQCNgoBqvVG2gKSJNcAUoZ1R3nM2orF+1PvNn/pTwFaCnBk5GAgYaeZQjAy0jjAb/AQAA//8t8CUkAAAABklEQVQDANLmMHuPwSgpAAAAAElFTkSuQmCC') 28 /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid; 
+}
+
+.site-header h1 {
+    font-size: 6em;
+    font-family: 'Jacquard 12', cursive;
+    color: rgb(255, 255, 255);
+    margin: 0 20px;
+}
+
+.book-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 100px;
+    margin: 50px;
+}
+
+.book-window {
+    width: 400px;
+    height: auto;
+    background-color: rgba(26, 26, 26, 0.664);
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABoElEQVR4AdSSAW7DMAhF093/zpv50lNj6kSQJcaVAi5gw/tsP9u2/X6DGWjjXP8bgb4a9grWMN7fCPRdXejXHpQt8j9bhcl8eMSxB1ViVTcCRQnKZp9+vnY3AlVhNZcBRSkaiP2ZrXOfk78gfZXPgOpBlYuAomyotIGTbz/1cV9Bc0d18v4+MfXWYtsioLpY7TKgrwZrhlLOltZH7E8Vm/N562VGvl3RR2w1MyUzoHpQ5SKgKPSMpvaKHfUhT89ubgSUBqVnBBSFs0DZZDc3AjoL8HROBhSlpw1vKLLJbl4G9AaG6y0yoCi9Pi32kk128zKgsTEP3YqAovAhhI+2bLKbGwH96FSRiICaQrNZfGzSZpppbgRUF6tdBhSlTzPbFs26eRnQpwFP+2dATaUZDVGcPXl/dNLPZpnpXgZUD6pcBtQrNbX/Mfp57fTs6hlQ33BqHAFFGUrvAqQf/elLTF35CKguVrsMKErvPv0O2CRzVM+A6kGVG4GiBGWwzYqH80eggC117kG9klViLWwPqsSqbgTKJmGujsUxAlVhNfcHAAD//x+PLlsAAAAGSURBVAMAtdDgK+OF6loAAAAASUVORK5CYII=') 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid;
+    
+}
+
+.list-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    color: white;
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    background-color: rgba(26, 26, 26, 0.664);
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAABJElEQVR4AZzSAU7DUAwD0D/uf+eR9yWHtOsKQ6oXx3bcIvG11noOFP330z1KtTzqB2p89KTIkXtYKSUmMCc9oONmsEtKzF507dLHZj8/dqAkbGY3+RCdFjzypdPEwRF0uEh2fq0reyZtf+km9RMjM4dl9XH4VYa3kS8VUmIyTAg330HObfspbaHIIVD73aMwfvNz6SeFyuQBb8zSvCmzQzfkMjtLX954UzatFPf9LH0x5+UfeO4P/1Lzrt86xTc82czLUm+ENx2X8iE///x+U51NXuvtcyiUnKV2gd8K45vgzuzbc6kACJjCgMPkM3PwzqU5ypyH0VJg5wMNNlfKJEww6UC3Z+Jg5wMePJVmEQS7IB7QcDOwn7G9lCoBYoL4J3AP6xsAAP//uF07+gAAAAZJREFUAwC1rEglPwhgiAAAAABJRU5ErkJggg==') 7 /  7px / 0 round;
+    border-width:  7px;
+    border-style:  solid; 
+     
+    border-color: black;
+}
+
+.list-item img {
+    width: 90%;
+    height: auto;
+    margin: 5px 10px;
+}
+.list-item h3 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    margin: 5px;
+    color: white;
+}
+
+.list-item.cr {
+    max-width: 300px;
+}
+.list-item.cr img {
+    width: 275px;
+    height: auto;
+}
+
+.book-window li {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+
+.divider {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+.book-window p {
+    font-size: 1.3em;
+    margin: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+.list-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgba(26, 26, 26, 0.664);
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABoElEQVR4AdSSAW7DMAhF093/zpv50lNj6kSQJcaVAi5gw/tsP9u2/X6DGWjjXP8bgb4a9grWMN7fCPRdXejXHpQt8j9bhcl8eMSxB1ViVTcCRQnKZp9+vnY3AlVhNZcBRSkaiP2ZrXOfk78gfZXPgOpBlYuAomyotIGTbz/1cV9Bc0d18v4+MfXWYtsioLpY7TKgrwZrhlLOltZH7E8Vm/N562VGvl3RR2w1MyUzoHpQ5SKgKPSMpvaKHfUhT89ubgSUBqVnBBSFs0DZZDc3AjoL8HROBhSlpw1vKLLJbl4G9AaG6y0yoCi9Pi32kk128zKgsTEP3YqAovAhhI+2bLKbGwH96FSRiICaQrNZfGzSZpppbgRUF6tdBhSlTzPbFs26eRnQpwFP+2dATaUZDVGcPXl/dNLPZpnpXgZUD6pcBtQrNbX/Mfp57fTs6hlQ33BqHAFFGUrvAqQf/elLTF35CKguVrsMKErvPv0O2CRzVM+A6kGVG4GiBGWwzYqH80eggC117kG9klViLWwPqsSqbgTKJmGujsUxAlVhNfcHAAD//x+PLlsAAAAGSURBVAMAtdDgK+OF6loAAAAASUVORK5CYII=') 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid;
+}
+.list-header h2 {
+    font-size: 3em;
+    margin: 5px;
+}
+
+/* Styles for the changing windows */
+.book-tab {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+.book-tab.active {
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+}
+
+.list-window {
+    display: none;
+}
+
+.list-window.active {
+    display: flex;
+}
+
+/* Ribozone Image Hover effect */
+.imgtxt img {
+    width: 300px;
+    height: auto;
+}
+.imgtxt {
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  position: relative;
+}
+.imgtxt span {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 3.5rem;
+  color: #FFF;
+  filter: drop-shadow(1px 1px 0 black) 
+    drop-shadow(-1px 1px 0 black)
+    drop-shadow(1px -1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+}
+.imgtxt:hover span, .imgtxt:focus span {
+  opacity: 1;
+}
+.imgtxt:hover img, .imgtxt:focus img {
+  /* add hover effects like transform or filter to your images here! */
+}
