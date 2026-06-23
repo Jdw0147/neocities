@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Jacquard 12', cursive;
+    font-family: "Jersey 10", sans-serif;
 }
 
 .header-container {
@@ -29,7 +29,7 @@ body {
 
 .site-header h1 {
     font-size: 6em;
-    font-family: 'Jacquard 12', cursive;
+    font-family: "Jersey 10", sans-serif;
     color: rgb(255, 255, 255);
     margin: 0 20px;
 }
