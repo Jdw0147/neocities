@@ -127,7 +127,134 @@
                     "Book",
                     "Fiction"
                 ]
+            },
+
+            {
+                "read-order": 8,
+                "release-date": "January 2018",
+                "read-date": "Late 2024 - Early 2025",
+                "title": "Iron Gold",
+                "author": "Pierce Brown",
+                "rating": 7,
+                "cover": "/books/iron-gold.png",
+                "genres": [
+                    "Science Fiction",
+                    "Dystopian"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction"
+                ]
+            },
+
+            {
+                "read-order": 9,
+                "release-date": "June 2008",
+                "read-date": "March 10, 2025",
+                "title": "When You Are Engulfed in Flames",
+                "author": "David Sedaris",
+                "rating": 8,
+                "cover": "/books/when-you-are-engulfed-in-flames",
+                "genres": [
+                    "Essay", "Humor", "Anthology"
+                ],
+                "tags": [
+                    "Book",
+                    "Non-Fiction"
+                ]
+            },
+
+            {
+                "read-order": 10,
+                "release-date": "January 1992",
+                "read-date": "March 20, 2025",
+                "title": "The Meadow",
+                "author": "James Galvin",
+                "rating": 7,
+                "cover": "/books/the-meadow",
+                "genres": [
+                    "Literary Fiction", "Nature Writing"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction"
+                ]
+            },
+
+            {
+                "read-order": 11,
+                "release-date": "September 2023",
+                "read-date": "March 21, 2025",
+                "title": "Red Rabbit",
+                "author": "Alex Grecian",
+                "rating": 9.5,
+                "cover": "/books/red-rabbit",
+                "genres": [
+                    "Horror", "Gothic Fiction", "Western", "Supernatural"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction",
+                    "Favorite"
+                ]
+            },
+
+            {
+                "read-order": 12,
+                "release-date": "February 1999",
+                "read-date": "April 12, 2025",
+                "title": "The Perks of Being a Wallflower",
+                "author": "Stephen Chbosky",
+                "rating": 9,
+                "cover": "/books/perks-of-being-a-wallflower",
+                "genres": [
+                    "Coming-Of-Age", "Young Adult", "Epistolary", "Drama"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction",
+                    "Favorite"
+                ]
+            },
+
+            {
+                "read-order": 13,
+                "release-date": "July 2019",
+                "read-date": "April 22, 2025",
+                "title": "Dark Age",
+                "author": "Pierce Brown",
+                "rating": 8,
+                "cover": "/books/dark-age",
+                "genres": [
+                    "Science Fiction",
+                    "Dystopian"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction"
+                ]
+            },
+
+            {
+                "read-order": 14,
+                "release-date": "April 2005",
+                "read-date": "April 30, 2025",
+                "title": "Star Wars: Revenge of the Sith",
+                "author": "Matthew Stover",
+                "rating": 9.5,
+                "cover": "/books/revenge-of-the-sith",
+                "genres": [
+                    "Science Fiction",
+                    "Dark Fantasy"
+                ],
+                "tags": [
+                    "Book",
+                    "Fiction",
+                    "Favorite"
+                ]
             }
+
+
 
 
 

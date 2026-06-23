@@ -38,7 +38,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(250, 216, 172, 0.664);
 }
 
 .lib-item img {
