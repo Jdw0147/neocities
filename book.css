@@ -79,6 +79,14 @@ body {
     margin: 5px;
 }
 
+.list-item.cr {
+    max-width: 300px;
+}
+.list-item.cr img {
+    width: 275px;
+    height: auto;
+}
+
 .book-window li {
     font-size: 2em;
     text-decoration: underline;
@@ -97,4 +105,37 @@ body {
     font-size: 1.3em;
     margin: 10px 20px;
     text-align: center;
+}
+
+.list-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgba(250, 216, 172, 0.664);
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAABoElEQVR4AdSSAW7DMAhF093/zpv50lNj6kSQJcaVAi5gw/tsP9u2/X6DGWjjXP8bgb4a9grWMN7fCPRdXejXHpQt8j9bhcl8eMSxB1ViVTcCRQnKZp9+vnY3AlVhNZcBRSkaiP2ZrXOfk78gfZXPgOpBlYuAomyotIGTbz/1cV9Bc0d18v4+MfXWYtsioLpY7TKgrwZrhlLOltZH7E8Vm/N562VGvl3RR2w1MyUzoHpQ5SKgKPSMpvaKHfUhT89ubgSUBqVnBBSFs0DZZDc3AjoL8HROBhSlpw1vKLLJbl4G9AaG6y0yoCi9Pi32kk128zKgsTEP3YqAovAhhI+2bLKbGwH96FSRiICaQrNZfGzSZpppbgRUF6tdBhSlTzPbFs26eRnQpwFP+2dATaUZDVGcPXl/dNLPZpnpXgZUD6pcBtQrNbX/Mfp57fTs6hlQ33BqHAFFGUrvAqQf/elLTF35CKguVrsMKErvPv0O2CRzVM+A6kGVG4GiBGWwzYqH80eggC117kG9klViLWwPqsSqbgTKJmGujsUxAlVhNfcHAAD//x+PLlsAAAAGSURBVAMAtdDgK+OF6loAAAAASUVORK5CYII=') 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid;
+}
+.list-header h2 {
+    font-size: 3em;
+    margin: 5px;
+}
+
+/* Styles for the changing windows */
+.book-tab {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.book-tab.active {
+    color: blue;
+    font-weight: bold;
+}
+
+.list-window {
+    display: none;
+}
+
+.list-window.active {
+    display: flex;
 }

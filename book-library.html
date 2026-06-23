@@ -1,266 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <link rel="stylesheet" href="book.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
-        <title>Books</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+    <title>Books</title>
+</head>
 
-    <body>
+<body>
 
-        <header class="site-header">
-            <h1>Books</h1>
-        </header>
+    <header class="site-header">
+        <h1>Books</h1>
+    </header>
 
-        <main>
-            <div class="book-container">
-                <div class="book-window">
-                    <ul>
-                        <li>Read Books</li>
-                        <li>Favorite Books</li>
-                        <li>Book Reviews</li>
-                        <li>Currently Reading</li>
-                        <li>Books I Want to Read</li>
-                    </ul>
-                    <img src="dividers/sparkles4.gif" class="divider">
-                    <div class="book-text">
-                        <p>This is where I'll catalog all my book stuff!  I got back into reading for fun in January of 2024 and since have come to tremendously cherish reading as a hobby.  Finding some nice quiet time either outside or inside to read a chapter or two of a book is always a very good de-stressor and helps calm my brain down when it gets too overstimulated.  Trying to read a minimum of three books a month but there are a lot of external factors that play into that such as the length of the book so I'm not too strict on myself.</p>
-                    </div>
+    <main>
+        <div class="book-container">
+            <div class="book-window">
+                <ul>
+                    <li class="book-tab active" data-tab="read">Read Books</li>
+                    <li class="book-tab" data-tab="current">Currently Reading</li>
+                    <li class="book-tab" data-tab="favorites">Favorite Books</li>
+                    <li class="book-tab" data-tab="reviews">Book Reviews</li>
+                    <li class="book-tab" data-tab="wantread">Books I Want to Read</li>
+                </ul>
+
+                <img src="dividers/sparkles4.gif" class="divider">
+
+                <div class="book-text">
+                    <p>This is where I'll catalog all my book stuff! I got back into reading for fun in January of 2024
+                        and since have come to tremendously cherish reading as a hobby. Finding some nice quiet time
+                        either outside or inside to read a chapter or two of a book is always a very good de-stressor
+                        and helps calm my brain down when it gets too overstimulated. Trying to read a minimum of three
+                        books a month but there are a lot of external factors that play into that such as the length of
+                        the book so I'm not too strict on myself.</p>
                 </div>
-                <div class="list-window">
-                    <div class="list-item">
-                        <h3>The Unbearable Lightness of Being</h3>
-                        <img src="books/unbearable-lightness-of-being.png" alt="unbearable lightness of being">
-                    </div>
-                    <div class="list-item">
-                        <h3>Authority</h3>
-                        <img src="books/authority-dithered.png" alt="Authority">
-                    </div>
-                    <div class="list-item">
-                        <h3>Everything Is Illuminated</h3>
-                        <img src="books/everything-is-illuminated-dithered.png" alt="Everything Is Illuminated">
-                    </div>
-                    <div class="list-item">
-                        <h3>Annihilation</h3>
-                        <img src="books/annihilation-dithered.png" alt="Annihilation">
-                    </div>
-                    <div class="list-item">
-                        <h3>Gyo</h3>
-                        <img src="books/gyo-dithered.png" alt="Gyo">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Screwtape Letters</h3>
-                        <img src="books/screwtape-letters.png" alt="The Screwtape Letters">
-                    </div>
-                    <div class="list-item">
-                        <h3>Before the Coffee Gets Cold</h3>
-                        <img src="books/before-the-coffee-gets-cold.png" alt="Before the Coffee Gets Cold">
-                    </div>
-                    <div class="list-item">
-                        <h3>Death Note: Black Edition, Vol. 2</h3>
-                        <img src="books/death-note-vol-ii.png" alt="Death Note: Black Edition, Vol. 2">
-                    </div>
-                    <div class="list-item">
-                        <h3>Jazz</h3>
-                        <img src="books/jazz.png" alt="Jazz">
-                    </div>
-                    <div class="list-item">
-                        <h3>God Bless You, Mr. Rosewater</h3>
-                        <img src="books/mr-rosewater.png" alt="God Bless You, Mr. Rosewater">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Hundred Years' War on Palestine</h3>
-                        <img src="books/hundred-years-war-on-palestine.png" alt="The Hundred Years' War on Palestine">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Vegetarian</h3>
-                        <img src="books/the-vegetarian.png" alt="The Vegetarian">
-                    </div>
-                    <div class="list-item">
-                        <h3>Project Hail Mary</h3>
-                        <img src="books/project-hail-mary.png" alt="Project Hail Mary">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Metamorphosis</h3>
-                        <img src="books/the-metamorphosis.png" alt="The Metamorphosis">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Setting Sun</h3>
-                        <img src="books/the-setting-sun.png" alt="The Setting Sun">
-                    </div>
-                    <div class="list-item">
-                        <h3>Hard-Boiled Wonderland and the End of the World</h3>
-                        <img src="books/hard-boiled-wonderland.png" alt="Hard-Boiled Wonderland and the End of the World">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Fire Next Time</h3>
-                        <img src="books/the-fire-next-time.png" alt="The Fire Next Time">
-                    </div>
-                    <div class="list-item">
-                        <h3>Looking For Alaska</h3>
-                        <img src="books/looking-for-alaska.png" alt="Looking For Alaska">
-                    </div>
-                    <div class="list-item">
-                        <h3>Fahrenheit 451</h3>
-                        <img src="books/fahrenheit-451.png" alt="Fahrenheit 451">
-                    </div>
-                    <div class="list-item">
-                        <h3>Separation of Church and Hate</h3>
-                        <img src="books/separation-of-church-and-hate.png" alt="Separation of Church and Hate">
-                    </div>
-                    <div class="list-item">
-                        <h3>Catch-22</h3>
-                        <img src="books/catch-22.png" alt="Catch-22">
-                    </div>
-                    <div class="list-item">
-                        <h3>Tender Is the Flesh</h3>
-                        <img src="books/tender-is-the-flesh.png" alt="Tender Is the Flesh">
-                    </div>
-                    <div class="list-item">
-                        <h3>1984</h3>
-                        <img src="books/1984.png" alt="1984">
-                    </div>
-                    <div class="list-item">
-                        <h3>Sharp Objects</h3>
-                        <img src="books/sharp-objects.png" alt="Sharp Objects">
-                    </div>
-                    <div class="list-item">
-                        <h3>Rose of Jericho</h3>
-                        <img src="books/rose-of-jericho.png" alt="Rose of Jericho">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Great Divorce</h3>
-                        <img src="books/the-great-divorce.png" alt="The Great Divorce">
-                    </div>
-                    <div class="list-item">
-                        <h3>Batman: The Long Halloween</h3>
-                        <img src="books/the-long-halloween.png" alt="Batman: The Long Halloween">
-                    </div>
-                    <div class="list-item">
-                        <h3>Say Nothing</h3>
-                        <img src="books/say-nothing.png" alt="Say Nothing">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Haunting of Hill House</h3>
-                        <img src="books/the-haunting-of-hill-house.png" alt="The Haunting of Hill House">
-                    </div>
-                    <div class="list-item">
-                        <h3>Batman: Haunted Knight</h3>
-                        <img src="books/haunted-knight.png" alt="Batman: Haunted Knight">
-                    </div>
-                    <div class="list-item">
-                        <h3>Death Note: Black Edition, Vol 1</h3>
-                        <img src="books/death-note-vol-i.png" alt="Death Note: Black Edition, Vol 1">
-                    </div>
-                    <div class="list-item">
-                        <h3>1776</h3>
-                        <img src="books/1776.png" alt="1776">
-                    </div>
-                    <div class="list-item">
-                        <h3>The War of the Worlds</h3>
-                        <img src="books/war-of-the-worlds.png" alt="The War of the Worlds">
-                    </div>
-                    <div class="list-item">
-                        <h3>And Then There Were None</h3>
-                        <img src="books/and-then-there-were-none.png" alt="And Then There Were None">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Old Man and the Sea</h3>
-                        <img src="books/the-old-man-and-the-sea.png" alt="The Old Man and the Sea">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Handmaid's Tale</h3>
-                        <img src="books/the-handmaids-tale.png" alt="The Handmaid's Tale">
-                    </div>
-                    <div class="list-item">
-                        <h3>Between Two Fires</h3>
-                        <img src="books/between-two-fires.png" alt="Between Two Fires">
-                    </div>
-                    <div class="list-item">
-                        <h3>Slaughterhouse-Five</h3>
-                        <img src="books/slaughterhouse-five.png" alt="Slaughterhouse-Five">
-                    </div>
-                    <div class="list-item">
-                        <h3>Jaws</h3>
-                        <img src="books/jaws.png" alt="Jaws">
-                    </div>
-                    <div class="list-item">
-                        <h3>Jurassic Park</h3>
-                        <img src="books/jurassic-park.png" alt="Jurassic Park">
-                    </div>
-                    <div class="list-item">
-                        <h3>Fear and Loathing in Las Vegas</h3>
-                        <img src="books/fear-and-loathing-in-las-vegas.png" alt="Fear and Loathing in Las Vegas">
-                    </div>
-                    <div class="list-item">
-                        <h3>Goodnight Punpun Omnibus, Vol. 1</h3>
-                        <img src="books/goodnight-punpun.png" alt="Goodnight Punpun Omnibus, Vol. 1">
-                    </div>
-                    <div class="list-item">
-                        <h3>Light Bringer</h3>
-                        <img src="books/lightbringer.png" alt="Light Bringer">
-                    </div>
-                    <div class="list-item">
-                        <h3>Star Wars: Revenge of the Sith</h3>
-                        <img src="books/revenge-of-the-sith.png" alt="Star Wars: Revenge of the Sith">
-                    </div>
-                    <div class="list-item">
-                        <h3>Dark Age</h3>
-                        <img src="books/dark-age.png" alt="Dark Age">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Perks of Being a Wallflower</h3>
-                        <img src="books/perks-of-being-a-wallflower.png" alt="The Perks of Being a Wallflower">
-                    </div>
-                    <div class="list-item">
-                        <h3>Red Rabbit</h3>
-                        <img src="books/red-rabbit.png" alt="Red Rabbit">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Meadow</h3>
-                        <img src="books/the-meadow.png" alt="The Meadow">
-                    </div>
-                    <div class="list-item">
-                        <h3>When You Are Engulfed in Flames</h3>
-                        <img src="books/when-you-are-engulfed-in-flames.png" alt="When You Are Engulfed in Flames">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Great Gatsby</h3>
-                        <img src="books/the-great-gatsby.png" alt="The Great Gatsby">
-                    </div>
-                    <div class="list-item">
-                        <h3>How to Win Friends and Influence People</h3>
-                        <img src="books/how-to-win-friends.png" alt="How to Win Friends and Influence People">
-                    </div>
-                    <div class="list-item">
-                        <h3>The Travelling Cat Chronicles</h3>
-                        <img src="books/the-travelling-cat-chronicles.png" alt="The Travelling Cat Chronicles">
-                    </div>
-                    <div class="list-item">
-                        <h3>Atomic Habits</h3>
-                        <img src="books/atomic-habits.png" alt="Atomic Habits">
-                    </div>
-                    <div class="list-item">
-                        <h3>Morning Star</h3>
-                        <img src="books/morning-star.png" alt="Morning Star">
-                    </div>
-                    <div class="list-item">
-                        <h3>Golden Son</h3>
-                        <img src="books/golden-son.png" alt="Golden Son">
-                    </div>
-                    <div class="list-item">
-                        <h3>Red Rising</h3>
-                        <img src="books/red-rising.png" alt="Red Rising">
-                    </div>
+            </div>
+
+            <div class="list-window active" id="read">
+                <div class="list-header">
+                    <h2>Books I Have Read</h2>
                 </div>
-            </div>>
+                <div class="list-item">
+                    <h3>The Unbearable Lightness of Being</h3>
+                    <img src="books/unbearable-lightness-of-being.png" alt="unbearable lightness of being">
+                </div>
+                <div class="list-item">
+                    <h3>Authority</h3>
+                    <img src="books/authority-dithered.png" alt="Authority">
+                </div>
+                <div class="list-item">
+                    <h3>Everything Is Illuminated</h3>
+                    <img src="books/everything-is-illuminated-dithered.png" alt="Everything Is Illuminated">
+                </div>
+                <div class="list-item">
+                    <h3>Annihilation</h3>
+                    <img src="books/annihilation-dithered.png" alt="Annihilation">
+                </div>
+                <div class="list-item">
+                    <h3>Gyo</h3>
+                    <img src="books/gyo-dithered.png" alt="Gyo">
+                </div>
+                <div class="list-item">
+                    <h3>The Screwtape Letters</h3>
+                    <img src="books/screwtape-letters.png" alt="The Screwtape Letters">
+                </div>
+                <div class="list-item">
+                    <h3>Before the Coffee Gets Cold</h3>
+                    <img src="books/before-the-coffee-gets-cold.png" alt="Before the Coffee Gets Cold">
+                </div>
+                <div class="list-item">
+                    <h3>Death Note: Black Edition, Vol. 2</h3>
+                    <img src="books/death-note-vol-ii.png" alt="Death Note: Black Edition, Vol. 2">
+                </div>
+                <div class="list-item">
+                    <h3>Jazz</h3>
+                    <img src="books/jazz.png" alt="Jazz">
+                </div>
+                <div class="list-item">
+                    <h3>God Bless You, Mr. Rosewater</h3>
+                    <img src="books/mr-rosewater.png" alt="God Bless You, Mr. Rosewater">
+                </div>
+                <div class="list-item">
+                    <h3>The Hundred Years' War on Palestine</h3>
+                    <img src="books/hundred-years-war-on-palestine.png" alt="The Hundred Years' War on Palestine">
+                </div>
+                <div class="list-item">
+                    <h3>The Vegetarian</h3>
+                    <img src="books/the-vegetarian.png" alt="The Vegetarian">
+                </div>
+                <div class="list-item">
+                    <h3>Project Hail Mary</h3>
+                    <img src="books/project-hail-mary.png" alt="Project Hail Mary">
+                </div>
+                <div class="list-item">
+                    <h3>The Metamorphosis</h3>
+                    <img src="books/the-metamorphosis.png" alt="The Metamorphosis">
+                </div>
+                <div class="list-item">
+                    <h3>The Setting Sun</h3>
+                    <img src="books/the-setting-sun.png" alt="The Setting Sun">
+                </div>
+                <div class="list-item">
+                    <h3>Hard-Boiled Wonderland and the End of the World</h3>
+                    <img src="books/hard-boiled-wonderland.png" alt="Hard-Boiled Wonderland and the End of the World">
+                </div>
+                <div class="list-item">
+                    <h3>The Fire Next Time</h3>
+                    <img src="books/the-fire-next-time.png" alt="The Fire Next Time">
+                </div>
+                <div class="list-item">
+                    <h3>Looking For Alaska</h3>
+                    <img src="books/looking-for-alaska.png" alt="Looking For Alaska">
+                </div>
+                <div class="list-item">
+                    <h3>Fahrenheit 451</h3>
+                    <img src="books/fahrenheit-451.png" alt="Fahrenheit 451">
+                </div>
+                <div class="list-item">
+                    <h3>Separation of Church and Hate</h3>
+                    <img src="books/separation-of-church-and-hate.png" alt="Separation of Church and Hate">
+                </div>
+                <div class="list-item">
+                    <h3>Catch-22</h3>
+                    <img src="books/catch-22.png" alt="Catch-22">
+                </div>
+                <div class="list-item">
+                    <h3>Tender Is the Flesh</h3>
+                    <img src="books/tender-is-the-flesh.png" alt="Tender Is the Flesh">
+                </div>
+                <div class="list-item">
+                    <h3>1984</h3>
+                    <img src="books/1984.png" alt="1984">
+                </div>
+                <div class="list-item">
+                    <h3>Sharp Objects</h3>
+                    <img src="books/sharp-objects.png" alt="Sharp Objects">
+                </div>
+                <div class="list-item">
+                    <h3>Rose of Jericho</h3>
+                    <img src="books/rose-of-jericho.png" alt="Rose of Jericho">
+                </div>
+                <div class="list-item">
+                    <h3>The Great Divorce</h3>
+                    <img src="books/the-great-divorce.png" alt="The Great Divorce">
+                </div>
+                <div class="list-item">
+                    <h3>Batman: The Long Halloween</h3>
+                    <img src="books/the-long-halloween.png" alt="Batman: The Long Halloween">
+                </div>
+                <div class="list-item">
+                    <h3>Say Nothing</h3>
+                    <img src="books/say-nothing.png" alt="Say Nothing">
+                </div>
+                <div class="list-item">
+                    <h3>The Haunting of Hill House</h3>
+                    <img src="books/the-haunting-of-hill-house.png" alt="The Haunting of Hill House">
+                </div>
+                <div class="list-item">
+                    <h3>Batman: Haunted Knight</h3>
+                    <img src="books/haunted-knight.png" alt="Batman: Haunted Knight">
+                </div>
+                <div class="list-item">
+                    <h3>Death Note: Black Edition, Vol 1</h3>
+                    <img src="books/death-note-vol-i.png" alt="Death Note: Black Edition, Vol 1">
+                </div>
+                <div class="list-item">
+                    <h3>1776</h3>
+                    <img src="books/1776.png" alt="1776">
+                </div>
+                <div class="list-item">
+                    <h3>The War of the Worlds</h3>
+                    <img src="books/war-of-the-worlds.png" alt="The War of the Worlds">
+                </div>
+                <div class="list-item">
+                    <h3>And Then There Were None</h3>
+                    <img src="books/and-then-there-were-none.png" alt="And Then There Were None">
+                </div>
+                <div class="list-item">
+                    <h3>The Old Man and the Sea</h3>
+                    <img src="books/the-old-man-and-the-sea.png" alt="The Old Man and the Sea">
+                </div>
+                <div class="list-item">
+                    <h3>The Handmaid's Tale</h3>
+                    <img src="books/the-handmaids-tale.png" alt="The Handmaid's Tale">
+                </div>
+                <div class="list-item">
+                    <h3>Between Two Fires</h3>
+                    <img src="books/between-two-fires.png" alt="Between Two Fires">
+                </div>
+                <div class="list-item">
+                    <h3>Slaughterhouse-Five</h3>
+                    <img src="books/slaughterhouse-five.png" alt="Slaughterhouse-Five">
+                </div>
+                <div class="list-item">
+                    <h3>Jaws</h3>
+                    <img src="books/jaws.png" alt="Jaws">
+                </div>
+                <div class="list-item">
+                    <h3>Jurassic Park</h3>
+                    <img src="books/jurassic-park.png" alt="Jurassic Park">
+                </div>
+                <div class="list-item">
+                    <h3>Fear and Loathing in Las Vegas</h3>
+                    <img src="books/fear-and-loathing-in-las-vegas.png" alt="Fear and Loathing in Las Vegas">
+                </div>
+                <div class="list-item">
+                    <h3>Goodnight Punpun Omnibus, Vol. 1</h3>
+                    <img src="books/goodnight-punpun.png" alt="Goodnight Punpun Omnibus, Vol. 1">
+                </div>
+                <div class="list-item">
+                    <h3>Light Bringer</h3>
+                    <img src="books/lightbringer.png" alt="Light Bringer">
+                </div>
+                <div class="list-item">
+                    <h3>Star Wars: Revenge of the Sith</h3>
+                    <img src="books/revenge-of-the-sith.png" alt="Star Wars: Revenge of the Sith">
+                </div>
+                <div class="list-item">
+                    <h3>Dark Age</h3>
+                    <img src="books/dark-age.png" alt="Dark Age">
+                </div>
+                <div class="list-item">
+                    <h3>The Perks of Being a Wallflower</h3>
+                    <img src="books/perks-of-being-a-wallflower.png" alt="The Perks of Being a Wallflower">
+                </div>
+                <div class="list-item">
+                    <h3>Red Rabbit</h3>
+                    <img src="books/red-rabbit.png" alt="Red Rabbit">
+                </div>
+                <div class="list-item">
+                    <h3>The Meadow</h3>
+                    <img src="books/the-meadow.png" alt="The Meadow">
+                </div>
+                <div class="list-item">
+                    <h3>When You Are Engulfed in Flames</h3>
+                    <img src="books/when-you-are-engulfed-in-flames.png" alt="When You Are Engulfed in Flames">
+                </div>
+                <div class="list-item">
+                    <h3>The Great Gatsby</h3>
+                    <img src="books/the-great-gatsby.png" alt="The Great Gatsby">
+                </div>
+                <div class="list-item">
+                    <h3>How to Win Friends and Influence People</h3>
+                    <img src="books/how-to-win-friends.png" alt="How to Win Friends and Influence People">
+                </div>
+                <div class="list-item">
+                    <h3>The Travelling Cat Chronicles</h3>
+                    <img src="books/the-travelling-cat-chronicles.png" alt="The Travelling Cat Chronicles">
+                </div>
+                <div class="list-item">
+                    <h3>Atomic Habits</h3>
+                    <img src="books/atomic-habits.png" alt="Atomic Habits">
+                </div>
+                <div class="list-item">
+                    <h3>Morning Star</h3>
+                    <img src="books/morning-star.png" alt="Morning Star">
+                </div>
+                <div class="list-item">
+                    <h3>Golden Son</h3>
+                    <img src="books/golden-son.png" alt="Golden Son">
+                </div>
+                <div class="list-item">
+                    <h3>Red Rising</h3>
+                    <img src="books/red-rising.png" alt="Red Rising">
+                </div>
+            </div>
 
-        </main>
+            <div class="list-window" id="current">
+                <div class="list-header">
+                    <h2>Currently Reading...</h2>
+                </div>
+                <div class="list-item cr">
+                    <h3>Acceptance</h3>
+                    <img src="books/acceptance.png" alt="Acceptance">
+                </div>
+                <div class="list-item cr">
+                    <h3>On Antisemitism</h3>
+                    <img src="books/on-antisemitism.png" alt="On Antisemitism">
+                </div>
+                <div class="list-item cr">
+                    <h3>Death Note: Black Edition, Vol. 3</h3>
+                    <img src="books/death-note-vol-iii.png" alt="Death Note: Black Edition, Vol. 3">
+                </div>
+            </div>
 
-    </body>
+            <!-- Other windows (Under Construction) -->
+            <div class="list-window" id="favorites">
+                <div class="list-header">
+                    <h2>Under Construction</h2>
+                </div>
+            </div>
+
+            <div class="list-window" id="reviews">
+                <div class="list-header">
+                    <h2>Under Construction</h2>
+                </div>
+            </div>
+
+            <div class="list-window" id="wantread">
+                <div class="list-header">
+                    <h2>Under Construction</h2>
+                </div>
+            </div>
+
+        </div>>
+
+    </main>
+
+    <script src="book.js"></script>
+
+</body>
 
 
 </html>
