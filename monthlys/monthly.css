@@ -3,9 +3,9 @@
 
 
 body {
-    background-image: url("../backgrounds/static/car.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("../backgrounds/static/grid.png");
+    background-size: auto;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
