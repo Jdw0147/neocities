@@ -1549,6 +1549,15 @@
       "artist": "Radiohead",
       "album": "OK Computer",
       "image": "/sotd/ok-computer.jpg"
+    },
+    {
+      "num": 173,
+      "date": "June 22nd, 2026", 
+      "year": 2014,
+      "title": "Ain't It Funny",
+      "artist": "Danny Brown",
+      "album": "Atrocity Exhibition",
+      "image": "/sotd/atrocity-exhibition.jpg"
     }
 
 
