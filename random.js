@@ -8,7 +8,10 @@ const randomLinks = [
   { url: 'how/backroom.html', name: 'Backroom Page' },
   { url: 'how/how.html', name: 'How Did He Do That?' },
   { url: 'book/book.html', name: 'The Tome'},
-  { url: 'links.html', name: 'Links & Resources' }
+  { url: 'links.html', name: 'Links & Resources' },
+  { url: 'library.html', name: 'Library' },
+  { url: 'book-library.html', name: 'Books' },
+  { url: 'movies.html', name: 'Movies' }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
