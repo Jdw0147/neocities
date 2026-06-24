@@ -40,8 +40,18 @@ body {
     align-items: center;
 }
 
-.lib-item img {
-    width: 300px;
+.lib-item.vhs img {
+    width: 350px;
+    height: auto;
+}
+
+.lib-item.book img {
+    width: 190px;
+    height: auto;
+}
+
+.lib-item.radio img {
+    width: 225px;
     height: auto;
 }
 
