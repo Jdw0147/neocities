@@ -1,7 +1,7 @@
 /*Stylesheet for index */
 
 
-/* Header Styles */ 
+/* Header Styles */
 header {
     text-align: center;
     padding: 20px;
@@ -49,7 +49,7 @@ main {
 
 /* Main window - right side, wider */
 .main-window {
-    flex: 1;  
+    flex: 1;
     height: 100%;
     background-color: #F2F2ED;
     border: solid 2px #0A246A;
@@ -101,7 +101,7 @@ main {
 .window-container {
     display: flex;
     gap: 15px;
-    height: 700px; 
+    height: 700px;
 }
 
 /* common window styles - old windows style */
@@ -230,15 +230,18 @@ main {
     align-items: center;
     flex-direction: column;
 }
+
 .neighbor-header {
     display: flex;
     justify-content: center;
 }
+
 .neighbors h1 {
     color: #FFFFFF;
     font-size: 4em;
     margin: 0 20px 20px 20px;
 }
+
 .neighbor-btns {
     margin-top: 10px;
     display: flex;
@@ -251,12 +254,41 @@ main {
     outline: solid 1px #ffffff;
 }
 
+.library {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 30px;
+    background-image: url('backgrounds/static/library-entrance.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 8px 8px 10px #726955;
+    padding: 14px;
+    border-image-slice: 9;
+    border-image-width: 15px;
+    background-clip: padding-box;
+    border-image-repeat: round;
+    border-style: solid;
+    border-color: transparent;
+    image-rendering: pixelated;
+    border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABOCAMAAABMilufAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAHJQTFRFOi0cKyYYBwUEMyYZWkoyZVVBODIlYFpKramTV1BAdWtYbGNSamFNcmlVd3Beg3lkk4lyfXRhhn5ropqMZ2BRlox6SDonT0g1Uks7S0Arjod0s7CoS0AxW1NFUkMsKiQVMSkbQTgnb2ldAAAAIBYINSsW9uGxXAAAACZ0Uk5T//////////////////////////////////////////////8A//804FrcAAADiElEQVR4nK1YbXOiQAxOYEEUkd5Nh5N7YaY30///j+5Tr7aoVVZbqVq4JOD17E2/ZIsjy7DhMZsnbB6DgIjgctDzYQ+BcsCL9wIB7oOXZoBHMHWAOwNeQ58Xmj6NnV3b8oMxYXixd6DLEAFb8IDMWr+b5WMNF3ZCwye6Q/OnsbPbk8Go9ggjCWEDUecN24OFiaWBTxObChz2oKeR7IKDTWpIYOFhvop2aR1tZCqlbyVXjXe56MxpTFce9HfhzC6pn9PKw6KMGogGAGXG3zIBYLyszHYbSOQSSjnx/Gk82aU1PHcYUTWd5diyo7SkW/gK0KK43XZ3AW+7+dPY2z08t99/C0a4ice+itf5EB+QMObkcJPrMFaBhW+/sNiZtRrjIbSXcI9FNSA/2h8qjFli6VksFgnY2Oow7mPbZD5hpP5SG9NFRH7kWKxGgEclxmzSWsZYThpcKWNqmY89Fut4nQY3P1UYC+ZjShhDwNXUqDBmzMcS8+0I7KXSj5nwgflm3NpLXxePkvkgP+xY78ed8IHZltakzfW58IFXC4d4zJmPFq/KhOJxr8v1kn/fJz/2nyrtWu6ZD1pLOabNe6+MqfAh8cCVEoNzjHI9DBy4lXjcEEYz0ecH8+FTrbyAsFTGtGQ+6L21Ox7VMV0D7R9V7an3ZH5fKNdlP22U775wS/vplmqEdj+9Yz4M70FWvZYb4cMNY8l8TDE7BrSfaWuD8IF5zfXOeCoMyXXhRb+WlfCBxQPXO0/H7XzY1dsq0vtxwlhIvdOuhfn4AP3hf4D+6GuDk/64IQxX/UF5unPVH3vMHl31B8WjdtUf5Eftqj/GbvVW9McSr+YO+kN4aaVW6v3odGFoHPRHrwshcYhHz8v1rYP+6HXh9Z2D/uh5ub510B+iC8fkh4P+EF1I8Zg55IfoQh9pX3bUhVPMK4f86HUh/39R+yG6kDCWDvnRawczdMmPrlaagVt+sP4wQ5f86HQh+6HXp3vRH2bgok87XWjG7trSxO7a0nyBo3pf51zfX6Axkf/koPmPW48xmmBrwO/aWuHj27YWYHvW0Xo1IZt2dOh7ORA8Td5taxHGeUfrHxM4Hvp+UAybwPTtqv/bWvC2o/VqAqOD9LaK8vMyrSEI4N221tuO1l+TEXmRDhZYPKa/+XYcv9PWyv7vaHUmMTyKyQEzqDLGzJt3ulrwb2/rrPflzcS78g85jF8Fd23kswAAAABJRU5ErkJggg==");
+}
+
+.library img {
+    width: 100%;
+    height: auto;
+}
+
 /* My Buttons */
 .my-btns-container {
     display: flex;
     justify-content: space-between;
     padding: 0 20px 0 20px;
 }
+
 .my-btns {
     display: flex;
     justify-content: center;
@@ -266,10 +298,10 @@ main {
 }
 
 .btns {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .peter {
@@ -287,12 +319,13 @@ main {
 }
 
 .btn-col.mobile-btn {
-        display: none;
-    }
+    display: none;
+}
 
 
 /*Peter Alert Styles */
-#peter-alert, #retep-alert {
+#peter-alert,
+#retep-alert {
     flex-direction: column;
     width: 250px;
     height: 200px;
@@ -325,7 +358,7 @@ main {
 }
 
 .peter-body {
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,19 +377,22 @@ main {
     height: 165px;
 }
 
-#peter-btn, #retep-btn {
+#peter-btn,
+#retep-btn {
     padding: 3px 25px 3px 25px;
     border-radius: 0px;
     font-family: 'MS Gothic', Tahoma, monospace;
     font-size: 14.75px;
 }
 
-#peter-icon, #retep-icon {
+#peter-icon,
+#retep-icon {
     width: 50px;
     height: 50px;
 }
 
-#peter-close-btn, #retep-close-btn {
+#peter-close-btn,
+#retep-close-btn {
     color: black;
     background-color: transparent;
     border: none;
@@ -405,6 +441,38 @@ main {
 
 .margin-ad-left img {
     width: 80%;
+}
+
+/* Ribozone Image Hover effect */
+
+.imgtxt {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.imgtxt span {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 3.5rem;
+    color: #FFF;
+    filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px 1px 0 black) drop-shadow(1px -1px 0 black) drop-shadow(-1px -1px 0 black);
+}
+
+.imgtxt:hover span,
+.imgtxt:focus span {
+    opacity: 1;
+}
+
+.imgtxt:hover img,
+.imgtxt:focus img {
+    /* add hover effects like transform or filter to your images here! */
 }
 
 @media (max-width: 1100px) {
@@ -467,7 +535,7 @@ main {
         width: 200px;
         margin: 30px 0 0 0;
     }
-    
+
     .profile-link img {
         width: 175px;
     }
@@ -479,7 +547,7 @@ main {
         gap: 10px;
     }
 
-    .neighbor-header h1{
+    .neighbor-header h1 {
         font-size: 2.5em;
     }
 
@@ -501,10 +569,11 @@ main {
         flex-wrap: wrap;
         gap: 10px;
     }
+
     .btn-col {
         display: none;
     }
-    
+
     /* mobile-btn col is all buttons wrapped, only appears like this on mobile */
     .btn-col.mobile-btn {
         display: flex;

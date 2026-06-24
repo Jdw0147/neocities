@@ -41,7 +41,19 @@ body {
 }
 
 .lib-item img {
-    width: 400px;
+    width: 300px;
+    height: auto;
+}
+
+.back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.back img {
+    width: 75px;
     height: auto;
 }
 
