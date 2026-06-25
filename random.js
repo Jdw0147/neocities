@@ -11,7 +11,8 @@ const randomLinks = [
   { url: 'links.html', name: 'Links & Resources' },
   { url: 'library.html', name: 'Library' },
   { url: 'book-library.html', name: 'Books' },
-  { url: 'movies.html', name: 'Movies' }
+  { url: 'movies.html', name: 'Movies' },
+  { url: 'radio/radio.html', name: 'Radio' }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
