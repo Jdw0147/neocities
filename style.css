@@ -247,6 +247,9 @@ main {
     display: flex;
     gap: 20px;
     padding: 20px 30px;
+    margin: 0 20px;
+    flex-wrap: wrap;
+    justify-content: center;
     background-image: url('backgrounds/moving/cat.gif');
     background-size: auto;
     background-repeat: repeat;
