@@ -103,9 +103,6 @@
   justify-content: center;
   width: 100%;
   min-height: 500px;
-  border-radius: 15px;
-  border: 5px solid;
-  border-image: conic-gradient(#003DA5 0deg 90deg, #FFDE00 90deg 180deg, #003DA5 180deg 270deg, #FFDE00 270deg 360deg) 1;
 }
 
 .section-content {
@@ -202,7 +199,6 @@
 
 .fire-red .team-box {
   background: linear-gradient(135deg, #FFD700, #FFA500);
-  border: 3px solid #C41E3A;
 }
 
 /* Emerald */
@@ -215,7 +211,6 @@
 
 .emerald .team-box {
   background: linear-gradient(135deg, #98FB98, #90EE90);
-  border: 3px solid #228B22;
 }
 
 /* Platinum */
@@ -228,7 +223,6 @@
 
 .platinum .team-box {
   background: linear-gradient(135deg, #E8E8E8, #D3D3D3);
-  border: 3px solid #696969;
 }
 
 /* Heart Gold */
@@ -241,7 +235,6 @@
 
 .heart-gold .team-box {
   background: linear-gradient(135deg, #FFD700, #FFA500);
-  border: 3px solid #B8860B;
 }
 
 /* Black */
@@ -258,7 +251,6 @@
 
 .black .team-box {
   background: linear-gradient(135deg, #404040, #696969);
-  border: 3px solid #2F4F4F;
 }
 
 /* X */
@@ -270,10 +262,11 @@
 
 .side-nav {
     position: fixed;
-    top: 50%;
+    top: 20%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 30px;
     flex-shrink: 0;
     z-index: 999;
@@ -401,4 +394,33 @@
         width: 50px;
         height: 50px;
     }
+}
+
+/* Pokemon Borders */
+
+/* Red/Blue */
+.pkmn1 {
+  padding: 15px;
+  background-clip: padding-box;
+  border-radius: 25px;
+  border-image-slice: 7;
+  border-image-width: 14px;
+  border-image-repeat: round;
+  border-style: solid;
+  border-color: transparent;
+  image-rendering: pixelated;
+  border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAVAgMAAAA/TvYGAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAAxQTFRFAAAAAAAA////+Pj4EZhu1AAAAAR0Uk5TAP///7MtQIgAAABaSURBVHicY2T9zcDA+ptRUkeA4Yg6YyhrAMPq34xZ+nsYRdQYpbw/MLguY2TtLmBInc3IZnWAQfI5o+RzBgY2KxIodkuwPqgpkj4fGFyWo1ukLcBwVI0R4hYAN4IjlkoaqZsAAAAASUVORK5CYII=");
+}
+
+/* Gold/Silver */
+.pkmn2 {
+  padding: 14px;
+  background-clip: padding-box;
+  border-image-slice: 6 5 5 5;
+  border-image-width: 12px 10px 10px 10px;
+  border-image-repeat: stretch;
+  border-style: solid;
+  border-color: transparent;
+  image-rendering: pixelated;
+  border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANAgMAAADgR2fRAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAAlQTFRFAAAAAAAA+Pj4V7faMwAAAAN0Uk5TAP//RFDWIQAAAC1JREFUeJxjZA34zSg14Rdj5hsRxtQPLIypsyMZU+ZIomCQXBRQnajDf0agegDBHREzb+pRsAAAAABJRU5ErkJggg==");
 }
