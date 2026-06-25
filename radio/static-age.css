@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../backgrounds/moving/stars3.gif");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header {
+    width: 90%;
+    text-align: flex-start;
+    background-color: rgba(255, 168, 38, 0.8);
+    color: black;
+}
+
+header h1 {
+    margin-left: 50px;
+    font-size: 2.5em;
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(239, 108, 0, 0.8);
+}
+
+.window-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.window {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
