@@ -17,7 +17,7 @@ main {
 }
 
 header {
-    max-width: 800px;
+    max-width:90%;
     margin: 20px auto;
     text-align: center;
     font-family: "Silkscreen", sans-serif;
@@ -136,6 +136,11 @@ header h1 {
     width: 100%;
     text-align: center;
     margin: 10px;
+}
+
+.text-body a {
+    color: rgba(27, 94, 31, 1);
+    text-decoration: underline;
 }
 
 .window-content h3 {
