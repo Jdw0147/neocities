@@ -1585,6 +1585,15 @@
       "artist": "matt proxy, current joys, never goodbye",
       "album": "trojan horse",
       "image": "/sotd/trojan-horse.jpg"
+    },
+    {
+      "num": 177,
+      "date": "June 26th, 2026", 
+      "year": 1987,
+      "title": "Here Comes a Regular",
+      "artist": "The Replacements",
+      "album": "Tim",
+      "image": "/sotd/tim.jpg"
     }
 
 
