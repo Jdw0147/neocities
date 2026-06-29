@@ -3,40 +3,75 @@ body {
     flex-direction: column;
     justify-content: center;
     background-image: url("../backgrounds/moving/stars3.gif");
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
 }
 
 header {
-    width: 90%;
-    text-align: flex-start;
-    background-color: rgba(255, 168, 38, 0.8);
-    color: black;
-}
-
-header h1 {
-    margin-left: 50px;
-    font-size: 2.5em;
+    width: 100%;
+    background-color: rgba(255, 153, 0, 0.8);
     font-family: "Rubik Glitch", system-ui;
     font-weight: 400;
     font-style: normal;
 }
 
+header h1 {
+    font-size: 4.25em;
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner {
+    border: 3px solid #812500;
+    border-radius: 10px;
+}
+.banner-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 main {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
-    background-color: rgba(239, 108, 0, 0.8);
 }
 
 .window-container {
-    width: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.window-col {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+}
+
+.col-main {
+    width: 75%;
+}
+
+.col-side {
+    width: 35%;
 }
 
 .window {
@@ -45,4 +80,106 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 3px solid #812500;
+    border-radius: 10px;
+    background-color: rgba(239, 108, 0, 0.8);
 }
+
+.window-title {
+    width: 100%;
+    background-color: rgba(255, 153, 0, 0.8);
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.window-title h1 {
+    font-size: 3em;
+    margin: 10px 20px;
+}
+
+.window-content {
+    width: 100%;
+    background-color: rgba(239, 108, 0, 0.8);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: "Geo", sans-serif;
+}
+.window-content h1 {
+    font-size: 3.5em;
+    margin: 10px 0;
+}
+.window-content h2 {
+    font-size: 2.25em;
+    margin: 10px 0;
+}
+.window-content p {
+    font-size: 1.75em;
+    margin: 10px 0;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.show-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+.show-title {
+    font-family: "Geo", sans-serif;
+    font-size: 1.3em;
+    margin: 5px 0;
+    justify-content: center;
+    text-align: center;
+}
+.show-title h3 {
+    font-size: 1.3em;
+    margin: 0;
+}
+.show-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.show-img img {
+    width: 40%;
+    height: auto;
+}
+
+.divider {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+.back-btn {
+    background-color: rgba(239, 108, 0, 0.8);
+    border: 3px solid rgba(110, 50, 0, 0.8);
+    padding: 10px;
+}
+.back-btn p {
+    font-family: "Rubik Glitch", system-ui;
+    color: black;
+    font-size: 2.5em;
+    text-decoration: none;
+    margin: 0;
+}
+.back-btn a {
+  text-decoration: none;
+}
+.back-btn:hover {
+  scale: 1.1;
+}
+
+.banner .imgtxt span {
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+
