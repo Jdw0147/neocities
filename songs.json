@@ -1594,6 +1594,24 @@
       "artist": "The Replacements",
       "album": "Tim",
       "image": "/sotd/tim.jpg"
+    },
+    {
+      "num": 178,
+      "date": "June 27th, 2026", 
+      "year": 2013,
+      "title": "The Night I Drove Alone",
+      "artist": "Citizen",
+      "album": "Youth",
+      "image": "/sotd/youth.jpg"
+    },
+    {
+      "num": 179,
+      "date": "June 28th, 2026", 
+      "year": 2016,
+      "title": "Rainbow Wine",
+      "artist": "The Buttertones",
+      "album": "American Brunch",
+      "image": "/sotd/american-brunch.jpg"
     }
 
 
