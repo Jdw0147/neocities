@@ -1612,6 +1612,15 @@
       "artist": "The Buttertones",
       "album": "American Brunch",
       "image": "/sotd/american-brunch.jpg"
+    },
+    {
+      "num": 180,
+      "date": "June 29th, 2026", 
+      "year": 2002,
+      "title": "Acid Dreams",
+      "artist": "The Monsters",
+      "album": "I See Dead People",
+      "image": "/sotd/i-see-dead-people.jpg"
     }
 
 
