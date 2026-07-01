@@ -1621,6 +1621,15 @@
       "artist": "Nada Surf",
       "album": "High/Low",
       "image": "/sotd/high-low.jpg"
+    },
+    {
+      "num": 181,
+      "date": "June 30th, 2026", 
+      "year": 2025,
+      "title": "Townies",
+      "artist": "Wednesday",
+      "album": "Bleeds",
+      "image": "/sotd/bleeds.jpg"
     }
 
 
