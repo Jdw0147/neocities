@@ -120,11 +120,14 @@ main {
     margin: 10px 0;
 }
 .show-title {
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     gap: 0.5rem;
     cursor: pointer;
     list-style: none;
+    text-align: left;
 }
 .show-title::before {
     content: "▶";
@@ -139,6 +142,7 @@ details[open] > .show-title::before {
     font-size: 2.25em;
     margin: 10px 0;
     display: inline;
+    text-align: left;
 }
 .window-content p {
     font-size: 1.75em;
@@ -150,8 +154,9 @@ details[open] > .show-title::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin: 7px;
+    width: 100%;
 }
 
 .radio-title h3 {
@@ -232,7 +237,8 @@ details[open] > .show-title::before {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
+    gap: 20px;
 }
 
 .body-col {
@@ -241,5 +247,8 @@ details[open] > .show-title::before {
     justify-content: flex-start;
     align-items: center;
     padding: 15px;
+}
+.body-col.media-col {
+    justify-content: space-around;
 }
 
