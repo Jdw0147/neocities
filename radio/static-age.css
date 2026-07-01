@@ -119,6 +119,27 @@ main {
     font-size: 2.25em;
     margin: 10px 0;
 }
+.show-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    list-style: none;
+}
+.show-title::before {
+    content: "▶";
+    font-size: 0.9em;
+    transition: transform 0.2s ease;
+}
+
+details[open] > .show-title::before {
+    transform: rotate(90deg);
+}
+.show-title h2 {
+    font-size: 2.25em;
+    margin: 10px 0;
+    display: inline;
+}
 .window-content p {
     font-size: 1.75em;
     margin: 10px 0;
@@ -133,17 +154,14 @@ main {
     margin: 7px;
 }
 
-.show-title {
+.radio-title h3 {
     font-family: "Geo", sans-serif;
-    font-size: 1.3em;
+    font-size: 1.8em;
     margin: 5px 0;
     justify-content: center;
     text-align: center;
 }
-.show-title h3 {
-    font-size: 1.3em;
-    margin: 0;
-}
+
 .show-img {
     display: flex;
     flex-direction: row;
@@ -222,5 +240,6 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 15px;
 }
 
