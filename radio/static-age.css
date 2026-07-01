@@ -130,7 +130,7 @@ main {
     text-align: left;
 }
 .show-title::before {
-    content: "▶";
+    content: ">";
     font-size: 0.9em;
     transition: transform 0.2s ease;
 }

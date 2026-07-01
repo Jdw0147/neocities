@@ -12,7 +12,8 @@ const randomLinks = [
   { url: 'library.html', name: 'Library' },
   { url: 'book-library.html', name: 'Books' },
   { url: 'movies.html', name: 'Movies' },
-  { url: 'radio/radio.html', name: 'Radio' }
+  { url: 'radio/radio.html', name: 'Radio' },
+  { url: 'radio/static-age.html', name: 'Static Age Radio' }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
