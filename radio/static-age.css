@@ -252,3 +252,27 @@ details[open] > .show-title::before {
     justify-content: space-around;
 }
 
+.text-with-images {
+    display: block;
+}
+
+.image-stack {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: fit-content;
+    margin: 0 0 12px 20px;
+}
+
+.image-stack img {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.text-with-images::after {
+    content: "";
+    display: block;
+    clear: both;
+}
