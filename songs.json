@@ -1626,10 +1626,55 @@
       "num": 181,
       "date": "June 30th, 2026", 
       "year": 2025,
-      "title": "Townies",
+      "title": "So Hard",
+      "artist": "Trophy Wife",
+      "album": "So Hard",
+      "image": "/sotd/so-hard.jpg"
+    },
+    {
+      "num": 182,
+      "date": "July 1st, 2026", 
+      "year": 2025,
+       "title": "Townies",
       "artist": "Wednesday",
       "album": "Bleeds",
-      "image": "/sotd/bleeds.jpg"
+      "image": "/sotd/bleeds.jpg"      
+    },
+    {
+      "num": 183,
+      "date": "July 2nd, 2026", 
+      "year": 1973,
+      "title": "Papa Hooper's Barrel House Groove",
+      "artist": "Jiro Inagaki & His Soul Media",
+      "album": "In The Groove",
+      "image": "/sotd/in-the-groove.jpg"
+    },
+    {
+      "num": 184,
+      "date": "July 3rd, 2026", 
+      "year": 2019,
+      "title": "Honey Bee",
+      "artist": "Foxtide",
+      "album": "Blind",
+      "image": "/sotd/blind.jpg"
+    },
+    {
+      "num": 185,
+      "date": "July 4th, 2026", 
+      "year": 1959,
+      "title": "Dream Lover",
+      "artist": "Bobby Darin",
+      "album": "Dream Lover / Bullmoose",
+      "image": "/sotd/dream-lover-bullmoose.jpg"
+    },
+    {
+      "num": 186,
+      "date": "July 5th, 2026", 
+      "year": 2019,
+      "title": "A BOY IS A GUN*",
+      "artist": "Tyler, The Creator",
+      "album": "IGOR",
+      "image": "/sotd/igor.jpg"
     }
 
 
