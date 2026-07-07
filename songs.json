@@ -1670,11 +1670,20 @@
     {
       "num": 186,
       "date": "July 5th, 2026", 
-      "year": 2019,
-      "title": "A BOY IS A GUN*",
-      "artist": "Tyler, The Creator",
-      "album": "IGOR",
-      "image": "/sotd/igor.jpg"
+      "year": 2015,
+      "title": "RUN (feat. Chaz Bundick & ScHoolboy Q)",
+      "artist": "Tyler, The Creator, Chaz Bundick, ScHoolboy Q",
+      "album": "Cherry Bomb",
+      "image": "/sotd/cherry-bomb.jpg"
+    },
+    {
+      "num": 187,
+      "date": "July 6th, 2026", 
+      "year": 2017,
+      "title": "I Ran Away",
+      "artist": "The Buttertones",
+      "album": "Gravedigging",
+      "image": "/sotd/gravedigging.jpg"
     }
 
 
