@@ -1684,7 +1684,36 @@
       "artist": "The Buttertones",
       "album": "Gravedigging",
       "image": "/sotd/gravedigging.jpg"
+    },
+    {
+      "num": 188,
+      "date": "July 7th, 2026", 
+      "year": 1975,
+      "title": "Lying Eyes",
+      "artist": "Eagles",
+      "album": "One of These Nights",
+      "image": "/sotd/one-of-these-nights.jpg"
+    },
+    {
+      "num": 189,
+      "date": "July 8th, 2026", 
+      "year": 1964,
+      "title": "Too Much Monkey Business",
+      "artist": "The Kinks",
+      "album": "Kinks",
+      "image": "/sotd/kinks.jpg"
+    },
+    {
+      "num": 190,
+      "date": "July 9th, 2026", 
+      "year": 2007,
+      "title": "Hunting For Witches",
+      "artist": "Bloc Party",
+      "album": "A Weekend In The City",
+      "image": "/sotd/a-weekend-in-the-city.jpg"
     }
+
+
 
 
 
