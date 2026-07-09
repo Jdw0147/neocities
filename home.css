@@ -1,0 +1,245 @@
+
+/* --------Header Styles-------- */
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Site Header Window Styles */
+.header-window {
+    background-image: url('backgrounds/moving/david-bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-window .window-body {
+    background: rgba(242, 242, 237, 0.4);
+}
+
+/* Site title style */
+.site-title h1 {
+    margin: 0;
+    color: #0A246A;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
+}
+
+
+
+/* --------Body Styles-------- */
+
+/* Body */
+body {
+
+    /* Background */
+    background-image: url('backgrounds/static/windows-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    /* misc body styles */
+    margin: 0;
+    font-family: 'DotGothic16', 'MS Gothic', Tahoma, monospace;
+    padding: 20px;
+}
+
+/* Main */
+main {
+    max-width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* Window Columns */
+.window-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.window-col.side-col {
+    max-width: 29%;
+}
+
+.window-col.main-col {
+    max-width: 40%;
+}
+
+
+
+/* --------Window Styles-------- */
+
+.window {
+    background-color: #F2F2ED;
+    border: solid 2px #0A246A;
+    box-shadow: 1px 1px 0 #DFE5F5, -1px -1px 0 #808080;
+}
+
+/* ----General Styles - Applies to all windows---- */
+.window-header {
+    background: linear-gradient(90deg, #000080, #1084D7);
+    color: white;
+    padding: 2px 2px 2px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.window-body {
+    overflow-y: auto;
+    padding: 4px;
+}
+
+
+/* ----Styles for specific windows---- */
+
+/* --Main Window-- */
+
+/* David sphere */
+.david-sphere {
+    float: right;
+    width: 300px;
+    margin: 0 0 8px 12px;
+}
+
+/* Site Profile Link */
+.profile-link {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Car divider */
+.car-divider {
+    width: 100%;
+    height: 50px;
+    background-image: url('icons/cars.gif');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    margin: 8px 0;
+    clear: both;
+}
+
+/* Peter and Retep */
+.peter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#peter-icon,
+#retep-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* My Buttons */
+.my-btns-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.my-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px 0 20px;
+}
+
+
+/* --Neighborhood Window-- */
+
+.neighbor-window {
+    background-image: url('backgrounds/static/houses-dithered.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+}
+/* Neighbors box*/
+.neighbor-window.window-body {
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* header */
+.neighbor-header {
+    display: flex;
+    justify-content: center;
+}
+
+.neighbor-window h1 {
+    color: #FFFFFF;
+    font-size: 4em;
+    margin: 0 20px 20px 20px;
+}
+
+/* buttons */
+.neighbor-btns {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 15px 15px;
+    margin: 0 20px 20px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('backgrounds/moving/cat.gif');
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center;
+    outline: solid 1px #ffffff;
+}
+
+
+/* --Library Window-- */
+
+.library {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url('backgrounds/static/library-entrance.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 8px 8px 10px #726955;
+    padding: 14px;
+    border-image-slice: 9;
+    border-image-width: 15px;
+    background-clip: padding-box;
+    border-image-repeat: round;
+    border-style: solid;
+    border-color: transparent;
+    image-rendering: pixelated;
+    border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABOCAMAAABMilufAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAHJQTFRFOi0cKyYYBwUEMyYZWkoyZVVBODIlYFpKramTV1BAdWtYbGNSamFNcmlVd3Beg3lkk4lyfXRhhn5ropqMZ2BRlox6SDonT0g1Uks7S0Arjod0s7CoS0AxW1NFUkMsKiQVMSkbQTgnb2ldAAAAIBYINSsW9uGxXAAAACZ0Uk5T//////////////////////////////////////////////8A//804FrcAAADiElEQVR4nK1YbXOiQAxOYEEUkd5Nh5N7YaY30///j+5Tr7aoVVZbqVq4JOD17E2/ZIsjy7DhMZsnbB6DgIjgctDzYQ+BcsCL9wIB7oOXZoBHMHWAOwNeQ58Xmj6NnV3b8oMxYXixd6DLEAFb8IDMWr+b5WMNF3ZCwye6Q/OnsbPbk8Go9ggjCWEDUecN24OFiaWBTxObChz2oKeR7IKDTWpIYOFhvop2aR1tZCqlbyVXjXe56MxpTFce9HfhzC6pn9PKw6KMGogGAGXG3zIBYLyszHYbSOQSSjnx/Gk82aU1PHcYUTWd5diyo7SkW/gK0KK43XZ3AW+7+dPY2z08t99/C0a4ice+itf5EB+QMObkcJPrMFaBhW+/sNiZtRrjIbSXcI9FNSA/2h8qjFli6VksFgnY2Oow7mPbZD5hpP5SG9NFRH7kWKxGgEclxmzSWsZYThpcKWNqmY89Fut4nQY3P1UYC+ZjShhDwNXUqDBmzMcS8+0I7KXSj5nwgflm3NpLXxePkvkgP+xY78ed8IHZltakzfW58IFXC4d4zJmPFq/KhOJxr8v1kn/fJz/2nyrtWu6ZD1pLOabNe6+MqfAh8cCVEoNzjHI9DBy4lXjcEEYz0ecH8+FTrbyAsFTGtGQ+6L21Ox7VMV0D7R9V7an3ZH5fKNdlP22U775wS/vplmqEdj+9Yz4M70FWvZYb4cMNY8l8TDE7BrSfaWuD8IF5zfXOeCoMyXXhRb+WlfCBxQPXO0/H7XzY1dsq0vtxwlhIvdOuhfn4AP3hf4D+6GuDk/64IQxX/UF5unPVH3vMHl31B8WjdtUf5Eftqj/GbvVW9McSr+YO+kN4aaVW6v3odGFoHPRHrwshcYhHz8v1rYP+6HXh9Z2D/uh5ub510B+iC8fkh4P+EF1I8Zg55IfoQh9pX3bUhVPMK4f86HUh/39R+yG6kDCWDvnRawczdMmPrlaagVt+sP4wQ5f86HQh+6HXp3vRH2bgok87XWjG7trSxO7a0nyBo3pf51zfX6Axkf/koPmPW48xmmBrwO/aWuHj27YWYHvW0Xo1IZt2dOh7ORA8Td5taxHGeUfrHxM4Hvp+UAybwPTtqv/bWvC2o/VqAqOD9LaK8vMyrSEI4N221tuO1l+TEXmRDhZYPKa/+XYcv9PWyv7vaHUmMTyKyQEzqDLGzJt3ulrwb2/rrPflzcS78g85jF8Fd23kswAAAABJRU5ErkJggg==");
+}
+
+.library img {
+    width: 100%;
+    height: auto;
+}
