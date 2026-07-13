@@ -1711,6 +1711,33 @@
       "artist": "Bloc Party",
       "album": "A Weekend In The City",
       "image": "/sotd/a-weekend-in-the-city.jpg"
+    },
+    {
+      "num": 191,
+      "date": "July 10th, 2026", 
+      "year": 1994,
+      "title": "Burnout",
+      "artist": "Green Day",
+      "album": "Dookie",
+      "image": "/sotd/dookie.jpg"
+    },
+    {
+      "num": 192,
+      "date": "July 11th, 2026", 
+      "year": 2010,
+      "title": "Runaway Baby",
+      "artist": "Bruno Mars",
+      "album": "Doo-Wops & Hooligans",
+      "image": "/sotd/doo-wops.jpg"
+    },
+    {
+      "num": 193,
+      "date": "July 12th, 2026", 
+      "year": 2000,
+      "title": "Man Overboard",
+      "artist": "blink-182",
+      "album": "The Mark, Tom And Travis Show",
+      "image": "/sotd/mark-tom-travis.jpg"
     }
 
 
