@@ -1738,6 +1738,24 @@
       "artist": "blink-182",
       "album": "The Mark, Tom And Travis Show",
       "image": "/sotd/tom-mark-travis.jpg"
+    },
+    {
+      "num": 194,
+      "date": "July 13th, 2026", 
+      "year": 2021,
+      "title": "I Must Apologize",
+      "artist": "PinkPanthress",
+      "album": "to hell with it",
+      "image": "/sotd/to-hell-with-it.jpg"
+    },
+    {
+      "num": 195,
+      "date": "July 14th, 2026", 
+      "year": 1976,
+      "title": "Blitzkriegs Bop",
+      "artist": "Ramones",
+      "album": "Ramones",
+      "image": "/sotd/ramones.jpg"
     }
 
 
