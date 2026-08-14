@@ -1837,8 +1837,205 @@
       "artist": "Tyler, The Creator",
       "album": "Wolf",
       "image": "/sotd/wolf.jpg"
+    },
+    {
+      "num": 205,
+      "date": "July 24th, 2026", 
+      "year": 1978,
+      "title": "Beast Of Burden",
+      "artist": "The Rolling Stones",
+      "album": "Some Girls",
+      "image": "/sotd/some-girls.jpg"
+    },
+    {
+      "num": 206,
+      "date": "July 25th, 2026", 
+      "year": 1982,
+      "title": "I Got Your Number",
+      "artist": "Cock Sparrer",
+      "album": "Shock Troops",
+      "image": "/sotd/shock-troops.jpg"
+    },
+    {
+      "num": 207,
+      "date": "July 26th, 2026", 
+      "year": 2026,
+      "title": "Dine N'Dash",
+      "artist": "The Strokes",
+      "album": "Reality Awaits",
+      "image": "/sotd/reality-awaits.jpg"
+    },
+    {
+      "num": 208,
+      "date": "July 27th, 2026", 
+      "year": 1984,
+      "title": "Favorite Thing",
+      "artist": "The Replacements",
+      "album": "Let It Be",
+      "image": "/sotd/let-it-be.jpg"
+    },
+    {
+      "num": 209,
+      "date": "July 28th, 2026", 
+      "year": 2003,
+      "title": "The Small Print",
+      "artist": "Muse",
+      "album": "Absolution",
+      "image": "/sotd/absolution.jpg"
+    },
+    {
+      "num": 210,
+      "date": "July 29th, 2026", 
+      "year": 1981,
+      "title": "Give The People What They Want",
+      "artist": "The Kinks",
+      "album": "Give the People What They Want",
+      "image": "/sotd/give-the-people-what-they-want.jpg"
+    },
+    {
+      "num": 211,
+      "date": "July 30th, 2026", 
+      "year": 2017,
+      "title": "Orange Peeler",
+      "artist": "Horse Jumper of Love",
+      "album": "Horse Jumper of Love",
+      "image": "/sotd/horse-jumper-of-love.jpg"
+    },
+    {
+      "num": 212,
+      "date": "July 31st, 2026", 
+      "year": 2005,
+      "title": "Go It Alone",
+      "artist": "Beck",
+      "album": "Guero",
+      "image": "/sotd/guero.jpg"
+    },
+    {
+      "num": 213,
+      "date": "August 1st, 2026", 
+      "year": 1986,
+      "title": "Bizarre Love Triangle",
+      "artist": "New Order",
+      "album": "Brotherhood",
+      "image": "/sotd/brotherhood.jpg"
+    },
+    {
+      "num": 214,
+      "date": "August 2nd, 2026", 
+      "year": 2021,
+      "title": "Your Clothes",
+      "artist": "Jane Remover",
+      "album": "Frailty",
+      "image": "/sotd/frailty.jpg"
+    },
+    {
+      "num": 215,
+      "date": "August 3rd, 2026", 
+      "year": 2005,
+      "title": "The Hand That Feeds",
+      "artist": "Nine Inch Nails",
+      "album": "With Teeth",
+      "image": "/sotd/with-teeth.jpg"
+    },
+    {
+      "num": 216,
+      "date": "August 4th, 2026", 
+      "year": 2003,
+      "title": "Feeling This",
+      "artist": "blink-182",
+      "album": "blink-182",
+      "image": "/sotd/blink-182.jpg"
+    },
+    {
+      "num": 217,
+      "date": "August 5th, 2026", 
+      "year": 2020,
+      "title": "Until I Bleed Out",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "image": "/sotd/after-hours.jpg"
+    },
+    {
+      "num": 218,
+      "date": "August 6th, 2026", 
+      "year": 1994,
+      "title": "Some",
+      "artist": "Built To Spill",
+      "album": "There's Nothing Wrong With Love",
+      "image": "/sotd/theres-nothing-wrong-with-love.jpg"
+    },
+    {
+      "num": 219,
+      "date": "August 7th, 2026", 
+      "year": 2026,
+      "title": "Is It In My Brain?",
+      "artist": "Citizen",
+      "album": "Halcyon Blues",
+      "image": "/sotd/halcyon-blues.jpg"
+    },
+    {
+      "num": 220,
+      "date": "August 8th, 2026", 
+      "year": 2013,
+      "title": "Safe and Sound",
+      "artist": "Capital Cities",
+      "album": "In A Tidal Wave of Mystery",
+      "image": "/sotd/in-a-tidal-wave-of-mystery.jpg"
+    },
+    {
+      "num": 221,
+      "date": "August 9th, 2026", 
+      "year": 2019,
+      "title": "Sunday Night",
+      "artist": "Winterbourne",
+      "album": "Echo Of Youth",
+      "image": "/sotd/echo-of-youth.jpg"
+    },
+    {
+      "num": 222,
+      "date": "August 10th, 2026", 
+      "year": 1980,
+      "title": "Live Fast Die Young",
+      "artist": "Circle Jerks",
+      "album": "Group Sex",
+      "image": "/sotd/group-sex.jpg"
+    },
+    {
+      "num": 223,
+      "date": "August 11th, 2026", 
+      "year": 1980,
+      "title": "What I Like About You",
+      "artist": "The Romantics",
+      "album": "The Romantics",
+      "image": "/sotd/the-romantics.jpg"
+    },
+    {
+      "num": 224,
+      "date": "August 12th, 2026", 
+      "year": 2017,
+      "title": "Saved By A Waif",
+      "artist": "Alvvays",
+      "album": "Antisocialites",
+      "image": "/sotd/antisocialites.jpg"
+    },
+    {
+      "num": 225,
+      "date": "August 13th, 2026", 
+      "year": 2004,
+      "title": "Set Phasers To Stun",
+      "artist": "Taking Back Sunday",
+      "album": "Where You Want To Be",
+      "image": "/sotd/where-you-want-to-be.jpg"
+    },
+    {
+      "num": 226,
+      "date": "August 14th, 2026", 
+      "year": 2009,
+      "title": "Evander",
+      "artist": "Title Fight",
+      "album": "The Last Thing You Forget",
+      "image": "/sotd/the-last-thing-you-forget.jpg"
     }
-
 
 
 
