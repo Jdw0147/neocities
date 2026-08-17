@@ -2030,11 +2030,29 @@
     {
       "num": 226,
       "date": "August 14th, 2026", 
-      "year": 2009,
-      "title": "Evander",
-      "artist": "Title Fight",
-      "album": "The Last Thing You Forget",
-      "image": "/sotd/the-last-thing-you-forget.jpg"
+      "year": 2001,
+      "title": "Fuck You.......That's Why",
+      "artist": "Smut Peddlers",
+      "album": "The Two Old Ones",
+      "image": "/sotd/the-two-old-ones.jpg"
+    },
+    {
+      "num": 227,
+      "date": "August 15th, 2026", 
+      "year": 2007,
+      "title": "The Carpal Tunnel Of Love",
+      "artist": "Fall Out Boy",
+      "album": "Infinity On High",
+      "image": "/sotd/infinity-on-high.jpg"
+    },
+    {
+      "num": 228,
+      "date": "August 16th, 2026", 
+      "year": 1998,
+      "title": "Title Theme",
+      "artist": "Koji Kondo",
+      "album": "The Legend of Zelda: Ocarina of Time Original Soundtrack",
+      "image": "/sotd/ocarina-of-time.jpg"
     }
 
 
