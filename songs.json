@@ -2062,6 +2062,15 @@
       "artist": "Silverstein",
       "album": "Discovering The Waterfront",
       "image": "/sotd/discovering-the-waterfront.jpg"
+    },
+    {
+      "num": 230,
+      "date": "August 18th, 2026", 
+      "year": 1976,
+      "title": "Judy Is a Punk",
+      "artist": "Ramones",
+      "album": "Ramones",
+      "image": "/sotd/ramones.jpg"
     }
 
 
