@@ -2089,6 +2089,42 @@
       "artist": "Minor Threat",
       "album": "Minor Threat",
       "image": "/sotd/minor-threat.jpg"
+    },
+    {
+      "num": 233,
+      "date": "August 21st, 2026", 
+      "year": 2021,
+      "title": "Okay, You Can Be Tigers, But No Crashing",
+      "artist": "Newfound Interest in Connecticut",
+      "album": "Tell Me About The Long Dark Path Home",
+      "image": "/sotd/tell-me-about-the-long-dark-path-home.jpg"
+    },
+    {
+      "num": 234,
+      "date": "August 22nd, 2026", 
+      "year": 2025,
+      "title": "Life Is A Movie",
+      "artist": "Vundabar",
+      "album": "Surgery and Pleasure",
+      "image": "/sotd/surgery-and-pleasure.jpg"
+    },
+    {
+      "num": 235,
+      "date": "August 23rd, 2026", 
+      "year": 1974,
+      "title": "Autumn Leaves",
+      "artist": "Chet Baker",
+      "album": "She Was Too Good To Me",
+      "image": "/sotd/she-was-too-good-to-me.jpg"
+    },
+    {
+      "num": 236,
+      "date": "August 24th, 2026", 
+      "year": 2026,
+      "title": "Halcyon Blues",
+      "artist": "Citizen",
+      "album": "Halcyon Blues",
+      "image": "/sotd/halcyon-blues.jpg"
     }
 
 
