@@ -2125,7 +2125,62 @@
       "artist": "Citizen",
       "album": "Halcyon Blues",
       "image": "/sotd/halcyon-blues.jpg"
+    },
+    {
+      "num": 237,
+      "date": "August 25th, 2026",
+      "year": 2026,
+      "title": "Bobby",
+      "artist": "Phoebe Bridgers",
+      "album": "Lost Weekend",
+      "image": "/sotd/lost-weekend.jpg"
+    },
+    {
+      "num": 238,
+      "date": "August 26th, 2026",
+      "year": 2026,
+      "title": "Smooth Talker",
+      "artist": "Citizen",
+      "album": "Halcyon Blues",
+      "image": "/sotd/halcyon-blues.jpg"
+    },
+    {
+      "num": 239,
+      "date": "August 27th, 2026",
+      "year": 1993,
+      "title": "Serve The Servants",
+      "artist": "Nirvana",
+      "album": "In Utero",
+      "image": "/sotd/in-utero.jpg"
+    },
+    {
+      "num": 240,
+      "date": "August 28th, 2026",
+      "year": 2017,
+      "title": "Promise Everything",
+      "artist": "Basement",
+      "album": "Promise Everything",
+      "image": "/sotd/promise-everything.jpg"
+    },
+    {
+      "num": 241,
+      "date": "August 29th, 2026",
+      "year": 1995,
+      "title": "Clementine",
+      "artist": "Elliott Smith",
+      "album": "Elliott Smith",
+      "image": "/sotd/elliott-smith.jpg"
+    },
+    {
+      "num": 242,
+      "date": "August 30th, 2026",
+      "year": 1998,
+      "title": "Waltz #2 (XO)",
+      "artist": "Elliott Smith",
+      "album": "XO",
+      "image": "/sotd/xo.jpg"
     }
+
 
 
 
