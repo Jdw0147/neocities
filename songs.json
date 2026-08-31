@@ -2179,6 +2179,15 @@
       "artist": "Elliott Smith",
       "album": "XO",
       "image": "/sotd/xo.jpg"
+    },
+    {
+      "num": 243,
+      "date": "August 31st, 2026",
+      "year": 1982,
+      "title": "Well Paid Scientist",
+      "artist": "Dead Kennedys",
+      "album": "Plastic Surgery Disasters",
+      "image": "/sotd/plastic-surgery-disasters.jpg"
     }
 
 
