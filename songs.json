@@ -2188,6 +2188,42 @@
       "artist": "Elliott Smith",
       "album": "Either/Or",
       "image": "/sotd/either-or.jpg"
+    },
+    {
+      "num": 244,
+      "date": "September 1st, 2026",
+      "year": 2016,
+      "title": "Lorraine",
+      "artist": "Big Thief",
+      "album": "Masterpiece",
+      "image": "/sotd/masterpiece.jpg"
+    },
+    {
+      "num": 245,
+      "date": "September 2nd, 2026",
+      "year": 2026,
+      "title": "Start of Nothing",
+      "artist": "Foxtide",
+      "album": "Entropy",
+      "image": "/sotd/entropy.jpg"
+    },
+    {
+      "num": 246,
+      "date": "September 3rd, 2026",
+      "year": 1982,
+      "title": "Moral Majority",
+      "artist": "Circle Jerks",
+      "album": "Wild in the Streets",
+      "image": "/sotd/wild-in-the-streets.jpg"
+    },
+    {
+      "num": 247,
+      "date": "September 4th, 2026",
+      "year": 2021,
+      "title": "Death Dance Approximately",
+      "artist": "Citizen",
+      "album": "Life In Your Glass World",
+      "image": "/sotd/life-in-your-glass-world.jpg"
     }
 
 
