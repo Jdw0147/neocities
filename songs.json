@@ -2219,11 +2219,11 @@
     {
       "num": 247,
       "date": "September 4th, 2026",
-      "year": 1981,
-      "title": "Dance With Me",
-      "artist": "T.S.O.L.",
-      "album": "Dance With Me",
-      "image": "/sotd/dance-with-me.jpg"
+      "year": 1988,
+      "title": "Soldiers Requiem",
+      "artist": "Naked Raygun",
+      "album": "Jettison",
+      "image": "/sotd/jettison.jpg"
     },
     {
       "num": 248,
@@ -2233,6 +2233,24 @@
       "artist": "Citizen",
       "album": "Life In Your Glass World",
       "image": "/sotd/life-in-your-glass-world.jpg"
+    },
+    {
+      "num": 249,
+      "date": "September 6th, 2026",
+      "year": 2025,
+      "title": "Bambi's Theme",
+      "artist": "Anxious",
+      "album": "Bambi",
+      "image": "/sotd/bambi.jpg"
+    },
+    {
+      "num": 250,
+      "date": "September 7th, 2026",
+      "year": 2013,
+      "title": "The Summer",
+      "artist": "Citizen",
+      "album": "Youth",
+      "image": "/sotd/youth.jpg"
     }
 
 
