@@ -2251,6 +2251,24 @@
       "artist": "Citizen",
       "album": "Youth",
       "image": "/sotd/youth.jpg"
+    },
+    {
+      "num": 251,
+      "date": "September 8th, 2026",
+      "year": 2026,
+      "title": "Matador",
+      "artist": "Citizen",
+      "album": "Halcyon Blues",
+      "image": "/sotd/halcyon-blues.jpg"
+    },
+    {
+      "num": 252,
+      "date": "September 9th, 2026",
+      "year": 1984,
+      "title": "Forever Time",
+      "artist": "Black Flag",
+      "album": "My War",
+      "image": "/sotd/my-war.jpg"
     }
 
 
