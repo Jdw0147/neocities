@@ -2264,11 +2264,20 @@
     {
       "num": 252,
       "date": "September 9th, 2026",
-      "year": 1984,
-      "title": "Forever Time",
+      "year": 1981,
+      "title": "American Waste",
       "artist": "Black Flag",
-      "album": "My War",
-      "image": "/sotd/my-war.jpg"
+      "album": "Six Pack",
+      "image": "/sotd/six-pack.jpg"
+    },
+    {
+      "num": 253,
+      "date": "September 10th, 2026",
+      "year": 2001,
+      "title": "The Modern Age",
+      "artist": "The Strokes",
+      "album": "Is This It",
+      "image": "/sotd/is-this-it.jpg"
     }
 
 
