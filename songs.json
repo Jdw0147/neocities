@@ -2273,11 +2273,101 @@
     {
       "num": 253,
       "date": "September 10th, 2026",
-      "year": 2001,
-      "title": "The Modern Age",
+      "year": 2011,
+      "title": "Tracking Time",
+      "artist": "Citizen",
+      "album": "Acoustic",
+      "image": "/sotd/acoustic.jpg"
+    },
+    {
+      "num": 254,
+      "date": "September 11th, 2026",
+      "year": 2011,
+      "title": "Fremont",
+      "artist": "Citizen",
+      "album": "The Only Place I Know",
+      "image": "/sotd/the-only-place-i-know.jpg"
+    },
+    {
+      "num": 255,
+      "date": "September 12th, 2026",
+      "year": 1994,
+      "title": "Tyler",
+      "artist": "Toadies",
+      "album": "Rubberneck",
+      "image": "/sotd/rubberneck.jpg"
+    },
+    {
+      "num": 256,
+      "date": "September 13th, 2026",
+      "year": 2014,
+      "title": "Pothole",
+      "artist": "Modern Baseball",
+      "album": "You're Gonna Miss It All",
+      "image": "/sotd/youre-gonna-miss-it-all.jpg"
+    },
+    {
+      "num": 257,
+      "date": "September 14th, 2026",
+      "year": 1998,
+      "title": "Water & Solutions",
+      "artist": "Far",
+      "album": "Water & Solutions",
+      "image": "/sotd/water-and-solutions.jpg"
+    },
+    {
+      "num": 258,
+      "date": "September 15th, 2026",
+      "year": 1998,
+      "title": "Antihero",
+      "artist": "The Appleseed Cast",
+      "album": "The End Of The Ring Wars",
+      "image": "/sotd/the-end-of-the-ring-wars.jpg"
+    },
+    {
+      "num": 259,
+      "date": "September 16th, 2026",
+      "year": 2003,
+      "title": "You Talk Way Too Much",
       "artist": "The Strokes",
-      "album": "Is This It",
-      "image": "/sotd/is-this-it.jpg"
+      "album": "Room On Fire",
+      "image": "/sotd/room-on-fire.jpg"
+    },
+    {
+      "num": 260,
+      "date": "September 17th, 2026",
+      "year": 1994,
+      "title": "48",
+      "artist": "Sunny Day Real Estate",
+      "album": "Diary",
+      "image": "/sotd/diary.jpg"
+    },
+    {
+      "num": 261,
+      "date": "September 18th, 2026",
+      "year": 1996,
+      "title": "Same In The End",
+      "artist": "Sublime",
+      "album": "Sublime",
+      "image": "/sotd/sublime.jpg"
+    },
+    {
+      "num": 262,
+      "date": "September 19th, 2026",
+      "year": 2000,
+      "title": "Cavalry Song",
+      "artist": "Eliott",
+      "album": "False Cathedrals",
+      "image": "/sotd/false-cathedrals.jpg"
+    },
+    {
+      "num": 262,
+      "date": "September 20th, 2026",
+      "year": 2025,
+      "title": "Stainless Steel",
+      "artist": "Glitterer",
+      "album": "erer",
+      "image": "/sotd/erer.jpg"
     }
 
 
