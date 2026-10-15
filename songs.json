@@ -2368,7 +2368,224 @@
       "artist": "Glitterer",
       "album": "erer",
       "image": "/sotd/erer.jpg"
-    }
+    },
+    {
+      "num": 263,
+      "date": "September 21st, 2026",
+      "year": 2004,
+      "title": "Take It Away",
+      "artist": "The Used",
+      "album": "In Love and Death",
+      "image": "/sotd/in-love-and-death.jpg"
+    },
+    {
+      "num": 264,
+      "date": "September 22nd, 2026",
+      "year": 2002,
+      "title": "Demolition Lovers",
+      "artist": "My Chemical Romance",
+      "album": "I Brought You My Bullets, You Brought Me Your Love",
+      "image": "/sotd/i-brought-you-my-bullets.jpg"
+    },
+    {
+      "num": 265,
+      "date": "September 23rd, 2026",
+      "year": 1998,
+      "title": "That They Should Never Weep",
+      "artist": "Gods Reflex",
+      "album": "A Brief Lesson in Affection",
+      "image": "/sotd/a-brief-lesson-in-affection.jpg"
+    },
+    {
+      "num": 266,
+      "date": "September 24th, 2026",
+      "year": 2005,
+      "title": "Dirty Little Secret",
+      "artist": "The All-American Rejects",
+      "album": "Move Along",
+      "image": "/sotd/move-along.jpg"
+    },
+    {
+      "num": 267,
+      "date": "September 25th, 2026",
+      "year": 2013,
+      "title": "How Does It Feel?",
+      "artist": "Citizen",
+      "album": "Youth",
+      "image": "/sotd/youth.jpg"
+    },
+    {
+      "num": 268,
+      "date": "September 26th, 2026",
+      "year": 2025,
+      "title": "ELECTRIC",
+      "artist": "Frost Children",
+      "album": "SISTER",
+      "image": "/sotd/sister.jpg"
+    },
+    {
+      "num": 269,
+      "date": "September 27th, 2026",
+      "year": 2019,
+      "title": "Don't Light My Fire",
+      "artist": "Otoboke Beaver",
+      "album": "ITEKOMA HITS",
+      "image": "/sotd/itekoma-hits.jpg"
+    },
+    {
+      "num": 270,
+      "date": "September 28th, 2026",
+      "year": 1999,
+      "title": "The Summer Ends",
+      "artist": "American Football",
+      "album": "American Football",
+      "image": "/sotd/american-football.jpg"
+    },
+    {
+      "num": 271,
+      "date": "September 29th, 2026",
+      "year": 2009,
+      "title": "We All Try",
+      "artist": "Frank Ocean",
+      "album": "Nostalgia Ultra",
+      "image": "/sotd/nostalgia-ultra.jpg"
+    },
+    {
+      "num": 272,
+      "date": "September 30th, 2026",
+      "year": 2017,
+      "title": "Cherry",
+      "artist": "Chromatics",
+      "album": "Cherry",
+      "image": "/sotd/Cherry.jpg"
+    },
+    {
+      "num": 273,
+      "date": "October 1st, 2026",
+      "year": 2013,
+      "title": "Tiny Vessels (Demo)",
+      "artist": "Death Cab for Cutie",
+      "album": "Transatlanticism Demos",
+      "image": "/sotd/transatlanticism-demos.jpg"
+    },
+    {
+      "num": 274,
+      "date": "October 2nd, 2026",
+      "year": 2025,
+      "title": "Position Famous",
+      "artist": "Frost Children",
+      "album": "SISTER",
+      "image": "/sotd/sister.jpg"
+    },
+    {
+      "num": 275,
+      "date": "October 3rd, 2026",
+      "year": "2026",
+      "title": "ready or noT",
+      "artist": "brakence",
+      "album": "ready or noT",
+      "image": "/sotd/ready-or-not.jpg"
+    },
+    {
+      "num": 276,
+      "date": "October 4th, 2026",
+      "year": "2025",
+      "title": "4ME",
+      "artist": "Frost Children",
+      "album": "SISTER",
+      "image": "/sotd/sister.jpg"
+    },
+    {
+      "num": 277,
+      "date": "October 5th, 2026",
+      "year": "2024",
+      "title": "Seven",
+      "artist": "Sunny Day Real Estate",
+      "album": "Diary at London Bridge Studio",
+      "image": "/sotd/diary-at-london-bridge-studio.jpg"
+    },
+    {
+      "num": 278,
+      "date": "October 6th, 2026",
+      "year": "2010",
+      "title": "When I'm With You",
+      "artist": "Best Coast",
+      "album": "Crazy For You",
+      "image": "/sotd/crazy-for-you.jpg"
+    },
+    {
+      "num": 279,
+      "date": "October 7th, 2026",
+      "year": "2013",
+      "title": "Famous Friend",
+      "artist": "Joyce Manor",
+      "album": "S/T",
+      "image": "/sotd/S-T.jpg"
+    },
+    {
+      "num": 280,
+      "date": "October 8th, 2026",
+      "year": "1968",
+      "title": "Do You Remember Walter?",
+      "artist": "The Kinks",
+      "album": "The Kinks Are the Village Green Preservation Society",
+      "image": "/sotd/the-kinks-are-the-village-green.jpg"
+    },
+    {
+      "num": 281,
+      "date": "October 9th, 2026",
+      "year": "2024",
+      "title": "a bullet w/ my namE On (feat. Underoath)",
+      "artist": "Bring Me The Horizon, Underoath",
+      "album": "POST HUMAN: NeX GEn",
+      "image": "/sotd/post-human-nex-gen.jpg"
+    },
+    {
+      "num": 282,
+      "date": "October 10th, 2026",
+      "year": "2003",
+      "title": "I'm On Standby",
+      "artist": "Grandaddy",
+      "album": "Sumday",
+      "image": "/sotd/sumday.jpg"
+    },
+    {
+      "num": 283,
+      "date": "October 11th, 2026",
+      "year": "2024",
+      "title": "Transparent",
+      "artist": "Fivel Is Glauque",
+      "album": "Rong Weicknes",
+      "image": "/sotd/rong-weicknes.jpg"
+    },
+    {
+      "num": 284,
+      "date": "October 12th, 2026",
+      "year": "1996",
+      "title": "Lilac",
+      "artist": "Pure",
+      "album": "Generation Six-Pack",
+      "image": "/sotd/generation-six-pack.jpg"
+    },
+    {
+      "num": 285,
+      "date": "October 13th, 2026",
+      "year": "2012",
+      "title": "Like a Ritual",
+      "artist": "Title Fight",
+      "album": "Floral Green",
+      "image": "/sotd/floral-green.jpg"
+    },
+    {
+      "num": 286,
+      "date": "October 14th, 2026",
+      "year": "2026",
+      "title": "WIRED",
+      "artist": "Basement",
+      "album": "WIRED",
+      "image": "/sotd/wired.jpg"
+    },
+
 
 
 
