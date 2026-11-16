@@ -2845,6 +2845,33 @@
       "artist": "Jane Remover",
       "album": "Frailty (Deluxe)",
       "image": "/sotd/frailty-deluxe.jpg"
+    },
+    {
+      "num": 316,
+      "date": "November 13th, 2026",
+      "year": "2026",
+      "title": "Morphine",
+      "artist": "James Ivy",
+      "album": "The Seams",
+      "image": "/sotd/the-seams.jpg"
+    },
+    {
+      "num": 317,
+      "date": "November 14th, 2026",
+      "year": "2006",
+      "title": "Miss Murder",
+      "artist": "AFI",
+      "album": "DECEMBERUNDERGROUND",
+      "image": "/sotd/decemberunderground.jpg"
+    },
+    {
+      "num": 318,
+      "date": "November 15th, 2026",
+      "year": "1997",
+      "title": "Medicine",
+      "artist": "Orbit",
+      "album": "Libido Speedway",
+      "image": "/sotd/libido-speedway.jpg"
     }
 
     
